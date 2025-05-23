@@ -1,0 +1,60 @@
+from aiogram import Router, types
+from aiogram.filters import Command  # <-- Добавьте этот импорт
+from aiogram.fsm.context import FSMContext
+from states import Form
+from utils.database import execute, fetchall, fetchone
+from keyboards import main_menu, cancel_button, category_type_keyboard, dynamic_list_keyboard
+
+router = Router()
+
+@router.message(Command("addcategory"))
+async def add_category_start(message: types.Message, state: FSMContext):
+    await state.set_state(Form.ADD_CATEGORY_TYPE)
+    await message.answer(
+        "Выберите тип категории:",
+        reply_markup=category_type_keyboard()
+    )
+
+@router.message(Form.ADD_CATEGORY_TYPE)
+async def add_category_type(message: types.Message, state: FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        return await message.answer("Отменено", reply_markup=main_menu())
+    
+    if message.text not in ["Доход", "Расход"]:
+        return await message.answer("❌ Выберите тип из предложенных!")
+    
+    await state.update_data(category_type="income" if message.text == "Доход" else "expense")
+    await state.set_state(Form.ADD_CATEGORY_NAME)
+    await message.answer("Введите название категории:", reply_markup=cancel_button())
+
+@router.message(Form.ADD_CATEGORY_NAME)
+async def add_category_name(message: types.Message, state: FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        return await message.answer("Отменено", reply_markup=main_menu())
+    
+    data = await state.get_data()
+    try:
+        execute('''INSERT INTO categories (user_id, name, type)
+                 VALUES (?, ?, ?)''',
+               (message.from_user.id, message.text, data['category_type']))
+        await message.answer(f"✅ Категория '{message.text}' добавлена!", reply_markup=main_menu())
+    except sqlite3.IntegrityError:
+        await message.answer("❌ Такая категория уже существует!")
+    await state.clear()
+
+@router.message(Command("categories"))
+async def show_categories(message: types.Message):
+    categories = fetchall('''SELECT name, type FROM categories 
+                           WHERE user_id = ?''',
+                        (message.from_user.id,))
+    
+    if not categories:
+        return await message.answer("❌ У вас пока нет категорий!")
+    
+    text = "📂 Ваши категории:\n"
+    for name, cat_type in categories:
+        text += f"- {name} ({'доход' if cat_type == 'income' else 'расход'})\n"
+    
+    await message.answer(text)

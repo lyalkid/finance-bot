@@ -1,0 +1,18 @@
+from aiogram.fsm.state import State, StatesGroup
+
+class Form(StatesGroup):
+    SET_BALANCE = State()
+    ADD_CATEGORY_NAME = State()
+    ADD_CATEGORY_TYPE = State()
+    DELETE_CATEGORY = State()
+    ADD_INCOME_AMOUNT = State()
+    ADD_INCOME_CATEGORY = State()
+    ADD_EXPENSE_AMOUNT = State()
+    ADD_EXPENSE_CATEGORY = State()
+    ADD_WISH_TITLE = State()
+    ADD_WISH_AMOUNT = State()
+    DELETE_WISH = State()
+    WISHLIST_PAGINATION = State()
+    ADD_WISHES_LIST = State()
+    ADD_EXPENSE_DESCRIPTION = State()
+    ADD_INCOME_DESCRIPTION = State()
