@@ -21,6 +21,10 @@ async def start(message: types.Message):
         "/categories - мои категории\n"
         "/add_wish - добавить желание\n"
         "/wishlist - список желаний\n"
-        "/delete_wish - удалить желание",
+        "/delete_wish - удалить желание\n"
+        "/monthly - автоотчёт за месяц\n"
+        "/compare - сравнение месяцев\n"
+        "/report - отправка отчетов\n",
+
         reply_markup=main_menu()
     )

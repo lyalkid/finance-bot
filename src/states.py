@@ -18,3 +18,8 @@ class Form(StatesGroup):
     ADD_INCOME_DESCRIPTION = State()
     REPORT_START_DATE = State()
     REPORT_END_DATE = State()
+    COMPARE_MONTHS = State()
+    ADD_INCOME_LIST_DATE = State()
+    ADD_INCOME_LIST_ITEMS = State()
+    ADD_EXPENSE_LIST_DATE = State()
+    ADD_EXPENSE_LIST_ITEMS = State()

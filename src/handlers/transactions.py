@@ -227,3 +227,80 @@ async def process_expense_description(message: types.Message, state: FSMContext)
         await message.answer(f"❌ Ошибка: {str(e)}")
     finally:
         await state.clear()
+
+
+@router.message(Command("add_income_list"))
+async def start_income_list(message: types.Message, state: FSMContext):
+    await state.set_state(Form.ADD_INCOME_LIST_DATE)
+    await message.answer("📅 Введите дату доходов в формате ДД.ММ.ГГГГ:", reply_markup=cancel_button())
+
+
+from datetime import datetime
+
+@router.message(Form.ADD_INCOME_LIST_DATE)
+async def receive_income_date(message: types.Message, state: FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        return await message.answer("Отменено", reply_markup=main_menu())
+
+    try:
+        date = datetime.strptime(message.text, "%d.%m.%Y").date()
+        await state.update_data(date=date.strftime("%Y-%m-%d"))
+        await state.set_state(Form.ADD_INCOME_LIST_ITEMS)
+        await message.answer(
+            "📝 Введите список доходов в формате:\n"
+            "`Категория - Сумма - Описание`\n"
+            "Описание необязательно. Каждая строка — новый доход.\n\n"
+            "Пример:\n"
+            "Зарплата - 10000 - за май\n"
+            "Фриланс - 5000",
+            reply_markup=cancel_button()
+        )
+    except ValueError:
+        await message.answer("❌ Неверный формат даты! Пример: 24.05.2025")
+
+@router.message(Form.ADD_INCOME_LIST_ITEMS)
+async def process_income_list(message: types.Message, state: FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        return await message.answer("Отменено", reply_markup=main_menu())
+
+    user_id = message.from_user.id
+    data = await state.get_data()
+    date_str = data["date"]
+    lines = message.text.strip().split('\n')
+    successes = 0
+    errors = []
+
+    for i, line in enumerate(lines, 1):
+        try:
+            parts = [p.strip() for p in line.split('-')]
+            if len(parts) < 2:
+                raise ValueError("Недостаточно данных")
+
+            category, amount_str = parts[0], parts[1]
+            description = parts[2] if len(parts) > 2 else None
+            amount = float(amount_str.replace(',', '.'))
+
+            category_id = fetchone(
+                "SELECT id FROM categories WHERE user_id = ? AND name = ? AND type = 'income'",
+                (user_id, category)
+            )
+            if not category_id:
+                raise ValueError(f"Категория '{category}' не найдена")
+
+            execute(
+                "INSERT INTO transactions (user_id, amount, category_id, description, created_at) VALUES (?, ?, ?, ?, ?)",
+                (user_id, amount, category_id[0], description, date_str)
+            )
+            execute("UPDATE users SET balance = balance + ? WHERE user_id = ?", (amount, user_id))
+            successes += 1
+        except Exception as e:
+            errors.append(f"Строка {i}: {str(e)}")
+
+    result = f"✅ Добавлено доходов: {successes}\n"
+    if errors:
+        result += "❌ Ошибки:\n" + "\n".join(errors)
+
+    await message.answer(result, reply_markup=main_menu())
+    await state.clear()
