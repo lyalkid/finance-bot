@@ -7,7 +7,8 @@ from handlers import (
     balance_router,
     categories_router,
     transactions_router,
-    wishlist_router
+    wishlist_router, 
+    reports_router
 )
 
 # Загрузка переменных окружения
@@ -23,6 +24,7 @@ dp.include_router(balance_router)
 dp.include_router(categories_router)
 dp.include_router(transactions_router)
 dp.include_router(wishlist_router)
+dp.include_router(reports_router)
 
 if __name__ == "__main__":
     # Инициализация БД

@@ -17,6 +17,7 @@ async def start(message: types.Message):
         "/balance - текущий баланс\n"
         "/add_income - добавить доход\n"
         "/add_expense - добавить расход\n"
+        "/report - отчёт за период\n"
         "/categories - мои категории\n"
         "/add_wish - добавить желание\n"
         "/wishlist - список желаний\n"

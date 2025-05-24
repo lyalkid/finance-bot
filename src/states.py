@@ -16,3 +16,5 @@ class Form(StatesGroup):
     ADD_WISHES_LIST = State()
     ADD_EXPENSE_DESCRIPTION = State()
     ADD_INCOME_DESCRIPTION = State()
+    REPORT_START_DATE = State()
+    REPORT_END_DATE = State()
