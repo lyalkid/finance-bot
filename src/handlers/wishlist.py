@@ -27,8 +27,19 @@ async def process_wish_title(message: types.Message, state: FSMContext):
         return await message.answer("Отменено", reply_markup=main_menu())
     
     await state.update_data(title=message.text)
+    await state.set_state(Form.ADD_WISH_DESCRIPTION)
+    await message.answer("Что это? добавь описание, зачем тебя эта покупка ?", reply_markup=cancel_button())
+
+@router.message(Form.ADD_WISH_DESCRIPTION)
+async def process_with_description(message: types.Message, state:FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        return await message.answer("Отменено", reply_markup=main_menu())
+    await state.update_data(description=message.text)
     await state.set_state(Form.ADD_WISH_AMOUNT)
     await message.answer("Введите стоимость покупки:", reply_markup=cancel_button())
+
+
 
 @router.message(Form.ADD_WISH_AMOUNT)
 async def process_wish_amount(message: types.Message, state: FSMContext):
@@ -42,9 +53,9 @@ async def process_wish_amount(message: types.Message, state: FSMContext):
             raise ValueError
         
         data = await state.get_data()
-        execute('''INSERT INTO wishes (user_id, title, target_amount)
-                 VALUES (?, ?, ?)''',
-               (message.from_user.id, data['title'], amount))
+        execute('''INSERT INTO wishes (user_id, title, description, target_amount)
+                 VALUES (?, ?, ?, ?)''',
+               (message.from_user.id, data['title'], data['description'], amount))
         
         await message.answer(f"✅ Желание '{data['title']}' добавлено!", reply_markup=main_menu())
         await state.clear()

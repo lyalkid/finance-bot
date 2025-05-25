@@ -11,6 +11,7 @@ class Form(StatesGroup):
     ADD_EXPENSE_CATEGORY = State()
     ADD_WISH_TITLE = State()
     ADD_WISH_AMOUNT = State()
+    ADD_WISH_DESCRIPTION = State()
     DELETE_WISH = State()
     WISHLIST_PAGINATION = State()
     ADD_WISHES_LIST = State()
