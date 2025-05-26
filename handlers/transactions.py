@@ -1,6 +1,7 @@
 from aiogram import Router, types
 from aiogram.fsm.context import FSMContext
 from aiogram.filters import Command  # <-- Добавьте этот импорт
+from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from states import Form
 from utils.database import execute, fetchone, fetchall
 from keyboards import main_menu, cancel_button, dynamic_list_keyboard, skip_button
@@ -303,4 +304,83 @@ async def process_income_list(message: types.Message, state: FSMContext):
         result += "❌ Ошибки:\n" + "\n".join(errors)
 
     await message.answer(result, reply_markup=main_menu())
+    await state.clear()
+
+# ==================== Удаление транзакций с выбором ====================
+@router.message(Command("delete_transactions"))
+async def start_delete_transactions(message: types.Message, state: FSMContext):
+    transactions = fetchall(
+        '''
+        SELECT t.id, t.amount, c.name, c.type, t.description, strftime('%d.%m.%Y', t.created_at)
+        FROM transactions t
+        JOIN categories c ON t.category_id = c.id
+        WHERE t.user_id = ?
+        ORDER BY t.created_at DESC
+        LIMIT 10
+        ''',
+        (message.from_user.id,)
+    )
+
+    if not transactions:
+        return await message.answer("❌ Нет транзакций для удаления.")
+
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[])
+    tx_map = {}
+
+    for i, (tx_id, amount, category, type_, desc, date) in enumerate(transactions, 1):
+        icon = "💵" if type_ == "income" else "💸"
+        text = f"{i}. {date} | {icon} {category} - {amount} ₽"
+        if desc:
+            text += f" | 📝 {desc}"
+        callback_data = f"toggle:{tx_id}"
+        keyboard.inline_keyboard.append([InlineKeyboardButton(text=text, callback_data=callback_data)])
+        tx_map[str(tx_id)] = False
+
+    # Кнопка подтверждения
+    keyboard.inline_keyboard.append([
+        InlineKeyboardButton(text="✅ Удалить выбранные", callback_data="confirm_delete")
+    ])
+
+    await state.set_state(Form.DELETE_MULTI_TRANSACTIONS)
+    await state.update_data(tx_choices=tx_map)
+    await message.answer("🗑 Выберите транзакции для удаления:", reply_markup=keyboard)
+
+@router.callback_query(Form.DELETE_MULTI_TRANSACTIONS, lambda c: c.data.startswith("toggle:"))
+async def toggle_transaction_selection(callback: CallbackQuery, state: FSMContext):
+    tx_id = callback.data.split(":")[1]
+    data = await state.get_data()
+    tx_choices = data.get("tx_choices", {})
+
+    if tx_id in tx_choices:
+        tx_choices[tx_id] = not tx_choices[tx_id]
+        await state.update_data(tx_choices=tx_choices)
+        await callback.answer("Выбор обновлен")
+    else:
+        await callback.answer("Транзакция не найдена", show_alert=True)
+
+@router.callback_query(Form.DELETE_MULTI_TRANSACTIONS, lambda c: c.data == "confirm_delete")
+async def confirm_delete_multiple(callback: CallbackQuery, state: FSMContext):
+    data = await state.get_data()
+    tx_choices = data.get("tx_choices", {})
+    selected_ids = [int(tx_id) for tx_id, selected in tx_choices.items() if selected]
+
+    if not selected_ids:
+        return await callback.answer("❌ Ничего не выбрано", show_alert=True)
+
+    deleted = 0
+    for tx_id in selected_ids:
+        tx = fetchone(
+            "SELECT amount, c.type FROM transactions t JOIN categories c ON t.category_id = c.id WHERE t.id = ?",
+            (tx_id,)
+        )
+        if not tx:
+            continue
+        amount, type_ = tx
+        sign = 1 if type_ == "income" else -1
+
+        execute("DELETE FROM transactions WHERE id = ?", (tx_id,))
+        execute("UPDATE users SET balance = balance - ? WHERE user_id = ?", (amount * sign, callback.from_user.id))
+        deleted += 1
+
+    await callback.message.edit_text(f"✅ Удалено транзакций: {deleted}", reply_markup=None)
     await state.clear()

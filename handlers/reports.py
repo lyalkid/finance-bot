@@ -174,7 +174,7 @@ async def generate_report(message: types.Message, user_id: int, start_date: str,
         await message.answer("\n".join(chunk))
 
     # CSV
-    with NamedTemporaryFile(mode='w+', newline='', delete=False, suffix=".csv") as csvfile:
+    with NamedTemporaryFile(mode='w+', newline='', delete=False, suffix=".csv", encoding='utf-8-sig') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["Дата", "Тип", "Категория", "Сумма", "Описание"])
         for amount, category, type_, description, date_str in transactions:

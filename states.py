@@ -24,3 +24,5 @@ class Form(StatesGroup):
     ADD_INCOME_LIST_ITEMS = State()
     ADD_EXPENSE_LIST_DATE = State()
     ADD_EXPENSE_LIST_ITEMS = State()
+    DELETE_TRANSACTION_SELECT = State()
+    DELETE_MULTI_TRANSACTIONS = State()
