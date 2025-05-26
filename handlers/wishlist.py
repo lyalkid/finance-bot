@@ -10,6 +10,10 @@ from keyboards import (
     wishlist_pagination
 )
 from typing import List, Tuple
+# Где-то в начале файла (например, после импортов)
+def format_amount(amount: float) -> str:
+    """Форматирует число с разделителем тысяч и двумя знаками после запятой"""
+    return "{:,.2f}".format(amount).replace(",", " ").replace(".", ",")
 
 router = Router()
 ITEMS_PER_PAGE = 5
@@ -96,13 +100,13 @@ async def show_wishlist_page(
     
     text = f"📋 Список желаний (Страница {page}/{total_pages}):\n\n"
     
-    # Добавляем общую сумму только на первой странице
     if page == 1:
         total_target = fetchone(
             "SELECT SUM(target_amount) FROM wishes WHERE user_id = ?",
             (user_id,)
         )[0] or 0
-        text += f"💰 Общая сумма целей: {total_target:.2f} ₽\n\n"
+        # Форматируем общую сумму
+        text += f"💰 Общая сумма целей: {format_amount(total_target)} ₽\n\n"
     
     for title, target in wishes:
         progress = min(balance / target, 1.0)
@@ -110,11 +114,15 @@ async def show_wishlist_page(
         filled = int(progress * 10)
         progress_bar = "🟩" * filled + "⬜️" * (10 - filled)
         
+        # Форматируем отдельные суммы
+        formatted_target = format_amount(target)
+        formatted_remaining = format_amount(max(target - balance, 0))
+        
         text += (
             f"🎯 {title}\n"
-            f"Цель: {target:.2f} ₽\n"
-            f"Прогресс: {percent}% {progress_bar}\n"
-            f"Осталось: {max(target - balance, 0):.2f} ₽\n\n"
+            f"Цель: {formatted_target} ₽\n"
+            f"Прогресс: {percent}%\n {progress_bar}\n"
+            f"Осталось: {formatted_remaining} ₽\n\n"
         )
     
     markup = wishlist_pagination(page, total_pages)
