@@ -96,6 +96,14 @@ async def show_wishlist_page(
     
     text = f"📋 Список желаний (Страница {page}/{total_pages}):\n\n"
     
+    # Добавляем общую сумму только на первой странице
+    if page == 1:
+        total_target = fetchone(
+            "SELECT SUM(target_amount) FROM wishes WHERE user_id = ?",
+            (user_id,)
+        )[0] or 0
+        text += f"💰 Общая сумма целей: {total_target:.2f} ₽\n\n"
+    
     for title, target in wishes:
         progress = min(balance / target, 1.0)
         percent = int(progress * 100)

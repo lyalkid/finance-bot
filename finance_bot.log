@@ -92,3 +92,43 @@
 2025-05-26 15:01:31,713 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2025-05-26 15:01:31,714 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
 2025-05-26 15:01:31,714 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 15:06:33,589 - utils.database - INFO - Database initialized successfully
+2025-05-26 15:06:33,590 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 15:06:34,054 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 15:06:34,629 - aiogram.event - INFO - Update id=870286675 is handled. Duration 458 ms by bot id=7862612604
+2025-05-26 15:07:25,290 - aiogram.event - INFO - Update id=870286676 is handled. Duration 250 ms by bot id=7862612604
+2025-05-26 15:07:30,438 - aiogram.event - INFO - Update id=870286677 is handled. Duration 170 ms by bot id=7862612604
+2025-05-26 15:07:37,337 - aiogram.event - INFO - Update id=870286678 is handled. Duration 144 ms by bot id=7862612604
+2025-05-26 15:08:00,905 - aiogram.event - INFO - Update id=870286679 is handled. Duration 168 ms by bot id=7862612604
+2025-05-26 15:08:04,173 - aiogram.event - INFO - Update id=870286680 is handled. Duration 165 ms by bot id=7862612604
+2025-05-26 15:08:06,868 - aiogram.event - INFO - Update id=870286681 is handled. Duration 153 ms by bot id=7862612604
+2025-05-26 15:09:06,425 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 15:09:06,434 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 15:09:06,434 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 15:09:09,772 - utils.database - INFO - Database initialized successfully
+2025-05-26 15:09:09,773 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 15:09:10,200 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 15:09:11,289 - aiogram.event - INFO - Update id=870286682 is handled. Duration 451 ms by bot id=7862612604
+2025-05-26 15:11:00,980 - aiogram.event - INFO - Update id=870286683 is handled. Duration 155 ms by bot id=7862612604
+2025-05-26 15:15:40,440 - aiogram.event - INFO - Update id=870286684 is handled. Duration 919 ms by bot id=7862612604
+2025-05-26 15:17:52,012 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-26 15:17:52,012 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 15:18:03,495 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 15:18:35,124 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-26 15:18:35,125 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 15:18:46,470 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 15:19:55,625 - aiogram.event - INFO - Update id=870286685 is handled. Duration 511 ms by bot id=7862612604
+2025-05-26 15:19:57,571 - aiogram.event - INFO - Update id=870286686 is handled. Duration 203 ms by bot id=7862612604
+2025-05-26 15:20:08,744 - aiogram.event - INFO - Update id=870286687 is handled. Duration 215 ms by bot id=7862612604
+2025-05-26 15:20:12,932 - aiogram.event - INFO - Update id=870286688 is handled. Duration 304 ms by bot id=7862612604
+2025-05-26 15:20:18,155 - aiogram.event - INFO - Update id=870286689 is handled. Duration 205 ms by bot id=7862612604
+2025-05-26 15:20:19,935 - aiogram.event - INFO - Update id=870286690 is handled. Duration 244 ms by bot id=7862612604
+2025-05-26 15:20:30,235 - aiogram.event - INFO - Update id=870286691 is handled. Duration 204 ms by bot id=7862612604
+2025-05-26 15:20:33,925 - aiogram.event - INFO - Update id=870286692 is handled. Duration 309 ms by bot id=7862612604
+2025-05-26 15:20:41,742 - aiogram.event - INFO - Update id=870286693 is handled. Duration 1405 ms by bot id=7862612604
+2025-05-26 15:28:18,682 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-26 15:28:18,682 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 15:28:30,442 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 15:31:39,737 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 15:31:39,738 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 15:31:39,738 - aiogram.dispatcher - INFO - Polling stopped
