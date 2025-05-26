@@ -4,6 +4,7 @@ from aiogram.filters import Command  # <-- Добавьте этот импор�
 from states import Form
 from utils.database import execute, fetchone
 from keyboards import main_menu, cancel_button
+from utils.formating import format_amount
 
 router = Router()
 
@@ -19,10 +20,10 @@ async def set_balance_finish(message: types.Message, state: FSMContext):
         return await message.answer("Отменено", reply_markup=main_menu())
     
     try:
-        balance = float(message.text)
+        balance = float(message.text.replace(',', '.'))
         execute("UPDATE users SET balance = ? WHERE user_id = ?", 
                (balance, message.from_user.id))
-        await message.answer(f"✅ Баланс установлен: {balance} ₽", reply_markup=main_menu())
+        await message.answer(f"✅ Баланс установлен: {format_amount(balance)} ₽", reply_markup=main_menu())
     except ValueError:
         await message.answer("❌ Введите число!")
     await state.clear()
@@ -31,4 +32,4 @@ async def set_balance_finish(message: types.Message, state: FSMContext):
 async def show_balance(message: types.Message):
     balance = fetchone("SELECT balance FROM users WHERE user_id = ?", 
                       (message.from_user.id,))[0]
-    await message.answer(f"🏦 Текущий баланс: {balance} ₽")
+    await message.answer(f"🏦 Текущий баланс: {format_amount(balance)} ₽")

@@ -5,24 +5,34 @@ from typing import Optional
 
 def main_menu() -> types.ReplyKeyboardMarkup:
     """Главное меню с основными командами"""
-    builder = ReplyKeyboardBuilder()
-    builder.row(
-        types.KeyboardButton(text="/balance"),
-        types.KeyboardButton(text="/add_income"),
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            # 💰 Баланс
+            [KeyboardButton(text="/balance"), KeyboardButton(text="/setbalance")],
+
+            # 📂 Категории
+            [KeyboardButton(text="/categories")],
+            [KeyboardButton(text="/addcategory"), KeyboardButton(text="/deletecategory")],
+
+            # ➕ Доходы и расходы
+            [KeyboardButton(text="/add_income"), KeyboardButton(text="/add_expense")],
+
+            # 🎯 Желания
+            [KeyboardButton(text="/add_wish"), KeyboardButton(text="/wishlist")],
+            [KeyboardButton(text="/add_wishes"), KeyboardButton(text="/delete_wish")],
+            [KeyboardButton(text="/buy_wish"), KeyboardButton(text="/edit_wish")],
+
+            # 📊 Отчёты
+            [KeyboardButton(text="/report"), KeyboardButton(text="/monthly"), KeyboardButton(text="/compare")],
+
+            # 🧹 Удаление
+            [KeyboardButton(text="/delete_transactions")],
+
+            # ℹ️ Справка
+            [KeyboardButton(text="/help"), KeyboardButton(text="/menu")]
+        ],
+        resize_keyboard=True
     )
-    builder.row(
-        types.KeyboardButton(text="/add_expense"),
-        types.KeyboardButton(text="/categories"),
-    )
-    builder.row(
-        types.KeyboardButton(text="/add_wish"),
-        types.KeyboardButton(text="/wishlist"),
-    )
-    builder.row(
-        types.KeyboardButton(text="/delete_wish"),
-        types.KeyboardButton(text="/deletecategory"),
-    )
-    return builder.as_markup(resize_keyboard=True)
 
 
 def cancel_button() -> types.ReplyKeyboardMarkup:

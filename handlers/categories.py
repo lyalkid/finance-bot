@@ -46,15 +46,64 @@ async def add_category_name(message: types.Message, state: FSMContext):
 
 @router.message(Command("categories"))
 async def show_categories(message: types.Message):
-    categories = fetchall('''SELECT name, type FROM categories 
-                           WHERE user_id = ?''',
+    expenses = fetchall('''SELECT name, type FROM categories 
+                           WHERE user_id = ? and type = 'expense'
+                        ''',
                         (message.from_user.id,))
-    
-    if not categories:
+    incomes = fetchall('''SELECT name, type FROM categories 
+                           WHERE user_id = ? and type = 'income'
+                        ''',
+                        (message.from_user.id,))
+    if (not incomes and not expenses):
         return await message.answer("❌ У вас пока нет категорий!")
     
     text = "📂 Ваши категории:\n"
-    for name, cat_type in categories:
-        text += f"- {name} ({'доход' if cat_type == 'income' else 'расход'})\n"
-    
+    if(incomes):
+        text += "Доходы:\n"
+        for name, cat_type in incomes:
+            text += f"- {name} {''}\n"
+        text += "---------------\n"
+
+    if(expenses):
+        for name, cat_type in expenses:
+            text += f"- {name} {''}\n"
+        
+
     await message.answer(text)
+
+@router.message(Command("deletecategory"))
+async def delete_category_start(message: types.Message, state: FSMContext):
+    categories = fetchall(
+        "SELECT name FROM categories WHERE user_id = ?",
+        (message.from_user.id,)
+    )
+    
+    if not categories:
+        return await message.answer("❌ У вас пока нет категорий.")
+
+    category_names = [name for (name,) in categories]
+
+    await state.set_state(Form.DELETE_CATEGORY)
+    await message.answer(
+        "Выберите категорию для удаления:",
+        reply_markup=dynamic_list_keyboard(category_names)
+    )
+
+@router.message(Form.DELETE_CATEGORY)
+async def process_delete_category(message: types.Message, state: FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        return await message.answer("Отменено.", reply_markup=main_menu())
+    
+    # Проверим наличие категории
+    category = fetchone(
+        "SELECT id FROM categories WHERE user_id = ? AND name = ?",
+        (message.from_user.id, message.text)
+    )
+    if not category:
+        return await message.answer("❌ Категория не найдена!")
+
+    # Удалим
+    execute("DELETE FROM categories WHERE id = ?", (category[0],))
+    await state.clear()
+    await message.answer(f"✅ Категория '{message.text}' удалена!", reply_markup=main_menu())

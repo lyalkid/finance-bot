@@ -32,5 +32,7 @@ class Form(StatesGroup):
     EDIT_WISH_DESCRIPTION = State()
     EDIT_WISH_AMOUNT = State()
     EDIT_WISH_ALL = State()
+    BUY_WISH_CONFIRM = State()
+    BUY_WISH_CUSTOM_AMOUNT = State()
 
 

@@ -132,3 +132,1592 @@
 2025-05-26 15:31:39,737 - aiogram.dispatcher - WARNING - Received SIGINT signal
 2025-05-26 15:31:39,738 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
 2025-05-26 15:31:39,738 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 15:35:12,941 - utils.database - INFO - Database initialized successfully
+2025-05-26 15:35:12,942 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 15:35:14,218 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 16:05:00,858 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 16:05:00,859 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 16:05:00,859 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 16:07:09,879 - utils.database - INFO - Database initialized successfully
+2025-05-26 16:07:09,880 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:07:10,573 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 16:07:26,672 - aiogram.event - INFO - Update id=870286694 is handled. Duration 924 ms by bot id=7862612604
+2025-05-26 16:08:01,713 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 16:08:01,714 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 16:08:01,714 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 16:09:23,760 - utils.database - INFO - Database initialized successfully
+2025-05-26 16:09:23,761 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:09:24,369 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 16:09:25,668 - aiogram.event - INFO - Update id=870286695 is handled. Duration 919 ms by bot id=7862612604
+2025-05-26 16:10:04,680 - aiogram.event - INFO - Update id=870286696 is handled. Duration 204 ms by bot id=7862612604
+2025-05-26 16:10:52,401 - aiogram.event - INFO - Update id=870286697 is handled. Duration 307 ms by bot id=7862612604
+2025-05-26 16:11:04,903 - aiogram.event - INFO - Update id=870286698 is handled. Duration 520 ms by bot id=7862612604
+2025-05-26 16:11:18,207 - aiogram.event - INFO - Update id=870286699 is handled. Duration 204 ms by bot id=7862612604
+2025-05-26 16:11:26,915 - aiogram.event - INFO - Update id=870286700 is handled. Duration 1232 ms by bot id=7862612604
+2025-05-26 16:12:24,056 - aiogram.event - INFO - Update id=870286701 is not handled. Duration 2 ms by bot id=7862612604
+2025-05-26 16:12:34,090 - aiogram.event - INFO - Update id=870286702 is handled. Duration 308 ms by bot id=7862612604
+2025-05-26 16:13:56,422 - aiogram.event - INFO - Update id=870286703 is handled. Duration 204 ms by bot id=7862612604
+2025-05-26 16:14:21,101 - aiogram.event - INFO - Update id=870286704 is handled. Duration 157 ms by bot id=7862612604
+2025-05-26 16:14:42,823 - aiogram.event - INFO - Update id=870286705 is handled. Duration 319 ms by bot id=7862612604
+2025-05-26 16:14:45,986 - aiogram.event - INFO - Update id=870286706 is handled. Duration 507 ms by bot id=7862612604
+2025-05-26 16:14:52,949 - aiogram.event - INFO - Update id=870286707 is handled. Duration 614 ms by bot id=7862612604
+2025-05-26 16:14:56,635 - aiogram.event - INFO - Update id=870286708 is handled. Duration 404 ms by bot id=7862612604
+2025-05-26 16:15:20,495 - aiogram.event - INFO - Update id=870286709 is handled. Duration 407 ms by bot id=7862612604
+2025-05-26 16:15:22,236 - aiogram.event - INFO - Update id=870286710 is handled. Duration 204 ms by bot id=7862612604
+2025-05-26 16:15:27,768 - aiogram.event - INFO - Update id=870286711 is handled. Duration 308 ms by bot id=7862612604
+2025-05-26 16:16:06,168 - aiogram.event - INFO - Update id=870286712 is handled. Duration 307 ms by bot id=7862612604
+2025-05-26 16:16:13,336 - aiogram.event - INFO - Update id=870286713 is handled. Duration 708 ms by bot id=7862612604
+2025-05-26 16:16:14,156 - aiogram.event - INFO - Update id=870286714 is handled. Duration 307 ms by bot id=7862612604
+2025-05-26 16:16:40,270 - aiogram.event - INFO - Update id=870286715 is handled. Duration 615 ms by bot id=7862612604
+2025-05-26 16:16:55,219 - aiogram.event - INFO - Update id=870286716 is handled. Duration 608 ms by bot id=7862612604
+2025-05-26 16:16:56,550 - aiogram.event - INFO - Update id=870286717 is handled. Duration 511 ms by bot id=7862612604
+2025-05-26 16:16:57,677 - aiogram.event - INFO - Update id=870286718 is handled. Duration 511 ms by bot id=7862612604
+2025-05-26 16:16:58,906 - aiogram.event - INFO - Update id=870286719 is handled. Duration 511 ms by bot id=7862612604
+2025-05-26 16:17:01,056 - aiogram.event - INFO - Update id=870286720 is handled. Duration 818 ms by bot id=7862612604
+2025-05-26 16:17:05,976 - aiogram.event - INFO - Update id=870286721 is handled. Duration 311 ms by bot id=7862612604
+2025-05-26 16:17:55,535 - aiogram.event - INFO - Update id=870286722 is handled. Duration 204 ms by bot id=7862612604
+2025-05-26 16:18:15,106 - aiogram.event - INFO - Update id=870286723 is handled. Duration 177 ms by bot id=7862612604
+2025-05-26 16:18:22,672 - aiogram.event - INFO - Update id=870286724 is handled. Duration 609 ms by bot id=7862612604
+2025-05-26 16:18:29,842 - aiogram.event - INFO - Update id=870286725 is handled. Duration 410 ms by bot id=7862612604
+2025-05-26 16:18:31,685 - aiogram.event - INFO - Update id=870286726 is handled. Duration 513 ms by bot id=7862612604
+2025-05-26 16:18:32,914 - aiogram.event - INFO - Update id=870286727 is handled. Duration 507 ms by bot id=7862612604
+2025-05-26 16:22:46,059 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 16:22:46,060 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 16:22:46,060 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 16:22:52,339 - utils.database - INFO - Database initialized successfully
+2025-05-26 16:22:52,341 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 16:22:53,125 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 16:22:55,068 - aiogram.event - INFO - Update id=870286728 is handled. Duration 1326 ms by bot id=7862612604
+2025-05-26 16:22:57,218 - aiogram.event - INFO - Update id=870286729 is handled. Duration 505 ms by bot id=7862612604
+2025-05-26 16:23:04,692 - aiogram.event - INFO - Update id=870286730 is handled. Duration 509 ms by bot id=7862612604
+2025-05-26 16:23:06,006 - aiogram.event - INFO - Update id=870286731 is handled. Duration 385 ms by bot id=7862612604
+2025-05-26 16:24:58,261 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-26 16:24:58,261 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 16:25:10,241 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 16:30:20,183 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-26 16:30:20,183 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 16:30:31,584 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 16:32:23,598 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-26 16:32:23,606 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 16:32:35,335 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 16:37:12,987 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-26 16:37:12,988 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 16:37:21,608 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 16:37:21,609 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 16:37:21,609 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 17:24:21,955 - utils.database - INFO - Database initialized successfully
+2025-05-26 17:24:21,961 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 17:24:23,297 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 17:36:49,480 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-26 17:36:49,480 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 17:37:01,372 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 17:47:11,202 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-26 17:47:11,203 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 17:47:22,989 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 18:28:43,205 - aiogram.event - INFO - Update id=870286732 is handled. Duration 800 ms by bot id=7862612604
+2025-05-26 18:28:49,779 - aiogram.event - INFO - Update id=870286733 is handled. Duration 211 ms by bot id=7862612604
+2025-05-26 18:28:52,262 - aiogram.event - INFO - Update id=870286734 is handled. Duration 343 ms by bot id=7862612604
+2025-05-26 18:29:18,119 - aiogram.event - INFO - Update id=870286735 is handled. Duration 401 ms by bot id=7862612604
+2025-05-26 18:29:20,376 - aiogram.event - INFO - Update id=870286736 is handled. Duration 202 ms by bot id=7862612604
+2025-05-26 19:35:42,130 - aiogram.event - INFO - Update id=870286737 is handled. Duration 821 ms by bot id=7862612604
+2025-05-26 19:36:15,812 - aiogram.event - INFO - Update id=870286738 is handled. Duration 301 ms by bot id=7862612604
+2025-05-26 19:36:18,786 - aiogram.event - INFO - Update id=870286739 is handled. Duration 413 ms by bot id=7862612604
+2025-05-26 19:36:35,062 - aiogram.event - INFO - Update id=870286740 is handled. Duration 306 ms by bot id=7862612604
+2025-05-26 19:36:47,952 - aiogram.event - INFO - Update id=870286741 is handled. Duration 201 ms by bot id=7862612604
+2025-05-26 19:37:20,181 - aiogram.event - INFO - Update id=870286742 is handled. Duration 201 ms by bot id=7862612604
+2025-05-26 19:37:27,451 - aiogram.event - INFO - Update id=870286743 is handled. Duration 308 ms by bot id=7862612604
+2025-05-26 19:37:28,883 - aiogram.event - INFO - Update id=870286744 is handled. Duration 515 ms by bot id=7862612604
+2025-05-26 19:37:37,069 - aiogram.event - INFO - Update id=870286745 is handled. Duration 309 ms by bot id=7862612604
+2025-05-26 19:38:03,914 - aiogram.event - INFO - Update id=870286746 is handled. Duration 235 ms by bot id=7862612604
+2025-05-26 19:38:12,253 - aiogram.event - INFO - Update id=870286747 is handled. Duration 288 ms by bot id=7862612604
+2025-05-26 19:38:18,964 - aiogram.event - INFO - Update id=870286748 is handled. Duration 1267 ms by bot id=7862612604
+2025-05-26 20:24:46,636 - aiogram.event - INFO - Update id=870286749 is handled. Duration 724 ms by bot id=7862612604
+2025-05-26 20:24:59,122 - aiogram.event - INFO - Update id=870286750 is handled. Duration 356 ms by bot id=7862612604
+2025-05-26 20:25:32,406 - aiogram.event - INFO - Update id=870286751 is handled. Duration 302 ms by bot id=7862612604
+2025-05-26 20:25:37,427 - aiogram.event - INFO - Update id=870286752 is handled. Duration 408 ms by bot id=7862612604
+2025-05-26 20:25:39,885 - aiogram.event - INFO - Update id=870286753 is handled. Duration 305 ms by bot id=7862612604
+2025-05-26 20:26:43,991 - aiogram.event - INFO - Update id=870286754 is handled. Duration 207 ms by bot id=7862612604
+2025-05-26 20:26:46,662 - aiogram.event - INFO - Update id=870286755 is handled. Duration 166 ms by bot id=7862612604
+2025-05-26 20:26:55,362 - aiogram.event - INFO - Update id=870286756 is handled. Duration 310 ms by bot id=7862612604
+2025-05-26 20:31:11,318 - aiogram.event - INFO - Update id=870286757 is handled. Duration 223 ms by bot id=7862612604
+2025-05-26 20:31:14,679 - aiogram.event - INFO - Update id=870286758 is handled. Duration 204 ms by bot id=7862612604
+2025-05-26 20:44:15,944 - aiogram.event - INFO - Update id=870286759 is handled. Duration 1335 ms by bot id=7862612604
+2025-05-26 20:44:17,680 - aiogram.event - INFO - Update id=870286760 is handled. Duration 198 ms by bot id=7862612604
+2025-05-26 20:44:25,772 - aiogram.event - INFO - Update id=870286761 is handled. Duration 517 ms by bot id=7862612604
+2025-05-26 20:45:28,542 - aiogram.event - INFO - Update id=870286762 is handled. Duration 407 ms by bot id=7862612604
+2025-05-26 20:45:32,025 - aiogram.event - INFO - Update id=870286763 is handled. Duration 616 ms by bot id=7862612604
+2025-05-26 20:45:33,254 - aiogram.event - INFO - Update id=870286764 is handled. Duration 511 ms by bot id=7862612604
+2025-05-26 20:45:35,305 - aiogram.event - INFO - Update id=870286765 is handled. Duration 616 ms by bot id=7862612604
+2025-05-26 20:45:36,634 - aiogram.event - INFO - Update id=870286766 is handled. Duration 509 ms by bot id=7862612604
+2025-05-26 20:45:37,146 - aiogram.event - INFO - Update id=870286767 is handled. Duration 719 ms by bot id=7862612604
+2025-05-26 20:46:18,522 - aiogram.event - INFO - Update id=870286768 is handled. Duration 995 ms by bot id=7862612604
+2025-05-26 20:46:19,952 - aiogram.event - INFO - Update id=870286769 is handled. Duration 619 ms by bot id=7862612604
+2025-05-26 21:05:34,163 - aiogram.event - INFO - Update id=870286770 is handled. Duration 195 ms by bot id=7862612604
+2025-05-26 21:06:58,230 - aiogram.event - INFO - Update id=870286771 is handled. Duration 293 ms by bot id=7862612604
+2025-05-26 21:07:07,758 - aiogram.event - INFO - Update id=870286772 is handled. Duration 413 ms by bot id=7862612604
+2025-05-26 21:07:24,140 - aiogram.event - INFO - Update id=870286773 is handled. Duration 613 ms by bot id=7862612604
+2025-05-26 21:07:25,673 - aiogram.event - INFO - Update id=870286774 is handled. Duration 610 ms by bot id=7862612604
+2025-05-26 21:07:33,865 - aiogram.event - INFO - Update id=870286775 is handled. Duration 712 ms by bot id=7862612604
+2025-05-26 21:07:35,097 - aiogram.event - INFO - Update id=870286776 is handled. Duration 606 ms by bot id=7862612604
+2025-05-26 21:07:38,067 - aiogram.event - INFO - Update id=870286777 is handled. Duration 813 ms by bot id=7862612604
+2025-05-26 21:07:42,469 - aiogram.event - INFO - Update id=870286778 is handled. Duration 510 ms by bot id=7862612604
+2025-05-26 21:31:52,665 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-26 21:31:52,666 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 21:32:04,266 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 21:35:05,189 - aiogram.event - INFO - Update id=870286779 is handled. Duration 571 ms by bot id=7862612604
+2025-05-26 22:18:44,323 - aiogram.event - INFO - Update id=870286780 is handled. Duration 921 ms by bot id=7862612604
+2025-05-26 22:18:57,740 - aiogram.event - INFO - Update id=870286781 is handled. Duration 195 ms by bot id=7862612604
+2025-05-26 22:19:07,160 - aiogram.event - INFO - Update id=870286782 is not handled. Duration 2 ms by bot id=7862612604
+2025-05-26 22:19:13,425 - aiogram.event - INFO - Update id=870286783 is handled. Duration 222 ms by bot id=7862612604
+2025-05-26 22:19:18,495 - aiogram.event - INFO - Update id=870286784 is handled. Duration 274 ms by bot id=7862612604
+2025-05-26 22:19:20,861 - aiogram.event - INFO - Update id=870286785 is handled. Duration 328 ms by bot id=7862612604
+2025-05-26 22:59:51,573 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 22:59:51,573 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 22:59:51,573 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 23:26:22,630 - utils.database - INFO - Database initialized successfully
+2025-05-26 23:26:22,631 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 23:26:23,950 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 23:39:56,642 - aiogram.event - INFO - Update id=870286786 is handled. Duration 857 ms by bot id=7862612604
+2025-05-26 23:39:58,534 - aiogram.event - INFO - Update id=870286787 is handled. Duration 378 ms by bot id=7862612604
+2025-05-26 23:40:03,663 - aiogram.event - INFO - Update id=870286788 is handled. Duration 188 ms by bot id=7862612604
+2025-05-26 23:40:19,269 - aiogram.event - INFO - Update id=870286789 is handled. Duration 994 ms by bot id=7862612604
+2025-05-26 23:44:55,001 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-26 23:44:55,001 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-26 23:45:06,529 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-26 23:49:10,675 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 23:49:10,676 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 23:49:10,676 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 23:49:13,906 - utils.database - INFO - Database initialized successfully
+2025-05-26 23:49:13,906 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 23:49:14,673 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 23:49:18,540 - utils.database - ERROR - Fetchall error: near "ORDER": syntax error | Query: SELECT title, target_amount FROM wishes 
+                      WHERE user_id = ? 
+                      LIMIT ? OFFSET ? ORDER BY 2
+2025-05-26 23:49:18,541 - aiogram.event - INFO - Update id=870286790 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-26 23:49:18,541 - aiogram.event - ERROR - Cause exception while process update id=870286790 by bot id=7862612604
+OperationalError: near "ORDER": syntax error
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 138, in pagination_handler
+    await show_wishlist_page(
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 96, in show_wishlist_page
+    wishes, total_pages = await get_wishlist_page(user_id, page)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 72, in get_wishlist_page
+    wishes = fetchall('''SELECT title, target_amount FROM wishes
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/utils/database.py", line 87, in fetchall
+    c.execute(query, args)
+sqlite3.OperationalError: near "ORDER": syntax error
+2025-05-26 23:54:50,126 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-26 23:54:50,127 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 23:54:50,127 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-26 23:54:53,429 - utils.database - INFO - Database initialized successfully
+2025-05-26 23:54:53,431 - aiogram.dispatcher - INFO - Start polling
+2025-05-26 23:54:54,115 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-26 23:54:56,607 - aiogram.event - INFO - Update id=870286791 is handled. Duration 862 ms by bot id=7862612604
+2025-05-26 23:55:00,599 - aiogram.event - INFO - Update id=870286792 is handled. Duration 513 ms by bot id=7862612604
+2025-05-26 23:55:04,381 - aiogram.event - INFO - Update id=870286793 is handled. Duration 385 ms by bot id=7862612604
+2025-05-26 23:55:07,416 - aiogram.event - INFO - Update id=870286794 is handled. Duration 371 ms by bot id=7862612604
+2025-05-26 23:55:09,284 - aiogram.event - INFO - Update id=870286795 is handled. Duration 312 ms by bot id=7862612604
+2025-05-26 23:55:15,141 - aiogram.event - INFO - Update id=870286796 is handled. Duration 271 ms by bot id=7862612604
+2025-05-26 23:55:20,049 - aiogram.event - INFO - Update id=870286797 is handled. Duration 415 ms by bot id=7862612604
+2025-05-26 23:55:21,501 - aiogram.event - INFO - Update id=870286798 is handled. Duration 739 ms by bot id=7862612604
+2025-05-26 23:55:37,958 - aiogram.event - INFO - Update id=870286799 is handled. Duration 191 ms by bot id=7862612604
+2025-05-26 23:59:45,288 - aiogram.event - INFO - Update id=870286800 is handled. Duration 416 ms by bot id=7862612604
+2025-05-26 23:59:46,890 - aiogram.event - INFO - Update id=870286801 is handled. Duration 421 ms by bot id=7862612604
+2025-05-27 00:11:06,657 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-27 00:11:06,657 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-27 00:11:18,407 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-27 00:11:41,757 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-27 00:11:41,757 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-27 00:11:53,155 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-27 00:11:53,156 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-27 00:11:53,156 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-27 00:12:04,689 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-27 00:13:32,740 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:13:32,740 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:13:32,740 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:13:48,454 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:13:48,455 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:13:49,165 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:14:02,142 - aiogram.event - INFO - Update id=870286802 is handled. Duration 572 ms by bot id=7862612604
+2025-05-27 00:14:19,507 - aiogram.event - INFO - Update id=870286803 is handled. Duration 152 ms by bot id=7862612604
+2025-05-27 00:19:52,400 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:19:52,401 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:19:52,401 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:21:45,236 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:21:45,237 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:21:45,923 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:21:51,035 - aiogram.event - INFO - Update id=870286804 is handled. Duration 534 ms by bot id=7862612604
+2025-05-27 00:21:53,701 - aiogram.event - INFO - Update id=870286805 is handled. Duration 220 ms by bot id=7862612604
+2025-05-27 00:24:57,839 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:24:57,840 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:24:57,840 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:25:00,239 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:25:00,240 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:25:01,299 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:25:05,687 - aiogram.event - INFO - Update id=870286806 is handled. Duration 823 ms by bot id=7862612604
+2025-05-27 00:25:10,591 - aiogram.event - INFO - Update id=870286807 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 00:25:15,718 - aiogram.event - INFO - Update id=870286808 is handled. Duration 173 ms by bot id=7862612604
+2025-05-27 00:25:20,235 - aiogram.event - INFO - Update id=870286809 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 00:25:20,235 - aiogram.event - ERROR - Cause exception while process update id=870286809 by bot id=7862612604
+NameError: name 'wish' is not defined
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 277, in handle_edit_field_choice
+    await state.update_data(wish_id=wish[0])
+                                    ^^^^
+NameError: name 'wish' is not defined
+2025-05-27 00:26:29,534 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:26:29,535 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:26:29,535 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:26:32,020 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:26:32,021 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:26:32,772 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:26:37,589 - aiogram.event - INFO - Update id=870286810 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 00:26:48,019 - aiogram.event - INFO - Update id=870286811 is handled. Duration 664 ms by bot id=7862612604
+2025-05-27 00:26:51,301 - aiogram.event - INFO - Update id=870286812 is handled. Duration 155 ms by bot id=7862612604
+2025-05-27 00:26:52,084 - aiogram.event - INFO - Update id=870286813 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 00:26:52,084 - aiogram.event - ERROR - Cause exception while process update id=870286813 by bot id=7862612604
+NameError: name 'wish' is not defined
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 285, in handle_edit_field_choice
+    await state.update_data(wish_id=wish[0])
+                                    ^^^^
+NameError: name 'wish' is not defined
+2025-05-27 00:28:05,606 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:28:05,606 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:28:05,606 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:29:01,296 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:29:01,297 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:29:01,984 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:29:03,841 - aiogram.event - INFO - Update id=870286814 is handled. Duration 577 ms by bot id=7862612604
+2025-05-27 00:29:09,371 - aiogram.event - INFO - Update id=870286815 is handled. Duration 179 ms by bot id=7862612604
+2025-05-27 00:29:39,965 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:29:39,965 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:29:39,965 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:29:42,381 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:29:42,382 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:29:43,024 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:29:43,734 - aiogram.event - INFO - Update id=870286816 is handled. Duration 568 ms by bot id=7862612604
+2025-05-27 00:29:47,015 - aiogram.event - INFO - Update id=870286817 is handled. Duration 199 ms by bot id=7862612604
+2025-05-27 00:30:25,288 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:30:25,288 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:30:25,289 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:30:28,337 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:30:28,337 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:30:29,023 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:30:30,469 - aiogram.event - INFO - Update id=870286818 is handled. Duration 606 ms by bot id=7862612604
+2025-05-27 00:30:31,918 - aiogram.event - INFO - Update id=870286819 is handled. Duration 140 ms by bot id=7862612604
+2025-05-27 00:31:59,743 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:31:59,744 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:31:59,744 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:32:02,673 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:32:02,674 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:32:03,361 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:32:04,070 - aiogram.event - INFO - Update id=870286820 is handled. Duration 598 ms by bot id=7862612604
+2025-05-27 00:32:06,389 - aiogram.event - INFO - Update id=870286821 is handled. Duration 152 ms by bot id=7862612604
+2025-05-27 00:32:10,104 - aiogram.event - INFO - Update id=870286822 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 00:32:10,104 - aiogram.event - ERROR - Cause exception while process update id=870286822 by bot id=7862612604
+NameError: name 'wish' is not defined
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 287, in handle_edit_field_choice
+    await state.update_data(wish_id=wish[0])
+                                    ^^^^
+NameError: name 'wish' is not defined
+2025-05-27 00:33:00,606 - aiogram.event - INFO - Update id=870286823 is handled. Duration 197 ms by bot id=7862612604
+2025-05-27 00:33:05,223 - aiogram.event - INFO - Update id=870286824 is handled. Duration 184 ms by bot id=7862612604
+2025-05-27 00:33:07,793 - aiogram.event - INFO - Update id=870286825 is handled. Duration 172 ms by bot id=7862612604
+2025-05-27 00:35:02,781 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:35:02,782 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:35:02,782 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:42:23,527 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:42:23,527 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:42:24,166 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:42:27,585 - aiogram.event - INFO - Update id=870286826 is handled. Duration 600 ms by bot id=7862612604
+2025-05-27 00:42:29,168 - aiogram.event - INFO - Update id=870286827 is handled. Duration 208 ms by bot id=7862612604
+2025-05-27 00:42:30,409 - aiogram.event - INFO - Update id=870286828 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 00:42:30,409 - aiogram.event - ERROR - Cause exception while process update id=870286828 by bot id=7862612604
+ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 228, in handle_edit_field_choice
+    await callback.message.edit_text("Введите новое название:", reply_markup=cancel_button())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 3634, in edit_text
+    return EditMessageText(
+           ^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+2025-05-27 00:46:07,661 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-27 00:46:07,662 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-27 00:46:19,208 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-27 00:49:00,948 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:49:00,948 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:49:00,949 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:49:03,777 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:49:03,778 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:49:04,463 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:49:07,747 - aiogram.event - INFO - Update id=870286829 is handled. Duration 548 ms by bot id=7862612604
+2025-05-27 00:49:09,132 - aiogram.event - INFO - Update id=870286830 is handled. Duration 143 ms by bot id=7862612604
+2025-05-27 00:49:10,199 - aiogram.event - INFO - Update id=870286831 is handled. Duration 209 ms by bot id=7862612604
+2025-05-27 00:49:26,287 - aiogram.event - INFO - Update id=870286832 is not handled. Duration 191 ms by bot id=7862612604
+2025-05-27 00:49:26,288 - aiogram.event - ERROR - Cause exception while process update id=870286832 by bot id=7862612604
+NameError: name 'state' is not defined
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 217, in edit_title
+    await handle_edit_return(message, "Название обновлено!")
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 263, in handle_edit_return
+    await state.set_state(Form.EDIT_WISH_CHOICE)
+          ^^^^^
+NameError: name 'state' is not defined. Did you mean: 'status'?
+2025-05-27 00:49:29,661 - aiogram.event - INFO - Update id=870286833 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 00:49:47,908 - aiogram.event - INFO - Update id=870286834 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 00:50:10,742 - aiogram.event - INFO - Update id=870286835 is not handled. Duration 233 ms by bot id=7862612604
+2025-05-27 00:50:10,742 - aiogram.event - ERROR - Cause exception while process update id=870286835 by bot id=7862612604
+NameError: name 'state' is not defined
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 217, in edit_title
+    await handle_edit_return(message, "Название обновлено!")
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 263, in handle_edit_return
+    await state.set_state(Form.EDIT_WISH_CHOICE)
+          ^^^^^
+NameError: name 'state' is not defined. Did you mean: 'status'?
+2025-05-27 00:50:16,060 - aiogram.event - INFO - Update id=870286836 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 00:50:19,355 - aiogram.event - INFO - Update id=870286837 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 00:50:56,011 - aiogram.event - INFO - Update id=870286838 is handled. Duration 200 ms by bot id=7862612604
+2025-05-27 00:50:59,248 - aiogram.event - INFO - Update id=870286839 is handled. Duration 133 ms by bot id=7862612604
+2025-05-27 00:51:00,757 - aiogram.event - INFO - Update id=870286840 is handled. Duration 174 ms by bot id=7862612604
+2025-05-27 00:51:04,481 - aiogram.event - INFO - Update id=870286841 is not handled. Duration 193 ms by bot id=7862612604
+2025-05-27 00:51:04,481 - aiogram.event - ERROR - Cause exception while process update id=870286841 by bot id=7862612604
+NameError: name 'state' is not defined
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 217, in edit_title
+    await handle_edit_return(message, "Название обновлено!")
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 263, in handle_edit_return
+    await state.set_state(Form.EDIT_WISH_CHOICE)
+          ^^^^^
+NameError: name 'state' is not defined. Did you mean: 'status'?
+2025-05-27 00:51:05,964 - aiogram.event - INFO - Update id=870286842 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 00:51:11,902 - aiogram.event - INFO - Update id=870286843 is handled. Duration 182 ms by bot id=7862612604
+2025-05-27 00:51:14,290 - aiogram.event - INFO - Update id=870286844 is handled. Duration 139 ms by bot id=7862612604
+2025-05-27 00:52:05,826 - aiogram.event - INFO - Update id=870286845 is handled. Duration 183 ms by bot id=7862612604
+2025-05-27 00:52:55,478 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:52:55,479 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:52:55,479 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:52:59,656 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:52:59,657 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:53:00,370 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:53:01,110 - aiogram.event - INFO - Update id=870286846 is handled. Duration 606 ms by bot id=7862612604
+2025-05-27 00:53:02,856 - aiogram.event - INFO - Update id=870286847 is handled. Duration 143 ms by bot id=7862612604
+2025-05-27 00:53:04,060 - aiogram.event - INFO - Update id=870286848 is handled. Duration 176 ms by bot id=7862612604
+2025-05-27 00:53:07,952 - aiogram.event - INFO - Update id=870286849 is not handled. Duration 26 ms by bot id=7862612604
+2025-05-27 00:53:07,952 - aiogram.event - ERROR - Cause exception while process update id=870286849 by bot id=7862612604
+TypeError: handle_edit_return() missing 1 required positional argument: 'state'
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 217, in edit_title
+    await handle_edit_return(message, "Название обновлено!")
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: handle_edit_return() missing 1 required positional argument: 'state'
+2025-05-27 00:54:29,069 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:54:29,069 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:54:29,070 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:54:32,393 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:54:32,394 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:54:33,265 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:54:34,027 - aiogram.event - INFO - Update id=870286850 is handled. Duration 567 ms by bot id=7862612604
+2025-05-27 00:54:35,584 - aiogram.event - INFO - Update id=870286851 is handled. Duration 170 ms by bot id=7862612604
+2025-05-27 00:54:36,711 - aiogram.event - INFO - Update id=870286852 is handled. Duration 159 ms by bot id=7862612604
+2025-05-27 00:54:42,889 - aiogram.event - INFO - Update id=870286853 is handled. Duration 223 ms by bot id=7862612604
+2025-05-27 00:54:44,846 - aiogram.event - INFO - Update id=870286854 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 00:54:44,846 - aiogram.event - ERROR - Cause exception while process update id=870286854 by bot id=7862612604
+ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 204, in handle_edit_field_choice
+    await callback.message.edit_text("Редактирование завершено ✅", reply_markup=main_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 3634, in edit_text
+    return EditMessageText(
+           ^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+2025-05-27 00:56:08,757 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-27 00:56:08,757 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-27 00:57:04,070 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-05-27 00:57:04,071 - aiogram.dispatcher - WARNING - Sleep for 1.408686 seconds and try again... (tryings = 1, bot id = 7862612604)
+2025-05-27 00:58:05,682 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-27 00:58:05,682 - aiogram.dispatcher - WARNING - Sleep for 1.801309 seconds and try again... (tryings = 2, bot id = 7862612604)
+2025-05-27 00:58:18,007 - aiogram.dispatcher - INFO - Connection established (tryings = 3, bot id = 7862612604)
+2025-05-27 00:58:50,446 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 00:58:50,446 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:58:50,447 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 00:58:53,745 - utils.database - INFO - Database initialized successfully
+2025-05-27 00:58:53,746 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 00:58:54,468 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 00:58:59,024 - aiogram.event - INFO - Update id=870286855 is handled. Duration 498 ms by bot id=7862612604
+2025-05-27 00:59:18,040 - aiogram.event - INFO - Update id=870286856 is handled. Duration 206 ms by bot id=7862612604
+2025-05-27 00:59:21,696 - aiogram.event - INFO - Update id=870286857 is handled. Duration 165 ms by bot id=7862612604
+2025-05-27 00:59:25,820 - aiogram.event - INFO - Update id=870286858 is handled. Duration 188 ms by bot id=7862612604
+2025-05-27 00:59:30,373 - aiogram.event - INFO - Update id=870286859 is handled. Duration 182 ms by bot id=7862612604
+2025-05-27 00:59:32,566 - aiogram.event - INFO - Update id=870286860 is handled. Duration 177 ms by bot id=7862612604
+2025-05-27 00:59:34,044 - aiogram.event - INFO - Update id=870286861 is handled. Duration 170 ms by bot id=7862612604
+2025-05-27 00:59:36,987 - aiogram.event - INFO - Update id=870286862 is handled. Duration 166 ms by bot id=7862612604
+2025-05-27 00:59:42,597 - aiogram.event - INFO - Update id=870286863 is handled. Duration 167 ms by bot id=7862612604
+2025-05-27 00:59:43,670 - aiogram.event - INFO - Update id=870286864 is handled. Duration 172 ms by bot id=7862612604
+2025-05-27 00:59:45,899 - aiogram.event - INFO - Update id=870286865 is handled. Duration 152 ms by bot id=7862612604
+2025-05-27 00:59:51,079 - aiogram.event - INFO - Update id=870286866 is handled. Duration 350 ms by bot id=7862612604
+2025-05-27 01:00:01,144 - aiogram.event - INFO - Update id=870286867 is handled. Duration 176 ms by bot id=7862612604
+2025-05-27 01:00:03,059 - aiogram.event - INFO - Update id=870286868 is handled. Duration 169 ms by bot id=7862612604
+2025-05-27 01:00:04,558 - aiogram.event - INFO - Update id=870286869 is handled. Duration 219 ms by bot id=7862612604
+2025-05-27 01:00:06,389 - aiogram.event - INFO - Update id=870286870 is handled. Duration 204 ms by bot id=7862612604
+2025-05-27 01:00:10,287 - aiogram.event - INFO - Update id=870286871 is handled. Duration 148 ms by bot id=7862612604
+2025-05-27 01:00:12,684 - aiogram.event - INFO - Update id=870286872 is handled. Duration 344 ms by bot id=7862612604
+2025-05-27 01:01:38,012 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:01:38,012 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:01:38,012 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:01:41,015 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:01:41,016 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:01:41,664 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:01:46,101 - aiogram.event - INFO - Update id=870286873 is handled. Duration 610 ms by bot id=7862612604
+2025-05-27 01:01:49,060 - aiogram.event - INFO - Update id=870286874 is handled. Duration 320 ms by bot id=7862612604
+2025-05-27 01:01:51,321 - aiogram.event - INFO - Update id=870286875 is handled. Duration 140 ms by bot id=7862612604
+2025-05-27 01:01:55,789 - aiogram.event - INFO - Update id=870286876 is handled. Duration 199 ms by bot id=7862612604
+2025-05-27 01:01:59,958 - aiogram.event - INFO - Update id=870286877 is handled. Duration 177 ms by bot id=7862612604
+2025-05-27 01:02:02,315 - aiogram.event - INFO - Update id=870286878 is handled. Duration 164 ms by bot id=7862612604
+2025-05-27 01:02:05,659 - aiogram.event - INFO - Update id=870286879 is handled. Duration 282 ms by bot id=7862612604
+2025-05-27 01:03:34,203 - aiogram.event - INFO - Update id=870286880 is handled. Duration 156 ms by bot id=7862612604
+2025-05-27 01:04:38,838 - aiogram.event - INFO - Update id=870286881 is handled. Duration 304 ms by bot id=7862612604
+2025-05-27 01:04:43,933 - aiogram.event - INFO - Update id=870286882 is handled. Duration 291 ms by bot id=7862612604
+2025-05-27 01:05:18,639 - aiogram.event - INFO - Update id=870286883 is handled. Duration 263 ms by bot id=7862612604
+2025-05-27 01:05:23,323 - aiogram.event - INFO - Update id=870286884 is handled. Duration 366 ms by bot id=7862612604
+2025-05-27 01:05:24,928 - aiogram.event - INFO - Update id=870286885 is handled. Duration 386 ms by bot id=7862612604
+2025-05-27 01:05:26,282 - aiogram.event - INFO - Update id=870286886 is handled. Duration 309 ms by bot id=7862612604
+2025-05-27 01:06:16,736 - aiogram.event - INFO - Update id=870286887 is handled. Duration 384 ms by bot id=7862612604
+2025-05-27 01:06:33,984 - aiogram.event - INFO - Update id=870286888 is handled. Duration 283 ms by bot id=7862612604
+2025-05-27 01:06:49,137 - aiogram.event - INFO - Update id=870286889 is handled. Duration 291 ms by bot id=7862612604
+2025-05-27 01:11:01,637 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-27 01:11:01,637 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-27 01:11:13,175 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-27 01:26:12,932 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-27 01:26:12,932 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-27 01:27:13,994 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-05-27 01:27:13,994 - aiogram.dispatcher - WARNING - Sleep for 1.445111 seconds and try again... (tryings = 1, bot id = 7862612604)
+2025-05-27 01:27:26,133 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7862612604)
+2025-05-27 01:29:37,987 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:29:37,987 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:29:37,988 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:29:41,566 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:29:41,567 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:29:42,254 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:29:47,889 - aiogram.event - INFO - Update id=870286890 is handled. Duration 784 ms by bot id=7862612604
+2025-05-27 01:29:48,993 - aiogram.event - INFO - Update id=870286891 is handled. Duration 329 ms by bot id=7862612604
+2025-05-27 01:29:50,842 - aiogram.event - INFO - Update id=870286892 is handled. Duration 588 ms by bot id=7862612604
+2025-05-27 01:32:11,676 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:32:11,676 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:32:11,676 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:32:14,556 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:32:14,556 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:32:15,256 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:32:21,018 - aiogram.event - INFO - Update id=870286893 is handled. Duration 728 ms by bot id=7862612604
+2025-05-27 01:32:21,829 - aiogram.event - INFO - Update id=870286894 is handled. Duration 311 ms by bot id=7862612604
+2025-05-27 01:32:33,801 - aiogram.event - INFO - Update id=870286895 is handled. Duration 187 ms by bot id=7862612604
+2025-05-27 01:32:39,171 - aiogram.event - INFO - Update id=870286896 is handled. Duration 145 ms by bot id=7862612604
+2025-05-27 01:32:43,421 - aiogram.event - INFO - Update id=870286897 is handled. Duration 128 ms by bot id=7862612604
+2025-05-27 01:32:59,464 - aiogram.event - INFO - Update id=870286898 is handled. Duration 189 ms by bot id=7862612604
+2025-05-27 01:33:04,456 - aiogram.event - INFO - Update id=870286899 is handled. Duration 320 ms by bot id=7862612604
+2025-05-27 01:33:09,794 - aiogram.event - INFO - Update id=870286900 is handled. Duration 315 ms by bot id=7862612604
+2025-05-27 01:33:46,964 - aiogram.event - INFO - Update id=870286901 is handled. Duration 165 ms by bot id=7862612604
+2025-05-27 01:33:50,443 - aiogram.event - INFO - Update id=870286902 is handled. Duration 196 ms by bot id=7862612604
+2025-05-27 01:35:58,860 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-27 01:35:58,861 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-27 01:36:09,827 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-05-27 01:36:09,827 - aiogram.dispatcher - WARNING - Sleep for 1.298005 seconds and try again... (tryings = 1, bot id = 7862612604)
+2025-05-27 01:36:11,504 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7862612604)
+2025-05-27 01:36:11,858 - aiogram.event - INFO - Update id=870286903 is handled. Duration 353 ms by bot id=7862612604
+2025-05-27 01:36:12,348 - aiogram.event - INFO - Update id=870286904 is handled. Duration 149 ms by bot id=7862612604
+2025-05-27 01:39:57,034 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:39:57,034 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:39:57,035 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:43:25,298 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:43:25,298 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:43:25,959 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:43:34,330 - aiogram.event - INFO - Update id=870286905 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 01:43:34,330 - aiogram.event - ERROR - Cause exception while process update id=870286905 by bot id=7862612604
+NameError: name 'format_amount' is not defined
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/balance.py", line 36, in show_balance
+    await message.answer(f"🏦 Текущий баланс: {format_amount(balance)} ₽")
+                                               ^^^^^^^^^^^^^
+NameError: name 'format_amount' is not defined
+2025-05-27 01:44:02,196 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:44:02,197 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:44:02,197 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:44:05,100 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:44:05,101 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:44:05,567 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:44:08,191 - aiogram.event - INFO - Update id=870286906 is handled. Duration 558 ms by bot id=7862612604
+2025-05-27 01:44:16,526 - aiogram.event - INFO - Update id=870286907 is handled. Duration 134 ms by bot id=7862612604
+2025-05-27 01:44:30,580 - aiogram.event - INFO - Update id=870286908 is handled. Duration 137 ms by bot id=7862612604
+2025-05-27 01:45:50,695 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:45:50,696 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:45:50,696 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:45:53,919 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:45:53,919 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:45:54,580 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:45:59,334 - aiogram.event - INFO - Update id=870286909 is handled. Duration 719 ms by bot id=7862612604
+2025-05-27 01:46:17,214 - aiogram.event - INFO - Update id=870286910 is handled. Duration 166 ms by bot id=7862612604
+2025-05-27 01:46:22,413 - aiogram.event - INFO - Update id=870286911 is handled. Duration 147 ms by bot id=7862612604
+2025-05-27 01:46:30,725 - aiogram.event - INFO - Update id=870286912 is handled. Duration 140 ms by bot id=7862612604
+2025-05-27 01:46:38,237 - aiogram.event - INFO - Update id=870286913 is handled. Duration 144 ms by bot id=7862612604
+2025-05-27 01:46:46,789 - aiogram.event - INFO - Update id=870286914 is handled. Duration 637 ms by bot id=7862612604
+2025-05-27 01:50:42,116 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:50:42,116 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:50:42,116 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:50:44,996 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:50:44,997 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:50:45,573 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:50:59,797 - aiogram.event - INFO - Update id=870286915 is handled. Duration 1345 ms by bot id=7862612604
+2025-05-27 01:52:33,028 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:52:33,029 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:52:33,029 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:52:36,171 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:52:36,172 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:52:36,709 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:52:39,279 - aiogram.event - INFO - Update id=870286916 is not handled. Duration 2 ms by bot id=7862612604
+2025-05-27 01:52:39,279 - aiogram.event - ERROR - Cause exception while process update id=870286916 by bot id=7862612604
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/reports.py", line 46, in monthly_report
+    await generate_report(message, message.from_user.id, start_date, end_date)
+  File "/home/lyalkid/code/finance-bot/handlers/reports.py", line 164, in generate_report
+    total_income += amount
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+2025-05-27 01:53:52,168 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:53:52,168 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:53:52,169 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:53:56,114 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:53:56,115 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:53:56,697 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:53:58,457 - aiogram.event - INFO - Update id=870286917 is handled. Duration 1406 ms by bot id=7862612604
+2025-05-27 01:54:18,193 - aiogram.event - INFO - Update id=870286918 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 01:54:27,154 - aiogram.event - INFO - Update id=870286919 is handled. Duration 163 ms by bot id=7862612604
+2025-05-27 01:54:31,744 - aiogram.event - INFO - Update id=870286920 is handled. Duration 245 ms by bot id=7862612604
+2025-05-27 01:54:34,122 - aiogram.event - INFO - Update id=870286921 is handled. Duration 290 ms by bot id=7862612604
+2025-05-27 01:54:41,882 - aiogram.event - INFO - Update id=870286922 is handled. Duration 248 ms by bot id=7862612604
+2025-05-27 01:54:42,896 - aiogram.event - INFO - Update id=870286923 is handled. Duration 412 ms by bot id=7862612604
+2025-05-27 01:57:49,045 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 01:57:49,046 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:57:49,046 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 01:59:30,725 - utils.database - INFO - Database initialized successfully
+2025-05-27 01:59:30,725 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 01:59:31,338 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 01:59:40,831 - aiogram.event - INFO - Update id=870286924 is not handled. Duration 2 ms by bot id=7862612604
+2025-05-27 02:00:01,762 - aiogram.event - INFO - Update id=870286925 is handled. Duration 453 ms by bot id=7862612604
+2025-05-27 02:00:05,519 - aiogram.event - INFO - Update id=870286926 is handled. Duration 468 ms by bot id=7862612604
+2025-05-27 02:01:47,254 - aiogram.event - INFO - Update id=870286927 is handled. Duration 139 ms by bot id=7862612604
+2025-05-27 02:01:58,973 - aiogram.event - INFO - Update id=870286928 is handled. Duration 179 ms by bot id=7862612604
+2025-05-27 02:02:00,802 - aiogram.event - INFO - Update id=870286929 is handled. Duration 157 ms by bot id=7862612604
+2025-05-27 02:02:07,925 - aiogram.event - INFO - Update id=870286930 is handled. Duration 258 ms by bot id=7862612604
+2025-05-27 02:02:11,453 - aiogram.event - INFO - Update id=870286931 is handled. Duration 298 ms by bot id=7862612604
+2025-05-27 02:02:43,800 - aiogram.event - INFO - Update id=870286932 is handled. Duration 176 ms by bot id=7862612604
+2025-05-27 02:02:56,829 - aiogram.event - INFO - Update id=870286933 is handled. Duration 186 ms by bot id=7862612604
+2025-05-27 02:02:59,154 - aiogram.event - INFO - Update id=870286934 is handled. Duration 177 ms by bot id=7862612604
+2025-05-27 02:03:08,611 - aiogram.event - INFO - Update id=870286935 is handled. Duration 689 ms by bot id=7862612604
+2025-05-27 02:06:32,116 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:06:32,117 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:06:32,117 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:06:34,987 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:06:34,988 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:06:40,540 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:06:46,879 - aiogram.event - INFO - Update id=870286936 is handled. Duration 456 ms by bot id=7862612604
+2025-05-27 02:06:56,805 - aiogram.event - INFO - Update id=870286937 is handled. Duration 142 ms by bot id=7862612604
+2025-05-27 02:06:59,783 - aiogram.event - INFO - Update id=870286938 is handled. Duration 228 ms by bot id=7862612604
+2025-05-27 02:09:05,017 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:09:05,017 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:09:05,017 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:09:08,757 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:09:08,757 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:09:09,327 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:09:13,629 - aiogram.event - INFO - Update id=870286939 is handled. Duration 719 ms by bot id=7862612604
+2025-05-27 02:09:16,075 - aiogram.event - INFO - Update id=870286940 is handled. Duration 278 ms by bot id=7862612604
+2025-05-27 02:09:19,981 - aiogram.event - INFO - Update id=870286941 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 02:09:19,981 - aiogram.event - ERROR - Cause exception while process update id=870286941 by bot id=7862612604
+ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 464, in start_income_from_buy
+    await callback.message.edit_text("Введите сумму пополнения баланса:", reply_markup=cancel_button())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 3634, in edit_text
+    return EditMessageText(
+           ^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+2025-05-27 02:09:38,006 - aiogram.event - INFO - Update id=870286942 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 02:09:38,006 - aiogram.event - ERROR - Cause exception while process update id=870286942 by bot id=7862612604
+ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 457, in cancel_buy
+    await callback.message.edit_text("❌ Покупка отменена.", reply_markup=main_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 3634, in edit_text
+    return EditMessageText(
+           ^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+2025-05-27 02:09:42,194 - aiogram.event - INFO - Update id=870286943 is handled. Duration 150 ms by bot id=7862612604
+2025-05-27 02:09:43,978 - aiogram.event - INFO - Update id=870286944 is handled. Duration 362 ms by bot id=7862612604
+2025-05-27 02:09:44,693 - aiogram.event - INFO - Update id=870286945 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-27 02:09:44,693 - aiogram.event - ERROR - Cause exception while process update id=870286945 by bot id=7862612604
+ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 457, in cancel_buy
+    await callback.message.edit_text("❌ Покупка отменена.", reply_markup=main_menu())
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/types/message.py", line 3634, in edit_text
+    return EditMessageText(
+           ^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/pydantic/main.py", line 253, in __init__
+    validated_self = self.__pydantic_validator__.validate_python(data, self_instance=self)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 1 validation error for EditMessageText
+reply_markup
+  Input should be a valid dictionary or instance of InlineKeyboardMarkup [type=model_type, input_value=ReplyKeyboardMarkup(keybo...er=None, selective=None), input_type=ReplyKeyboardMarkup]
+    For further information visit https://errors.pydantic.dev/2.11/v/model_type
+2025-05-27 02:10:00,435 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:10:00,436 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:10:00,436 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:12:59,771 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:12:59,772 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:13:00,345 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:13:01,099 - aiogram.event - INFO - Update id=870286946 is handled. Duration 483 ms by bot id=7862612604
+2025-05-27 02:13:02,512 - aiogram.event - INFO - Update id=870286947 is handled. Duration 243 ms by bot id=7862612604
+2025-05-27 02:14:05,443 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:14:05,444 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:14:05,444 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:14:09,256 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:14:09,257 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:14:09,780 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:14:13,074 - aiogram.event - INFO - Update id=870286948 is handled. Duration 606 ms by bot id=7862612604
+2025-05-27 02:14:15,044 - aiogram.event - INFO - Update id=870286949 is handled. Duration 248 ms by bot id=7862612604
+2025-05-27 02:14:56,999 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:14:57,000 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:14:57,000 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:15:02,365 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:15:02,366 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:15:02,895 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:15:03,496 - aiogram.event - INFO - Update id=870286950 is handled. Duration 485 ms by bot id=7862612604
+2025-05-27 02:15:05,334 - aiogram.event - INFO - Update id=870286951 is handled. Duration 224 ms by bot id=7862612604
+2025-05-27 02:15:16,133 - aiogram.event - INFO - Update id=870286952 is handled. Duration 136 ms by bot id=7862612604
+2025-05-27 02:15:27,032 - aiogram.event - INFO - Update id=870286953 is handled. Duration 113 ms by bot id=7862612604
+2025-05-27 02:17:28,273 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:17:28,274 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:17:28,274 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:17:31,155 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:17:31,156 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:17:31,717 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:17:38,036 - aiogram.event - INFO - Update id=870286954 is handled. Duration 493 ms by bot id=7862612604
+2025-05-27 02:17:39,237 - aiogram.event - INFO - Update id=870286955 is handled. Duration 134 ms by bot id=7862612604
+2025-05-27 02:17:43,981 - aiogram.event - INFO - Update id=870286956 is handled. Duration 183 ms by bot id=7862612604
+2025-05-27 02:17:45,734 - aiogram.event - INFO - Update id=870286957 is handled. Duration 165 ms by bot id=7862612604
+2025-05-27 02:20:28,123 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:20:28,123 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:20:28,123 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:20:30,751 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:20:30,751 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:20:31,310 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:20:37,468 - aiogram.event - INFO - Update id=870286958 is handled. Duration 501 ms by bot id=7862612604
+2025-05-27 02:20:44,735 - aiogram.event - INFO - Update id=870286959 is handled. Duration 129 ms by bot id=7862612604
+2025-05-27 02:20:46,451 - aiogram.event - INFO - Update id=870286960 is handled. Duration 139 ms by bot id=7862612604
+2025-05-27 02:20:47,935 - aiogram.event - INFO - Update id=870286961 is handled. Duration 173 ms by bot id=7862612604
+2025-05-27 02:20:59,539 - aiogram.event - INFO - Update id=870286962 is handled. Duration 202 ms by bot id=7862612604
+2025-05-27 02:21:02,390 - aiogram.event - INFO - Update id=870286963 is handled. Duration 142 ms by bot id=7862612604
+2025-05-27 02:21:03,070 - aiogram.event - INFO - Update id=870286964 is handled. Duration 113 ms by bot id=7862612604
+2025-05-27 02:21:05,405 - aiogram.event - INFO - Update id=870286965 is handled. Duration 183 ms by bot id=7862612604
+2025-05-27 02:21:10,878 - aiogram.event - INFO - Update id=870286966 is handled. Duration 209 ms by bot id=7862612604
+2025-05-27 02:21:20,074 - aiogram.event - INFO - Update id=870286967 is handled. Duration 617 ms by bot id=7862612604
+2025-05-27 02:25:00,366 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:25:00,367 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:25:00,367 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:25:04,485 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:25:04,486 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:25:05,083 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:26:21,821 - aiogram.event - INFO - Update id=870286968 is handled. Duration 445 ms by bot id=7862612604
+2025-05-27 02:28:28,193 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:28:28,193 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:28:28,193 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:30:25,843 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:30:25,843 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:30:26,382 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:30:34,187 - aiogram.event - INFO - Update id=870286969 is handled. Duration 481 ms by bot id=7862612604
+2025-05-27 02:30:39,782 - aiogram.event - INFO - Update id=870286970 is handled. Duration 135 ms by bot id=7862612604
+2025-05-27 02:30:42,318 - aiogram.event - INFO - Update id=870286971 is handled. Duration 277 ms by bot id=7862612604
+2025-05-27 02:30:44,743 - aiogram.event - INFO - Update id=870286972 is handled. Duration 150 ms by bot id=7862612604
+2025-05-27 02:30:46,767 - aiogram.event - INFO - Update id=870286973 is handled. Duration 264 ms by bot id=7862612604
+2025-05-27 02:30:51,296 - aiogram.event - INFO - Update id=870286974 is handled. Duration 146 ms by bot id=7862612604
+2025-05-27 02:30:54,693 - aiogram.event - INFO - Update id=870286975 is handled. Duration 148 ms by bot id=7862612604
+2025-05-27 02:30:56,462 - aiogram.event - INFO - Update id=870286976 is handled. Duration 242 ms by bot id=7862612604
+2025-05-27 02:31:04,502 - aiogram.event - INFO - Update id=870286977 is handled. Duration 779 ms by bot id=7862612604
+2025-05-27 02:31:07,755 - aiogram.event - INFO - Update id=870286978 is handled. Duration 138 ms by bot id=7862612604
+2025-05-27 02:31:11,493 - aiogram.event - INFO - Update id=870286979 is handled. Duration 249 ms by bot id=7862612604
+2025-05-27 02:31:13,801 - aiogram.event - INFO - Update id=870286980 is handled. Duration 176 ms by bot id=7862612604
+2025-05-27 02:31:25,683 - aiogram.event - INFO - Update id=870286981 is handled. Duration 137 ms by bot id=7862612604
+2025-05-27 02:31:47,709 - aiogram.event - INFO - Update id=870286982 is handled. Duration 121 ms by bot id=7862612604
+2025-05-27 02:33:04,157 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:33:04,158 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:33:04,158 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:33:07,231 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:33:07,232 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:33:07,815 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:33:10,058 - aiogram.event - INFO - Update id=870286983 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 02:33:39,064 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:33:39,064 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:33:39,064 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:33:42,158 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:33:42,159 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:33:42,893 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:33:47,024 - aiogram.event - INFO - Update id=870286984 is not handled. Duration 0 ms by bot id=7862612604
+2025-05-27 02:33:52,722 - aiogram.event - INFO - Update id=870286985 is handled. Duration 449 ms by bot id=7862612604
+2025-05-27 02:33:54,168 - aiogram.event - INFO - Update id=870286986 is handled. Duration 159 ms by bot id=7862612604
+2025-05-27 02:34:42,707 - aiogram.event - INFO - Update id=870286987 is handled. Duration 229 ms by bot id=7862612604
+2025-05-27 02:34:44,161 - aiogram.event - INFO - Update id=870286988 is handled. Duration 186 ms by bot id=7862612604
+2025-05-27 02:35:12,998 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:35:12,999 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:35:12,999 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:35:16,407 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:35:16,407 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:35:17,009 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:35:23,331 - aiogram.event - INFO - Update id=870286989 is handled. Duration 642 ms by bot id=7862612604
+2025-05-27 02:35:25,508 - aiogram.event - INFO - Update id=870286990 is handled. Duration 135 ms by bot id=7862612604
+2025-05-27 02:35:28,633 - aiogram.event - INFO - Update id=870286991 is handled. Duration 361 ms by bot id=7862612604
+2025-05-27 02:35:32,039 - aiogram.event - INFO - Update id=870286992 is handled. Duration 139 ms by bot id=7862612604
+2025-05-27 02:35:34,291 - aiogram.event - INFO - Update id=870286993 is handled. Duration 240 ms by bot id=7862612604
+2025-05-27 02:35:40,808 - aiogram.event - INFO - Update id=870286994 is handled. Duration 153 ms by bot id=7862612604
+2025-05-27 02:35:47,507 - aiogram.event - INFO - Update id=870286995 is handled. Duration 330 ms by bot id=7862612604
+2025-05-27 02:35:58,975 - aiogram.event - INFO - Update id=870286996 is handled. Duration 180 ms by bot id=7862612604
+2025-05-27 02:36:07,143 - aiogram.event - INFO - Update id=870286997 is handled. Duration 136 ms by bot id=7862612604
+2025-05-27 02:36:13,799 - aiogram.event - INFO - Update id=870286998 is handled. Duration 158 ms by bot id=7862612604
+2025-05-27 02:36:30,303 - aiogram.event - INFO - Update id=870286999 is handled. Duration 149 ms by bot id=7862612604
+2025-05-27 02:36:37,661 - aiogram.event - INFO - Update id=870287000 is handled. Duration 125 ms by bot id=7862612604
+2025-05-27 02:36:47,058 - aiogram.event - INFO - Update id=870287001 is handled. Duration 146 ms by bot id=7862612604
+2025-05-27 02:37:12,108 - aiogram.event - INFO - Update id=870287002 is handled. Duration 320 ms by bot id=7862612604
+2025-05-27 02:37:13,256 - aiogram.event - INFO - Update id=870287003 is handled. Duration 362 ms by bot id=7862612604
+2025-05-27 02:38:01,819 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:38:01,820 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:38:01,820 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:38:04,083 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:38:04,083 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:38:04,721 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:38:07,106 - aiogram.event - INFO - Update id=870287004 is handled. Duration 657 ms by bot id=7862612604
+2025-05-27 02:38:08,191 - aiogram.event - INFO - Update id=870287005 is handled. Duration 272 ms by bot id=7862612604
+2025-05-27 02:38:29,434 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:38:29,435 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:38:29,435 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:40:03,714 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:40:03,715 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:40:04,258 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:40:41,352 - aiogram.event - INFO - Update id=870287006 is handled. Duration 503 ms by bot id=7862612604
+2025-05-27 02:41:15,950 - aiogram.event - INFO - Update id=870287007 is handled. Duration 253 ms by bot id=7862612604
+2025-05-27 02:41:23,186 - aiogram.event - INFO - Update id=870287008 is handled. Duration 131 ms by bot id=7862612604
+2025-05-27 02:41:35,212 - aiogram.event - INFO - Update id=870287009 is handled. Duration 175 ms by bot id=7862612604
+2025-05-27 02:41:37,558 - aiogram.event - INFO - Update id=870287010 is handled. Duration 149 ms by bot id=7862612604
+2025-05-27 02:42:07,036 - aiogram.event - INFO - Update id=870287011 is handled. Duration 130 ms by bot id=7862612604
+2025-05-27 02:43:01,041 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:43:01,041 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:43:01,041 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:43:03,806 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:43:03,807 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:43:04,377 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:43:08,753 - aiogram.event - INFO - Update id=870287012 is not handled. Duration 2 ms by bot id=7862612604
+2025-05-27 02:43:14,508 - aiogram.event - INFO - Update id=870287013 is not handled. Duration 2 ms by bot id=7862612604
+2025-05-27 02:43:20,203 - aiogram.event - INFO - Update id=870287014 is handled. Duration 530 ms by bot id=7862612604
+2025-05-27 02:43:21,871 - aiogram.event - INFO - Update id=870287015 is not handled. Duration 2 ms by bot id=7862612604
+2025-05-27 02:44:22,563 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:44:22,564 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:44:22,564 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:44:26,365 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:44:26,366 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:44:26,982 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:44:33,096 - aiogram.event - INFO - Update id=870287016 is handled. Duration 462 ms by bot id=7862612604
+2025-05-27 02:44:36,335 - aiogram.event - INFO - Update id=870287017 is handled. Duration 193 ms by bot id=7862612604
+2025-05-27 02:44:43,616 - aiogram.event - INFO - Update id=870287018 is handled. Duration 181 ms by bot id=7862612604
+2025-05-27 02:45:22,020 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:45:22,020 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:45:22,020 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:45:24,587 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:45:24,588 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:45:25,247 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:45:28,613 - aiogram.event - INFO - Update id=870287019 is handled. Duration 736 ms by bot id=7862612604
+2025-05-27 02:50:32,861 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:50:32,861 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:50:32,861 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:50:35,406 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:50:35,407 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:50:36,031 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:50:40,580 - aiogram.event - INFO - Update id=870287020 is handled. Duration 541 ms by bot id=7862612604
+2025-05-27 02:52:09,576 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:52:09,576 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:52:09,576 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:52:45,073 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:52:45,074 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:52:45,826 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:52:46,465 - aiogram.event - INFO - Update id=870287021 is handled. Duration 518 ms by bot id=7862612604
+2025-05-27 02:54:13,053 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-27 02:54:13,054 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:54:13,054 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-27 02:54:15,924 - utils.database - INFO - Database initialized successfully
+2025-05-27 02:54:15,925 - aiogram.dispatcher - INFO - Start polling
+2025-05-27 02:54:16,489 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-27 02:54:17,144 - aiogram.event - INFO - Update id=870287022 is handled. Duration 537 ms by bot id=7862612604

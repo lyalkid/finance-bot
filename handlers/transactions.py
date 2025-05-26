@@ -5,7 +5,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 from states import Form
 from utils.database import execute, fetchone, fetchall
 from keyboards import main_menu, cancel_button, dynamic_list_keyboard, skip_button
-
+from utils.formating import format_amount
 
 router = Router()
 
@@ -24,7 +24,7 @@ async def process_income_amount(message: types.Message, state: FSMContext):
         return await message.answer("Отменено", reply_markup=main_menu())
     
     try:
-        amount = float(message.text.replace(',', '.'))
+        amount = float(message.text.replace(' ', '').replace(',', '.'))
         if amount <= 0:
             raise ValueError
         
@@ -103,9 +103,9 @@ async def process_income_description(message: types.Message, state: FSMContext):
         # Формируем сообщение
         response = (
             f"✅ Доход добавлен!\n"
-            f"💵 Сумма: {data['amount']} ₽\n"
+            f"💵 Сумма: {format_amount(float(data['amount']))} ₽\n"
             f"📂 Категория: {data['category_name']}\n"
-            f"🏦 Новый баланс: {new_balance} ₽"
+            f"🏦 Новый баланс: {format_amount(new_balance)} ₽"
         )
         
         if description:
@@ -136,7 +136,7 @@ async def process_expense_amount(message: types.Message, state: FSMContext):
         return await message.answer("Отменено", reply_markup=main_menu())
     
     try:
-        amount = float(message.text.replace(',', '.'))
+        amount = float(message.text.replace(' ', '').replace(',', '.'))
         if amount <= 0:
             raise ValueError
         
@@ -214,9 +214,9 @@ async def process_expense_description(message: types.Message, state: FSMContext)
         # Формируем сообщение
         response = (
             f"✅ Расход добавлен!\n"
-            f"💸 Сумма: {data['amount']} ₽\n"
+            f"💸 Сумма: {format_amount(float(data['amount']))} ₽\n"
             f"📂 Категория: {data['category_name']}\n"
-            f"🏦 Новый баланс: {new_balance} ₽"
+            f"🏦 Новый баланс: {format_amount(new_balance)} ₽"
         )
         
         if description:
@@ -365,7 +365,8 @@ async def confirm_delete_multiple(callback: CallbackQuery, state: FSMContext):
     selected_ids = [int(tx_id) for tx_id, selected in tx_choices.items() if selected]
 
     if not selected_ids:
-        return await callback.answer("❌ Ничего не выбрано", show_alert=True)
+        await callback.message.edit_text("❌ Ничего не выбрано", reply_markup=None)
+        return
 
     deleted = 0
     for tx_id in selected_ids:

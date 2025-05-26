@@ -14,6 +14,7 @@ import os
 import asyncio
 from tempfile import NamedTemporaryFile
 from aiogram.types import FSInputFile
+from utils.formating import format_amount
 
 router = Router()
 
@@ -70,7 +71,7 @@ async def compare_months(message: types.Message):
             f"\n📅 {label}:"
             f"💰 Доход: {income} ₽\n"
             f"📉 Расход: {expense} ₽\n"
-            f"🏦 Баланс: {balance} ₽"
+            f"🏦 Баланс: {format_amount(balance)} ₽"
         )
 
     text = "📊 Сравнение двух месяцев:" + \
@@ -152,7 +153,7 @@ async def generate_report(message: types.Message, user_id: int, start_date: str,
         line = (
             f"\U0001F4C5 {date_str} | "
             f"{'\U0001F4B5 Доход' if type_ == 'income' else '\U0001F4B8 Расход'} | "
-            f"{category}: {amount} ₽"
+            f"{category}: {format_amount(amount)} ₽"
         )
         if description:
             line += f"\n   \U0001F4DD {description}"
@@ -164,9 +165,9 @@ async def generate_report(message: types.Message, user_id: int, start_date: str,
             total_expense += amount
 
     report.append("\n\U0001F50D Итоги:")
-    report.append(f"\U0001F4B0 Общий доход: {total_income} ₽")
-    report.append(f"\U0001F4C9 Общий расход: {total_expense} ₽")
-    report.append(f"\U0001F3E6 Баланс: {total_income - total_expense} ₽")
+    report.append(f"\U0001F4B0 Общий доход: {format_amount(total_income)} ₽")
+    report.append(f"\U0001F4C9 Общий расход: {format_amount(total_expense)} ₽")
+    report.append(f"\U0001F3E6 Баланс: {format_amount(total_income - total_expense)} ₽")
 
     chunk_size = 10
     for i in range(0, len(report), chunk_size):

@@ -10,10 +10,8 @@ from keyboards import (
     wishlist_pagination
 )
 from typing import List, Tuple
-# Где-то в начале файла (например, после импортов)
-def format_amount(amount: float) -> str:
-    """Форматирует число с разделителем тысяч и двумя знаками после запятой"""
-    return "{:,.2f}".format(amount).replace(",", " ").replace(".", ",")
+from utils.formating import format_amount
+
 
 router = Router()
 ITEMS_PER_PAGE = 5
@@ -100,14 +98,35 @@ async def show_wishlist_page(
         return await message.answer("Список желаний пуст 🌈")
     
     text = f"📋 Список желаний (Страница {page}/{total_pages}):\n\n"
-    
+
     if page == 1:
         total_target = fetchone(
             "SELECT SUM(target_amount) FROM wishes WHERE user_id = ?",
             (user_id,)
         )[0] or 0
-        # Форматируем общую сумму
-        text += f"💰 Общая сумма целей: {format_amount(total_target)} ₽\n\n"
+
+        # Получим все суммы целей
+        all_targets = fetchall(
+            "SELECT target_amount FROM wishes WHERE user_id = ? ORDER BY target_amount ASC",
+            (user_id,)
+        )
+
+        # Подсчёт сколько можно закрыть
+        remaining = balance
+        closed_count = 0
+        for (target,) in all_targets:
+            if remaining >= target:
+                remaining -= target
+                closed_count += 1
+            else:
+                break
+
+        total_count = len(all_targets)
+        text += (
+            f"💰 Общая сумма целей:\n {format_amount(total_target)} ₽\nБаланс: {format_amount(balance)}\n\n"
+            f"✅ Полностью можно закрыть: {closed_count} из {total_count} желаний\n\n"
+        )
+
     
     for title, target in wishes:
         progress = min(balance / target, 1.0)
@@ -350,3 +369,107 @@ async def edit_all(message: types.Message, state: FSMContext):
         await message.answer("❌ Ошибка формата. Введите 3 строки:\n1. Название\n2. Описание\n3. Сумма")
     finally:
         await state.clear()
+
+# Команда: /buy_wish
+@router.message(Command("buy_wish"))
+async def buy_wish_start(message: types.Message, state: FSMContext):
+    wishes = fetchall("SELECT id, title FROM wishes WHERE user_id = ?", (message.from_user.id,))
+    if not wishes:
+        return await message.answer("❌ У вас нет активных желаний.")
+
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text=title, callback_data=f"buywish_{wish_id}")]
+        for wish_id, title in wishes
+    ])
+    await message.answer("Какое желание вы купили? 💸", reply_markup=keyboard)
+
+# Выбор желания и проверка баланса
+@router.callback_query(F.data.startswith("buywish_"))
+async def confirm_buy_wish(callback: types.CallbackQuery, state: FSMContext):
+    wish_id = int(callback.data.split("_")[1])
+    wish = fetchone("SELECT title, description, target_amount FROM wishes WHERE id = ? AND user_id = ?", (wish_id, callback.from_user.id))
+
+    if not wish:
+        return await callback.answer("❌ Желание не найдено", show_alert=True)
+
+    title, description, amount = wish
+    balance = fetchone("SELECT balance FROM users WHERE user_id = ?", (callback.from_user.id,))[0]
+
+    if balance < amount:
+        await state.clear()
+        await callback.message.edit_text(
+            f"🎯 {title}\n💰 Цель: {format_amount(amount)} ₽\n"
+            f"❗ Недостаточно средств на балансе ({format_amount(balance)} ₽)\n"
+            f" не хватает: {format_amount(amount - balance)} ₽.",
+            reply_markup=None
+        )
+        await callback.answer()
+        return
+
+    await state.update_data(wish_id=wish_id, title=title, description=description, amount=amount)
+    await state.set_state(Form.BUY_WISH_CONFIRM)
+
+    keyboard = InlineKeyboardMarkup(inline_keyboard=[
+        [InlineKeyboardButton(text=f"✅ Купить за {format_amount(amount)} ₽", callback_data="buy_confirm_default")],
+        [InlineKeyboardButton(text="📝 Ввести другую сумму", callback_data="buy_custom_amount")]
+    ])
+    await callback.message.edit_text(
+        f"🎯 {title}\n💰 Цель: {format_amount(amount)} ₽\n\nУ вас достаточно средств.\nВыберите:",
+        reply_markup=keyboard
+    )
+    await callback.answer()
+
+# Подтверждение покупки по полной сумме
+@router.callback_query(F.data == "buy_confirm_default")
+async def buy_with_default_amount(callback: types.CallbackQuery, state: FSMContext):
+    data = await state.get_data()
+    await complete_wish_purchase(callback, data['amount'], state)
+
+# Ввод пользовательской суммы
+@router.callback_query(F.data == "buy_custom_amount")
+async def ask_custom_amount(callback: types.CallbackQuery, state: FSMContext):
+    await state.set_state(Form.BUY_WISH_CUSTOM_AMOUNT)
+    await callback.message.answer("Введите сумму покупки вручную:", reply_markup=cancel_button())
+    await callback.answer()
+
+@router.message(Form.BUY_WISH_CUSTOM_AMOUNT)
+async def handle_custom_amount(message: types.Message, state: FSMContext):
+    if message.text == "❌ Отмена":
+        await state.clear()
+        return await message.answer("Отменено", reply_markup=main_menu())
+
+    try:
+        amount = float(message.text.replace(',', '.'))
+        if amount <= 0:
+            raise ValueError
+        data = await state.get_data()
+        await complete_wish_purchase(message, amount, state)
+    except ValueError:
+        await message.answer("❌ Введите корректную сумму!")
+
+# Добавить трату и удалить из вишлиста
+async def complete_wish_purchase(message_or_callback, amount: float, state: FSMContext):
+    data = await state.get_data()
+    user_id = message_or_callback.from_user.id
+
+    # Удалить желание
+    execute("DELETE FROM wishes WHERE id = ?", (data['wish_id'],))
+
+    # Категория "Покупки"
+    category = fetchone("SELECT id FROM categories WHERE user_id = ? AND name = ? AND type = 'expense'", (user_id, "Покупки"))
+    if not category:
+        execute("INSERT INTO categories (user_id, name, type) VALUES (?, ?, 'expense')", (user_id, "Покупки"))
+        category_id = fetchone("SELECT id FROM categories WHERE user_id = ? AND name = ?", (user_id, "Покупки"))[0]
+    else:
+        category_id = category[0]
+
+    # Добавить в расходы
+    description = f"Покупка желания: {data['title']}. {data['description'] or ''}"
+    execute("""INSERT INTO transactions (user_id, amount, category_id, description)
+               VALUES (?, ?, ?, ?)""", (user_id, amount, category_id, description))
+
+    await state.clear()
+    await message_or_callback.answer(
+        f"✅ '{data['title']}' куплено за {format_amount(amount)} ₽ и добавлено в расходы!",
+        reply_markup=main_menu()
+    )
