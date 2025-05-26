@@ -1,5 +1,6 @@
 from aiogram.utils.keyboard import ReplyKeyboardBuilder, InlineKeyboardBuilder
 from aiogram import types
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from typing import Optional
 
 def main_menu() -> types.ReplyKeyboardMarkup:
@@ -77,4 +78,14 @@ def skip_button():
         keyboard=[[types.KeyboardButton(text="⏭ Пропустить")]],
         resize_keyboard=True,
         one_time_keyboard=True
+    )
+
+def sort_keyboard():
+    return ReplyKeyboardMarkup(
+        keyboard=[
+            [KeyboardButton(text="Сначала дешёвые"), 
+             KeyboardButton(text="Сначала дорогие")],
+            [KeyboardButton(text="❌ Отмена")]
+        ],
+        resize_keyboard=True
     )

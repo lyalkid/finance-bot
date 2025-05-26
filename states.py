@@ -26,3 +26,11 @@ class Form(StatesGroup):
     ADD_EXPENSE_LIST_ITEMS = State()
     DELETE_TRANSACTION_SELECT = State()
     DELETE_MULTI_TRANSACTIONS = State()
+    EDIT_WISH_SELECT = State()
+    EDIT_WISH_CHOICE = State()
+    EDIT_WISH_TITLE = State()
+    EDIT_WISH_DESCRIPTION = State()
+    EDIT_WISH_AMOUNT = State()
+    EDIT_WISH_ALL = State()
+
+
