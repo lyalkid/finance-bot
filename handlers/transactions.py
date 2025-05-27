@@ -54,17 +54,23 @@ async def process_income_category(message: types.Message, state: FSMContext):
     if message.text == "❌ Отмена":
         await state.clear()
         return await message.answer("Отменено", reply_markup=main_menu())
-    
-    # Проверяем существование категории
+
     category = fetchone(
         "SELECT id FROM categories WHERE user_id = ? AND name = ? AND type = 'income'",
         (message.from_user.id, message.text)
     )
-    
+
     if not category:
-        await state.clear()
-        return await message.answer("❌ Категория не найдена!", reply_markup=main_menu())
-    
+        execute(
+            "INSERT INTO categories (user_id, name, type) VALUES (?, ?, 'income')",
+            (message.from_user.id, message.text)
+        )
+        category = fetchone(
+            "SELECT id FROM categories WHERE user_id = ? AND name = ? AND type = 'income'",
+            (message.from_user.id, message.text)
+        )
+        await message.answer(f"📁 Категория '{message.text}' создана как доход.")
+
     await state.update_data(category_id=category[0], category_name=message.text)
     await state.set_state(Form.ADD_INCOME_DESCRIPTION)
     await message.answer(
@@ -72,6 +78,7 @@ async def process_income_category(message: types.Message, state: FSMContext):
         "Можно пропустить ➡️",
         reply_markup=skip_button()
     )
+
 
 @router.message(Form.ADD_INCOME_DESCRIPTION)
 async def process_income_description(message: types.Message, state: FSMContext):
@@ -166,16 +173,23 @@ async def process_expense_category(message: types.Message, state: FSMContext):
     if message.text == "❌ Отмена":
         await state.clear()
         return await message.answer("Отменено", reply_markup=main_menu())
-    
-    # Проверяем существование категории
+
     category = fetchone(
         "SELECT id FROM categories WHERE user_id = ? AND name = ? AND type = 'expense'",
-        (message.from_user.id, message.text))
-    
+        (message.from_user.id, message.text)
+    )
+
     if not category:
-        await state.clear()
-        return await message.answer("❌ Категория не найдена!", reply_markup=main_menu())
-    
+        execute(
+            "INSERT INTO categories (user_id, name, type) VALUES (?, ?, 'expense')",
+            (message.from_user.id, message.text)
+        )
+        category = fetchone(
+            "SELECT id FROM categories WHERE user_id = ? AND name = ? AND type = 'expense'",
+            (message.from_user.id, message.text)
+        )
+        await message.answer(f"📁 Категория '{message.text}' создана как расход.")
+
     await state.update_data(category_id=category[0], category_name=message.text)
     await state.set_state(Form.ADD_EXPENSE_DESCRIPTION)
     await message.answer(
@@ -315,7 +329,7 @@ async def start_delete_transactions(message: types.Message, state: FSMContext):
         FROM transactions t
         JOIN categories c ON t.category_id = c.id
         WHERE t.user_id = ?
-        ORDER BY t.created_at DESC
+        ORDER BY t.created_at 
         LIMIT 10
         ''',
         (message.from_user.id,)
