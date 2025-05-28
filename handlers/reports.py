@@ -125,7 +125,21 @@ async def process_end_date(message: types.Message, state: FSMContext):
     await generate_report(message, message.from_user.id, start_date, end_date)
     await state.clear()
 
-async def generate_report(message: types.Message, user_id: int, start_date: str, end_date: str):
+
+import os
+import csv
+import asyncio
+from datetime import datetime
+from collections import defaultdict
+from tempfile import NamedTemporaryFile
+from matplotlib import pyplot as plt
+from aiogram.types import FSInputFile
+
+from utils.database import fetchall
+from utils.formating import format_amount
+from utils.pdf_generator import create_pdf_report
+
+async def generate_report(message, user_id: int, start_date: str, end_date: str):
     transactions = fetchall('''
         SELECT 
             t.amount,
@@ -142,39 +156,48 @@ async def generate_report(message: types.Message, user_id: int, start_date: str,
     ''', (user_id, start_date, end_date))
 
     if not transactions:
-        await message.answer("\U0001F4CA За указанный период операций не найдено")
+        await message.answer("📉 За указанный период операций не найдено")
         return
 
     total_income = 0
     total_expense = 0
-    report = [f"\U0001F4CA Отчет с {start_date} по {end_date}:\n"]
+    from collections import defaultdict
+
+    report = [f"Отчет с {start_date} по {end_date}:\n"]
+
+    # Группируем транзакции по дате
+    grouped = defaultdict(list)
+    total_income = 0.0
+    total_expense = 0.0
 
     for amount, category, type_, description, date_str in transactions:
-        line = (
-            f"\U0001F4C5 {date_str} | "
-            f"{'\U0001F4B5 Доход' if type_ == 'income' else '\U0001F4B8 Расход'} | "
-            f"{category}: {format_amount(amount)} ₽"
-        )
-        if description:
-            line += f"\n   \U0001F4DD {description}"
-        report.append(line)
+        grouped[date_str].append((float(amount), category, type_, description))
 
-        if type_ == 'income':
-            total_income += amount
-        else:
-            total_expense += amount
+    # Строим отчёт по дням
+    for date_str in sorted(grouped.keys(), key=lambda d: datetime.strptime(d, "%d.%m.%Y")):
+        report.append(f"\n {date_str}")
+        for amount, category, type_, description in grouped[date_str]:
+            type_label = "Доход" if type_ == "income" else "Расход"
+            report.append(f"  {type_label:<6} | {category:<30} | {format_amount(amount)} ₽")
 
-    report.append("\n\U0001F50D Итоги:")
-    report.append(f"\U0001F4B0 Общий доход: {format_amount(total_income)} ₽")
-    report.append(f"\U0001F4C9 Общий расход: {format_amount(total_expense)} ₽")
-    report.append(f"\U0001F3E6 Баланс: {format_amount(total_income - total_expense)} ₽")
+            if type_ == 'income':
+                total_income += amount
+            else:
+                total_expense += amount
 
-    chunk_size = 10
-    for i in range(0, len(report), chunk_size):
-        chunk = report[i:i+chunk_size]
-        await message.answer("\n".join(chunk))
+    # Итоги
+    report.append("\nИтоги:")
+    report.append(f"{'Общий доход':<20}: {format_amount(total_income)} ₽")
+    report.append(f"{'Общий расход':<20}: {format_amount(total_expense)} ₽")
+    report.append(f"{'Баланс':<20}: {format_amount(total_income - total_expense)} ₽")
 
-    # CSV
+
+
+    # Отправка текстового отчёта по частям
+    for i in range(0, len(report), 10):
+        await message.answer("\n".join(report[i:i + 10]))
+
+    # CSV-файл
     with NamedTemporaryFile(mode='w+', newline='', delete=False, suffix=".csv", encoding='utf-8-sig') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow(["Дата", "Тип", "Категория", "Сумма", "Описание"])
@@ -182,31 +205,132 @@ async def generate_report(message: types.Message, user_id: int, start_date: str,
             writer.writerow([
                 date_str,
                 "Доход" if type_ == "income" else "Расход",
-                category,
+                f"{category}",
                 f"{amount:.2f}",
                 description or ""
             ])
         csv_path = csvfile.name
 
-    await message.answer_document(FSInputFile(csv_path), caption="\U0001F4C1 CSV-отчет")
+    await message.answer_document(FSInputFile(csv_path), caption="📁 CSV-отчет")
     asyncio.create_task(delayed_file_removal(csv_path))
 
-    # Диаграмма
-    totals = defaultdict(float)
-    for amount, category, type_, *_ in transactions:
-        label = f"{category} ({'доход' if type_ == 'income' else 'расход'})"
-        totals[label] += amount
+    image_paths = []
 
-    labels = list(totals.keys())
-    sizes = list(totals.values())
+    # 1. Сводная диаграмма
+    labels = ['Доходы', 'Расходы', 'Баланс']
+    values = [total_income, total_expense, total_income - total_expense]
+    colors = ['green', 'red', 'blue']
+    fig, ax = plt.subplots(figsize=(8, 6))
+    bars = ax.bar(labels, values, color=colors)
+    for bar in bars:
+        height = bar.get_height()
+        ax.text(bar.get_x() + bar.get_width() / 2, height + 50, f'{height:.2f}', ha='center')
+    ax.set_title('Сводная диаграмма')
+    plt.tight_layout()
+    path = f"summary_{user_id}.png"
+    plt.savefig(path)
+    plt.close(fig)
+    image_paths.append((path, "Доходы, расходы и баланс"))
 
-    if sizes:
-        fig, ax = plt.subplots()
-        ax.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=90)
-        ax.axis('equal')
-        graph_path = f"report_{user_id}.png"
-        plt.savefig(graph_path)
-        plt.close(fig)
+    # 2. По месяцам
+    monthly_income = defaultdict(float)
+    monthly_expense = defaultdict(float)
+    for amount, _, type_, _, date_str in transactions:
+        dt = datetime.strptime(date_str, "%d.%m.%Y")
+        month = dt.strftime("%b %Y")
+        if type_ == 'income':
+            monthly_income[month] += amount
+        else:
+            monthly_expense[month] += amount
 
-        await message.answer_photo(FSInputFile(graph_path), caption="\U0001F4CA Диаграмма расходов/доходов")
-        asyncio.create_task(delayed_file_removal(graph_path))
+    all_months = sorted(set(monthly_income.keys()) | set(monthly_expense.keys()), key=lambda m: datetime.strptime(m, "%b %Y"))
+    income_vals = [monthly_income[m] for m in all_months]
+    expense_vals = [monthly_expense[m] for m in all_months]
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    x = range(len(all_months))
+    ax.bar([i - 0.2 for i in x], income_vals, width=0.4, label='Доходы', color='green')
+    ax.bar([i + 0.2 for i in x], expense_vals, width=0.4, label='Расходы', color='red')
+    ax.set_xticks(x)
+    ax.set_xticklabels(all_months, rotation=45)
+    ax.set_title("Доходы и расходы по месяцам")
+    ax.legend()
+    plt.tight_layout()
+    path = f"monthly_{user_id}.png"
+    plt.savefig(path)
+    plt.close(fig)
+    image_paths.append((path, "По месяцам"))
+
+    # 3. Накопительный баланс по месяцам
+    running_total = 0
+    cumulative = []
+    for m in all_months:
+        running_total += monthly_income.get(m, 0) - monthly_expense.get(m, 0)
+        cumulative.append(running_total)
+
+    fig, ax = plt.subplots(figsize=(12, 6))
+    ax.plot(all_months, cumulative, marker='o', color='blue')
+    ax.set_title("Накопительный баланс по месяцам")
+    ax.axhline(0, color='gray', linestyle='--')
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    path = f"cumulative_{user_id}.png"
+    plt.savefig(path)
+    plt.close(fig)
+    image_paths.append((path, "Баланс по месяцам"))
+
+    # 4. По дням
+    daily_data = defaultdict(lambda: {'income': 0, 'expense': 0})
+    for amount, _, type_, _, date_str in transactions:
+        if type_ == 'income':
+            daily_data[date_str]['income'] += amount
+        else:
+            daily_data[date_str]['expense'] += amount
+
+    sorted_days = sorted(daily_data.keys(), key=lambda d: datetime.strptime(d, "%d.%m.%Y"))
+    incomes = [daily_data[d]['income'] for d in sorted_days]
+    expenses = [daily_data[d]['expense'] for d in sorted_days]
+    balance = [i - e for i, e in zip(incomes, expenses)]
+
+    fig, ax = plt.subplots(figsize=(14, 6))
+    ax.plot(sorted_days, incomes, label='Доходы', color='green', marker='o')
+    ax.plot(sorted_days, expenses, label='Расходы', color='red', marker='o')
+    ax.plot(sorted_days, balance, label='Баланс (день)', color='blue', linestyle='--', marker='x')
+    ax.set_title("Дневная динамика")
+    ax.legend()
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    path = f"timeline_{user_id}.png"
+    plt.savefig(path)
+    plt.close(fig)
+    image_paths.append((path, "Динамика по дням"))
+
+    # 5. Накопительный по дням
+    cumulative_daily = []
+    running_total = 0
+    net_by_day = {d: daily_data[d]['income'] - daily_data[d]['expense'] for d in sorted_days}
+    for d in sorted_days:
+        running_total += net_by_day[d]
+        cumulative_daily.append(running_total)
+
+    fig, ax = plt.subplots(figsize=(14, 6))
+    ax.fill_between(sorted_days, cumulative_daily, step='pre', color='dodgerblue', alpha=0.4)
+    ax.plot(sorted_days, cumulative_daily, marker='o', color='blue')
+    ax.axhline(0, color='gray', linestyle='--')
+    ax.set_title("Накопительный баланс по дням")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    path = f"cumulative_daily_{user_id}.png"
+    plt.savefig(path)
+    plt.close(fig)
+    image_paths.append((path, "Баланс по дням (накопительный)"))
+
+    # PDF
+    summary_text = "\n".join(report)
+    pdf_path = create_pdf_report(user_id, summary_text, image_paths)
+    await message.answer_document(FSInputFile(pdf_path), caption="🧾 PDF-отчет")
+    asyncio.create_task(delayed_file_removal(pdf_path))
+
+    # Очистка изображений
+    for path, _ in image_paths:
+        asyncio.create_task(delayed_file_removal(path))
