@@ -329,7 +329,7 @@ async def start_delete_transactions(message: types.Message, state: FSMContext):
         FROM transactions t
         JOIN categories c ON t.category_id = c.id
         WHERE t.user_id = ?
-        ORDER BY t.created_at 
+        ORDER BY t.created_at DESC
         LIMIT 10
         ''',
         (message.from_user.id,)

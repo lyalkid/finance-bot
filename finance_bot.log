@@ -2585,3 +2585,763 @@ aiogram.exceptions.TelegramNetworkError: HTTP Client says - ServerDisconnectedEr
 2025-05-28 16:44:49,025 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
 2025-05-28 16:45:40,082 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
 2025-05-28 16:45:40,083 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 16:45:55,552 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 16:49:00,642 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-28 16:49:00,642 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 16:49:12,265 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 16:55:33,155 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 16:55:33,155 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 16:55:45,890 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 17:02:29,716 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-28 17:02:29,716 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 17:02:41,123 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 20:11:07,547 - utils.database - INFO - Database initialized successfully
+2025-05-28 20:11:07,548 - aiogram.dispatcher - INFO - Start polling
+2025-05-28 20:11:08,374 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-28 20:11:22,802 - aiogram.event - INFO - Update id=870287113 is handled. Duration 775 ms by bot id=7862612604
+2025-05-28 20:11:27,053 - aiogram.event - INFO - Update id=870287114 is handled. Duration 191 ms by bot id=7862612604
+2025-05-28 20:11:32,006 - aiogram.event - INFO - Update id=870287115 is handled. Duration 145 ms by bot id=7862612604
+2025-05-28 20:11:34,664 - aiogram.event - INFO - Update id=870287116 is handled. Duration 185 ms by bot id=7862612604
+2025-05-28 20:11:58,368 - aiogram.event - INFO - Update id=870287117 is handled. Duration 410 ms by bot id=7862612604
+2025-05-28 20:12:08,098 - aiogram.event - INFO - Update id=870287118 is handled. Duration 143 ms by bot id=7862612604
+2025-05-28 20:12:18,382 - aiogram.event - INFO - Update id=870287119 is handled. Duration 168 ms by bot id=7862612604
+2025-05-28 20:12:22,024 - aiogram.event - INFO - Update id=870287120 is handled. Duration 202 ms by bot id=7862612604
+2025-05-28 20:12:37,462 - aiogram.event - INFO - Update id=870287121 is handled. Duration 406 ms by bot id=7862612604
+2025-05-28 20:36:22,293 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-28 20:36:22,293 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 20:36:34,313 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 20:37:23,593 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,593 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,682 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,682 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,683 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,683 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,684 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,684 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,803 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,804 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,805 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:23,805 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:37:25,214 - aiogram.event - INFO - Update id=870287122 is handled. Duration 3192 ms by bot id=7862612604
+2025-05-28 20:39:34,491 - aiogram.event - INFO - Update id=870287123 is handled. Duration 305 ms by bot id=7862612604
+2025-05-28 20:39:55,273 - aiogram.event - INFO - Update id=870287124 is handled. Duration 204 ms by bot id=7862612604
+2025-05-28 20:40:12,683 - aiogram.event - INFO - Update id=870287125 is handled. Duration 414 ms by bot id=7862612604
+2025-05-28 20:40:29,196 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,197 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,285 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,286 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,286 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,287 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,287 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,287 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,411 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,412 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,413 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:29,413 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-28 20:40:30,897 - aiogram.event - INFO - Update id=870287126 is handled. Duration 2657 ms by bot id=7862612604
+2025-05-28 20:46:19,749 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-28 20:46:19,749 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 20:46:32,730 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 20:54:14,507 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 20:54:14,507 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 20:54:26,034 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 20:57:28,913 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 20:57:28,913 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 20:57:40,492 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 21:44:47,570 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-28 21:44:47,570 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 21:44:58,964 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 21:44:58,965 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 21:44:58,965 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 21:45:11,044 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 22:06:47,788 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-28 22:06:47,788 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 22:06:59,664 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 23:36:32,799 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-28 23:36:32,799 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 23:36:44,535 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 23:43:44,154 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-28 23:43:44,154 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 23:43:55,534 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 23:43:55,535 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 23:43:55,535 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 23:44:07,262 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 23:44:56,650 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 23:44:56,650 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 23:45:08,160 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 23:45:08,161 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 23:45:08,161 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 23:45:19,965 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 23:51:31,054 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 23:51:31,054 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 23:51:42,424 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 23:52:43,352 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-28 23:52:43,352 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 23:52:54,898 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-28 23:52:55,760 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-28 23:52:55,761 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-28 23:53:07,122 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-29 00:07:12,354 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-29 00:07:12,354 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 00:07:24,234 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-29 02:06:14,181 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-29 02:06:14,181 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 02:06:26,025 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-29 02:29:12,903 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 02:29:12,904 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 02:29:24,581 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-29 02:33:14,984 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 02:33:14,984 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 02:33:24,709 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 02:33:24,709 - aiogram.dispatcher - WARNING - Sleep for 1.283548 seconds and try again... (tryings = 1, bot id = 7862612604)
+2025-05-29 02:34:25,998 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-05-29 02:34:25,998 - aiogram.dispatcher - WARNING - Sleep for 1.596907 seconds and try again... (tryings = 2, bot id = 7862612604)
+2025-05-29 02:35:27,642 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-05-29 02:35:27,642 - aiogram.dispatcher - WARNING - Sleep for 1.997577 seconds and try again... (tryings = 3, bot id = 7862612604)
+2025-05-29 02:36:29,674 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-05-29 02:36:29,674 - aiogram.dispatcher - WARNING - Sleep for 2.645663 seconds and try again... (tryings = 4, bot id = 7862612604)
+2025-05-29 02:36:42,856 - aiogram.dispatcher - INFO - Connection established (tryings = 5, bot id = 7862612604)
+2025-05-29 02:38:25,254 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 02:38:25,254 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 02:38:37,133 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-29 02:40:56,090 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 02:40:56,090 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 02:41:57,145 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-05-29 02:41:57,145 - aiogram.dispatcher - WARNING - Sleep for 1.256849 seconds and try again... (tryings = 1, bot id = 7862612604)
+2025-05-29 02:42:05,619 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 02:42:05,620 - aiogram.dispatcher - WARNING - Sleep for 1.710660 seconds and try again... (tryings = 2, bot id = 7862612604)
+2025-05-29 02:42:10,772 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 02:42:10,773 - aiogram.dispatcher - WARNING - Sleep for 2.165083 seconds and try again... (tryings = 3, bot id = 7862612604)
+2025-05-29 02:42:19,648 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 02:42:19,648 - aiogram.dispatcher - WARNING - Sleep for 2.990016 seconds and try again... (tryings = 4, bot id = 7862612604)
+2025-05-29 02:43:22,685 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-05-29 02:43:22,685 - aiogram.dispatcher - WARNING - Sleep for 3.703235 seconds and try again... (tryings = 5, bot id = 7862612604)
+2025-05-29 02:43:37,373 - aiogram.dispatcher - INFO - Connection established (tryings = 6, bot id = 7862612604)
+2025-05-29 07:20:16,738 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-29 07:20:16,738 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 07:20:28,165 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-29 07:40:41,181 - aiogram.event - INFO - Update id=870287127 is handled. Duration 529 ms by bot id=7862612604
+2025-05-29 07:40:49,890 - aiogram.event - INFO - Update id=870287128 is handled. Duration 323 ms by bot id=7862612604
+2025-05-29 07:40:54,477 - aiogram.event - INFO - Update id=870287129 is handled. Duration 207 ms by bot id=7862612604
+2025-05-29 07:41:01,134 - aiogram.event - INFO - Update id=870287130 is handled. Duration 207 ms by bot id=7862612604
+2025-05-29 07:41:04,204 - aiogram.event - INFO - Update id=870287131 is handled. Duration 202 ms by bot id=7862612604
+2025-05-29 07:41:21,517 - aiogram.event - INFO - Update id=870287132 is handled. Duration 312 ms by bot id=7862612604
+2025-05-29 07:41:37,237 - aiogram.event - INFO - Update id=870287133 is handled. Duration 268 ms by bot id=7862612604
+2025-05-29 07:41:41,991 - aiogram.event - INFO - Update id=870287134 is handled. Duration 304 ms by bot id=7862612604
+2025-05-29 07:41:43,479 - aiogram.event - INFO - Update id=870287135 is handled. Duration 157 ms by bot id=7862612604
+2025-05-29 07:41:53,359 - aiogram.event - INFO - Update id=870287136 is handled. Duration 243 ms by bot id=7862612604
+2025-05-29 07:41:57,753 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,754 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,834 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,835 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,835 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,835 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,836 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,836 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,966 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,966 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,967 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:57,968 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-29 07:41:58,894 - aiogram.event - INFO - Update id=870287137 is handled. Duration 1988 ms by bot id=7862612604
+2025-05-29 23:00:42,370 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:00:42,372 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:00:43,888 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:01:04,660 - aiogram.event - INFO - Update id=870287138 is handled. Duration 927 ms by bot id=7862612604
+2025-05-29 23:07:56,674 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-29 23:07:56,674 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:07:56,674 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-29 23:08:07,398 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:08:07,399 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:08:08,542 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:09:57,347 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-29 23:09:57,347 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:09:57,347 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-29 23:09:59,508 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:09:59,508 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:10:01,207 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:10:18,424 - aiogram.event - INFO - Update id=870287139 is handled. Duration 1231 ms by bot id=7862612604
+2025-05-29 23:10:21,701 - aiogram.event - INFO - Update id=870287140 is handled. Duration 715 ms by bot id=7862612604
+2025-05-29 23:10:23,341 - aiogram.event - INFO - Update id=870287141 is handled. Duration 615 ms by bot id=7862612604
+2025-05-29 23:15:33,275 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-29 23:15:33,275 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:15:33,275 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-29 23:15:36,320 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:15:36,321 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:15:37,685 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:15:44,440 - aiogram.event - INFO - Update id=870287142 is handled. Duration 818 ms by bot id=7862612604
+2025-05-29 23:16:10,131 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-29 23:16:10,131 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:16:10,131 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-29 23:16:13,334 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:16:13,334 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:16:14,340 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:16:20,936 - aiogram.event - INFO - Update id=870287143 is handled. Duration 1343 ms by bot id=7862612604
+2025-05-29 23:16:42,235 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-29 23:16:42,235 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:16:42,235 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-29 23:16:44,551 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:16:44,552 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:16:45,938 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:16:47,989 - aiogram.event - INFO - Update id=870287144 is handled. Duration 891 ms by bot id=7862612604
+2025-05-29 23:17:18,337 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-29 23:17:18,338 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:17:18,338 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-29 23:17:22,217 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:17:22,218 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:17:22,966 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:17:26,651 - aiogram.event - INFO - Update id=870287145 is handled. Duration 743 ms by bot id=7862612604
+2025-05-29 23:17:30,107 - aiogram.event - INFO - Update id=870287146 is handled. Duration 612 ms by bot id=7862612604
+2025-05-29 23:17:32,977 - aiogram.event - INFO - Update id=870287147 is handled. Duration 356 ms by bot id=7862612604
+2025-05-29 23:17:35,333 - aiogram.event - INFO - Update id=870287148 is handled. Duration 410 ms by bot id=7862612604
+2025-05-29 23:17:36,869 - aiogram.event - INFO - Update id=870287149 is handled. Duration 610 ms by bot id=7862612604
+2025-05-29 23:18:25,402 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-29 23:18:25,403 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:18:25,403 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-29 23:18:30,160 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:18:30,161 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:18:31,333 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:18:32,968 - aiogram.event - INFO - Update id=870287150 is handled. Duration 1017 ms by bot id=7862612604
+2025-05-29 23:18:54,053 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-29 23:18:54,053 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:18:54,053 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-29 23:18:56,239 - utils.database - INFO - Database initialized successfully
+2025-05-29 23:18:56,240 - aiogram.dispatcher - INFO - Start polling
+2025-05-29 23:18:57,085 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-29 23:19:00,664 - aiogram.event - INFO - Update id=870287151 is handled. Duration 1410 ms by bot id=7862612604
+2025-05-29 23:19:04,550 - aiogram.event - INFO - Update id=870287152 is handled. Duration 575 ms by bot id=7862612604
+2025-05-29 23:19:08,027 - aiogram.event - INFO - Update id=870287153 is handled. Duration 714 ms by bot id=7862612604
+2025-05-29 23:19:42,006 - aiogram.event - INFO - Update id=870287154 is handled. Duration 309 ms by bot id=7862612604
+2025-05-29 23:19:52,650 - aiogram.event - INFO - Update id=870287155 is handled. Duration 216 ms by bot id=7862612604
+2025-05-29 23:20:01,352 - aiogram.event - INFO - Update id=870287156 is handled. Duration 715 ms by bot id=7862612604
+2025-05-29 23:20:11,898 - aiogram.event - INFO - Update id=870287157 is handled. Duration 203 ms by bot id=7862612604
+2025-05-29 23:20:22,648 - aiogram.event - INFO - Update id=870287158 is handled. Duration 305 ms by bot id=7862612604
+2025-05-29 23:20:30,839 - aiogram.event - INFO - Update id=870287159 is handled. Duration 267 ms by bot id=7862612604
+2025-05-29 23:20:38,416 - aiogram.event - INFO - Update id=870287160 is handled. Duration 407 ms by bot id=7862612604
+2025-05-29 23:20:44,765 - aiogram.event - INFO - Update id=870287161 is handled. Duration 360 ms by bot id=7862612604
+2025-05-29 23:20:52,445 - aiogram.event - INFO - Update id=870287162 is handled. Duration 205 ms by bot id=7862612604
+2025-05-29 23:20:56,130 - aiogram.event - INFO - Update id=870287163 is handled. Duration 306 ms by bot id=7862612604
+2025-05-29 23:20:59,923 - aiogram.event - INFO - Update id=870287164 is handled. Duration 208 ms by bot id=7862612604
+2025-05-29 23:21:09,034 - aiogram.event - INFO - Update id=870287165 is handled. Duration 308 ms by bot id=7862612604
+2025-05-29 23:21:12,371 - aiogram.event - INFO - Update id=870287166 is handled. Duration 266 ms by bot id=7862612604
+2025-05-29 23:21:19,374 - aiogram.event - INFO - Update id=870287167 is handled. Duration 306 ms by bot id=7862612604
+2025-05-29 23:21:21,940 - aiogram.event - INFO - Update id=870287168 is handled. Duration 208 ms by bot id=7862612604
+2025-05-29 23:21:37,727 - aiogram.event - INFO - Update id=870287169 is handled. Duration 228 ms by bot id=7862612604
+2025-05-29 23:21:51,732 - aiogram.event - INFO - Update id=870287170 is handled. Duration 202 ms by bot id=7862612604
+2025-05-29 23:26:45,339 - aiogram.event - INFO - Update id=870287171 is handled. Duration 407 ms by bot id=7862612604
+2025-05-29 23:33:24,974 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-29 23:33:24,975 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 23:33:36,387 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-29 23:37:40,786 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-29 23:37:40,786 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-29 23:37:52,432 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 00:07:50,637 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 00:07:50,637 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 00:08:08,120 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 00:08:36,870 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-30 00:08:36,870 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 00:08:48,471 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 00:19:20,873 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-30 00:19:20,873 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 00:19:33,207 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 00:21:22,997 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 00:21:22,997 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 00:21:34,386 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 10:47:06,186 - utils.database - INFO - Database initialized successfully
+2025-05-30 10:47:06,187 - aiogram.dispatcher - INFO - Start polling
+2025-05-30 10:47:14,528 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-30 10:47:26,118 - utils.database - INFO - Database initialized successfully
+2025-05-30 10:47:26,119 - aiogram.dispatcher - INFO - Start polling
+2025-05-30 10:47:26,553 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-30 10:47:27,366 - aiogram.event - INFO - Update id=870287172 is handled. Duration 644 ms by bot id=7862612604
+2025-05-30 10:47:27,366 - aiogram.event - INFO - Update id=870287173 is handled. Duration 644 ms by bot id=7862612604
+2025-05-30 10:48:34,281 - aiogram.event - INFO - Update id=870287174 is handled. Duration 1575 ms by bot id=7862612604
+2025-05-30 10:48:39,873 - aiogram.event - INFO - Update id=870287175 is handled. Duration 2562 ms by bot id=7862612604
+2025-05-30 10:48:47,554 - aiogram.event - INFO - Update id=870287176 is handled. Duration 3042 ms by bot id=7862612604
+2025-05-30 10:48:58,205 - aiogram.event - INFO - Update id=870287177 is handled. Duration 916 ms by bot id=7862612604
+2025-05-30 10:49:17,536 - aiogram.event - INFO - Update id=870287179 is handled. Duration 2124 ms by bot id=7862612604
+2025-05-30 10:49:17,735 - aiogram.event - INFO - Update id=870287178 is handled. Duration 11130 ms by bot id=7862612604
+2025-05-30 10:49:25,765 - aiogram.event - INFO - Update id=870287181 is not handled. Duration 4 ms by bot id=7862612604
+2025-05-30 10:49:31,718 - aiogram.event - INFO - Update id=870287180 is handled. Duration 12414 ms by bot id=7862612604
+2025-05-30 10:49:48,737 - aiogram.event - INFO - Update id=870287182 is handled. Duration 10560 ms by bot id=7862612604
+2025-05-30 10:49:53,042 - aiogram.event - INFO - Update id=870287183 is handled. Duration 10212 ms by bot id=7862612604
+2025-05-30 10:50:49,285 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-30 10:50:49,286 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-30 10:50:49,286 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-30 10:50:53,784 - utils.database - INFO - Database initialized successfully
+2025-05-30 10:50:53,784 - aiogram.dispatcher - INFO - Start polling
+2025-05-30 10:50:54,531 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-30 10:50:54,719 - aiogram.event - INFO - Update id=870287184 is not handled. Duration 4 ms by bot id=7862612604
+2025-05-30 10:50:55,437 - aiogram.event - INFO - Update id=870287183 is handled. Duration 722 ms by bot id=7862612604
+2025-05-30 10:50:55,437 - aiogram.event - INFO - Update id=870287186 is handled. Duration 721 ms by bot id=7862612604
+2025-05-30 10:50:55,437 - aiogram.event - INFO - Update id=870287185 is handled. Duration 722 ms by bot id=7862612604
+2025-05-30 10:50:59,836 - aiogram.event - INFO - Update id=870287187 is handled. Duration 201 ms by bot id=7862612604
+2025-05-30 10:51:05,209 - aiogram.event - INFO - Update id=870287188 is handled. Duration 156 ms by bot id=7862612604
+2025-05-30 10:51:13,566 - aiogram.event - INFO - Update id=870287189 is handled. Duration 618 ms by bot id=7862612604
+2025-05-30 10:51:23,645 - aiogram.event - INFO - Update id=870287190 is handled. Duration 209 ms by bot id=7862612604
+2025-05-30 10:51:32,206 - aiogram.event - INFO - Update id=870287191 is handled. Duration 408 ms by bot id=7862612604
+2025-05-30 10:51:35,484 - aiogram.event - INFO - Update id=870287192 is handled. Duration 204 ms by bot id=7862612604
+2025-05-30 10:51:38,810 - aiogram.event - INFO - Update id=870287193 is handled. Duration 456 ms by bot id=7862612604
+2025-05-30 10:51:46,343 - aiogram.event - INFO - Update id=870287194 is handled. Duration 204 ms by bot id=7862612604
+2025-05-30 10:51:59,615 - aiogram.event - INFO - Update id=870287195 is handled. Duration 364 ms by bot id=7862612604
+2025-05-30 10:52:03,347 - aiogram.event - INFO - Update id=870287196 is handled. Duration 203 ms by bot id=7862612604
+2025-05-30 10:52:10,081 - aiogram.event - INFO - Update id=870287197 is handled. Duration 361 ms by bot id=7862612604
+2025-05-30 10:52:12,362 - aiogram.event - INFO - Update id=870287198 is handled. Duration 201 ms by bot id=7862612604
+2025-05-30 10:52:17,074 - aiogram.event - INFO - Update id=870287199 is handled. Duration 199 ms by bot id=7862612604
+2025-05-30 10:52:24,182 - aiogram.event - INFO - Update id=870287200 is handled. Duration 180 ms by bot id=7862612604
+2025-05-30 10:52:26,600 - aiogram.event - INFO - Update id=870287201 is handled. Duration 144 ms by bot id=7862612604
+2025-05-30 10:52:31,415 - aiogram.event - INFO - Update id=870287202 is handled. Duration 204 ms by bot id=7862612604
+2025-05-30 10:52:34,078 - aiogram.event - INFO - Update id=870287203 is handled. Duration 216 ms by bot id=7862612604
+2025-05-30 10:52:50,263 - aiogram.event - INFO - Update id=870287204 is handled. Duration 409 ms by bot id=7862612604
+2025-05-30 10:53:14,385 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,386 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,458 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,459 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,459 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,460 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,460 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,461 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,605 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,605 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,607 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:14,607 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-30 10:53:18,429 - aiogram.event - INFO - Update id=870287205 is handled. Duration 5303 ms by bot id=7862612604
+2025-05-30 10:59:45,668 - aiogram.event - INFO - Update id=870287206 is handled. Duration 408 ms by bot id=7862612604
+2025-05-30 11:02:32,726 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-30 11:02:32,726 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 11:02:44,297 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 11:04:56,730 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-30 11:04:56,730 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 11:05:10,492 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 12:06:10,637 - aiogram.event - INFO - Update id=870287207 is handled. Duration 571 ms by bot id=7862612604
+2025-05-30 12:06:21,139 - aiogram.event - INFO - Update id=870287208 is handled. Duration 719 ms by bot id=7862612604
+2025-05-30 12:08:22,494 - aiogram.event - INFO - Update id=870287209 is handled. Duration 809 ms by bot id=7862612604
+2025-05-30 12:08:25,255 - aiogram.event - INFO - Update id=870287210 is handled. Duration 360 ms by bot id=7862612604
+2025-05-30 12:08:27,830 - aiogram.event - INFO - Update id=870287211 is handled. Duration 511 ms by bot id=7862612604
+2025-05-30 12:08:28,955 - aiogram.event - INFO - Update id=870287212 is handled. Duration 608 ms by bot id=7862612604
+2025-05-30 12:08:30,187 - aiogram.event - INFO - Update id=870287213 is handled. Duration 779 ms by bot id=7862612604
+2025-05-30 12:08:39,164 - aiogram.event - INFO - Update id=870287214 is handled. Duration 497 ms by bot id=7862612604
+2025-05-30 12:27:08,778 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-30 12:27:08,778 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 12:27:20,353 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 13:01:34,831 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 13:01:34,832 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 13:01:46,710 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 13:01:46,711 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 13:01:46,711 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 13:01:58,586 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 15:10:36,079 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-30 15:10:36,079 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 15:10:47,858 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 15:16:13,893 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 15:16:13,894 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 15:16:25,270 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 15:33:22,769 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-30 15:33:22,769 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 15:33:34,464 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 15:47:28,582 - aiogram.event - INFO - Update id=870287215 is handled. Duration 849 ms by bot id=7862612604
+2025-05-30 15:47:35,695 - aiogram.event - INFO - Update id=870287216 is handled. Duration 142 ms by bot id=7862612604
+2025-05-30 15:47:42,580 - aiogram.event - INFO - Update id=870287217 is handled. Duration 218 ms by bot id=7862612604
+2025-05-30 15:47:45,193 - aiogram.event - INFO - Update id=870287218 is handled. Duration 301 ms by bot id=7862612604
+2025-05-30 15:48:50,055 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-30 15:48:50,056 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-30 15:48:50,056 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-30 15:48:53,977 - utils.database - INFO - Database initialized successfully
+2025-05-30 15:48:53,978 - aiogram.dispatcher - INFO - Start polling
+2025-05-30 15:48:54,893 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-30 15:48:57,415 - aiogram.event - INFO - Update id=870287219 is handled. Duration 578 ms by bot id=7862612604
+2025-05-30 15:49:05,992 - aiogram.event - INFO - Update id=870287220 is handled. Duration 266 ms by bot id=7862612604
+2025-05-30 15:49:12,750 - aiogram.event - INFO - Update id=870287221 is handled. Duration 274 ms by bot id=7862612604
+2025-05-30 15:49:17,974 - aiogram.event - INFO - Update id=870287222 is handled. Duration 231 ms by bot id=7862612604
+2025-05-30 15:49:34,870 - aiogram.event - INFO - Update id=870287223 is handled. Duration 207 ms by bot id=7862612604
+2025-05-30 15:49:38,166 - aiogram.event - INFO - Update id=870287224 is handled. Duration 217 ms by bot id=7862612604
+2025-05-30 15:49:40,527 - aiogram.event - INFO - Update id=870287225 is handled. Duration 278 ms by bot id=7862612604
+2025-05-30 15:49:50,252 - aiogram.event - INFO - Update id=870287226 is handled. Duration 229 ms by bot id=7862612604
+2025-05-30 15:50:09,709 - aiogram.event - INFO - Update id=870287227 is handled. Duration 182 ms by bot id=7862612604
+2025-05-30 15:50:17,262 - aiogram.event - INFO - Update id=870287228 is handled. Duration 204 ms by bot id=7862612604
+2025-05-30 15:50:19,105 - aiogram.event - INFO - Update id=870287229 is handled. Duration 306 ms by bot id=7862612604
+2025-05-30 15:50:32,316 - aiogram.event - INFO - Update id=870287230 is handled. Duration 372 ms by bot id=7862612604
+2025-05-30 18:20:43,474 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 18:20:43,479 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 18:20:54,893 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 18:22:20,920 - aiogram.event - INFO - Update id=870287231 is handled. Duration 427 ms by bot id=7862612604
+2025-05-30 18:22:23,812 - aiogram.event - INFO - Update id=870287232 is handled. Duration 253 ms by bot id=7862612604
+2025-05-30 18:22:26,926 - aiogram.event - INFO - Update id=870287233 is handled. Duration 163 ms by bot id=7862612604
+2025-05-30 18:22:31,271 - aiogram.event - INFO - Update id=870287234 is handled. Duration 239 ms by bot id=7862612604
+2025-05-30 18:22:45,254 - aiogram.event - INFO - Update id=870287235 is handled. Duration 222 ms by bot id=7862612604
+2025-05-30 20:46:19,649 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 20:46:19,649 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 20:46:31,494 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 20:53:49,919 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 20:53:49,919 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 20:54:01,505 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 20:54:32,360 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 20:54:32,361 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 20:54:43,938 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 20:55:45,207 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 20:55:45,207 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 20:55:56,778 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 20:55:56,779 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 20:55:56,779 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 20:56:08,558 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 20:56:59,669 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 20:56:59,669 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 20:57:11,147 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 20:58:22,559 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 20:58:22,560 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 20:58:34,183 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:00:05,830 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:00:05,830 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:00:17,506 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:00:17,507 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:00:17,507 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:00:29,075 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:01:50,693 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:01:50,693 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:02:02,572 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:03:34,336 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:03:34,344 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:03:45,905 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:03:45,906 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:03:45,906 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:03:57,477 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:04:17,855 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:04:17,855 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:04:29,734 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:05:20,718 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:05:20,718 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:05:32,512 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:05:32,513 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:05:32,513 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:05:44,392 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:06:14,929 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:06:14,930 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:06:26,790 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:06:47,375 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:06:47,375 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:06:59,254 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:06:59,255 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:06:59,255 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:07:10,807 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:08:01,726 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:08:01,726 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:08:13,400 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:08:44,028 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:08:44,028 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:08:55,419 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:09:36,252 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:09:36,252 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:09:47,926 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 21:10:08,369 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-30 21:10:08,369 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 21:10:19,984 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-30 23:09:58,769 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-30 23:09:58,769 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-30 23:10:10,465 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-31 01:03:44,779 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-31 01:03:44,779 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-31 01:03:56,348 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-31 01:25:51,134 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,135 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,221 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,222 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,222 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,223 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,223 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,224 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,347 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,347 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,349 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:51,349 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 01:25:53,258 - aiogram.event - INFO - Update id=870287236 is handled. Duration 4571 ms by bot id=7862612604
+2025-05-31 01:26:51,771 - aiogram.event - INFO - Update id=870287237 is handled. Duration 198 ms by bot id=7862612604
+2025-05-31 01:31:58,075 - aiogram.event - INFO - Update id=870287238 is handled. Duration 204 ms by bot id=7862612604
+2025-05-31 01:37:10,959 - aiogram.event - INFO - Update id=870287239 is handled. Duration 174 ms by bot id=7862612604
+2025-05-31 01:37:18,354 - aiogram.event - INFO - Update id=870287240 is handled. Duration 350 ms by bot id=7862612604
+2025-05-31 01:37:36,322 - aiogram.event - INFO - Update id=870287241 is handled. Duration 409 ms by bot id=7862612604
+2025-05-31 03:04:23,769 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-31 03:04:23,770 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-31 03:04:35,484 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-31 03:38:04,639 - aiogram.event - INFO - Update id=870287242 is handled. Duration 647 ms by bot id=7862612604
+2025-05-31 03:38:37,112 - aiogram.event - INFO - Update id=870287243 is handled. Duration 552 ms by bot id=7862612604
+2025-05-31 03:38:44,651 - aiogram.event - INFO - Update id=870287244 is handled. Duration 155 ms by bot id=7862612604
+2025-05-31 03:38:52,640 - aiogram.event - INFO - Update id=870287245 is handled. Duration 207 ms by bot id=7862612604
+2025-05-31 03:38:57,044 - aiogram.event - INFO - Update id=870287246 is handled. Duration 717 ms by bot id=7862612604
+2025-05-31 03:38:57,861 - aiogram.event - INFO - Update id=870287247 is handled. Duration 374 ms by bot id=7862612604
+2025-05-31 03:38:59,943 - aiogram.event - INFO - Update id=870287248 is handled. Duration 326 ms by bot id=7862612604
+2025-05-31 03:39:01,855 - aiogram.event - INFO - Update id=870287249 is handled. Duration 317 ms by bot id=7862612604
+2025-05-31 05:42:55,623 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-31 05:42:55,623 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-31 05:43:07,008 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-31 05:43:17,140 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-31 05:43:17,140 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-31 05:43:29,125 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-31 05:52:09,882 - aiogram.event - INFO - Update id=870287250 is handled. Duration 724 ms by bot id=7862612604
+2025-05-31 05:52:19,539 - aiogram.event - INFO - Update id=870287251 is handled. Duration 128 ms by bot id=7862612604
+2025-05-31 05:52:29,474 - aiogram.event - INFO - Update id=870287252 is handled. Duration 150 ms by bot id=7862612604
+2025-05-31 05:52:32,020 - aiogram.event - INFO - Update id=870287253 is handled. Duration 123 ms by bot id=7862612604
+2025-05-31 05:52:40,597 - aiogram.event - INFO - Update id=870287254 is handled. Duration 174 ms by bot id=7862612604
+2025-05-31 05:57:28,253 - aiogram.event - INFO - Update id=870287255 is handled. Duration 165 ms by bot id=7862612604
+2025-05-31 05:58:00,788 - aiogram.event - INFO - Update id=870287256 is handled. Duration 150 ms by bot id=7862612604
+2025-05-31 06:05:54,894 - aiogram.event - INFO - Update id=870287257 is handled. Duration 179 ms by bot id=7862612604
+2025-05-31 06:06:03,196 - aiogram.event - INFO - Update id=870287258 is handled. Duration 407 ms by bot id=7862612604
+2025-05-31 06:06:09,346 - aiogram.event - INFO - Update id=870287259 is handled. Duration 1034 ms by bot id=7862612604
+2025-05-31 06:06:13,429 - aiogram.event - INFO - Update id=870287260 is handled. Duration 505 ms by bot id=7862612604
+2025-05-31 06:06:34,126 - aiogram.event - INFO - Update id=870287261 is handled. Duration 380 ms by bot id=7862612604
+2025-05-31 06:06:55,083 - aiogram.event - INFO - Update id=870287262 is handled. Duration 187 ms by bot id=7862612604
+2025-05-31 06:07:04,371 - aiogram.event - INFO - Update id=870287263 is handled. Duration 517 ms by bot id=7862612604
+2025-05-31 06:07:08,115 - aiogram.event - INFO - Update id=870287264 is handled. Duration 626 ms by bot id=7862612604
+2025-05-31 06:07:13,039 - aiogram.event - INFO - Update id=870287265 is handled. Duration 213 ms by bot id=7862612604
+2025-05-31 06:07:20,713 - aiogram.event - INFO - Update id=870287266 is handled. Duration 308 ms by bot id=7862612604
+2025-05-31 06:07:24,708 - aiogram.event - INFO - Update id=870287267 is handled. Duration 179 ms by bot id=7862612604
+2025-05-31 06:07:28,195 - aiogram.event - INFO - Update id=870287268 is handled. Duration 212 ms by bot id=7862612604
+2025-05-31 06:07:31,317 - aiogram.event - INFO - Update id=870287269 is handled. Duration 155 ms by bot id=7862612604
+2025-05-31 06:07:36,073 - aiogram.event - INFO - Update id=870287270 is handled. Duration 347 ms by bot id=7862612604
+2025-05-31 06:07:38,632 - aiogram.event - INFO - Update id=870287271 is handled. Duration 613 ms by bot id=7862612604
+2025-05-31 06:07:53,384 - aiogram.event - INFO - Update id=870287272 is handled. Duration 650 ms by bot id=7862612604
+2025-05-31 06:08:34,039 - aiogram.event - INFO - Update id=870287273 is handled. Duration 312 ms by bot id=7862612604
+2025-05-31 06:08:45,299 - aiogram.event - INFO - Update id=870287274 is handled. Duration 301 ms by bot id=7862612604
+2025-05-31 06:08:59,431 - aiogram.event - INFO - Update id=870287275 is handled. Duration 304 ms by bot id=7862612604
+2025-05-31 06:09:03,016 - aiogram.event - INFO - Update id=870287276 is handled. Duration 512 ms by bot id=7862612604
+2025-05-31 06:09:05,780 - aiogram.event - INFO - Update id=870287277 is handled. Duration 204 ms by bot id=7862612604
+2025-05-31 06:09:11,081 - aiogram.event - INFO - Update id=870287278 is handled. Duration 242 ms by bot id=7862612604
+2025-05-31 06:09:21,756 - aiogram.event - INFO - Update id=870287279 is handled. Duration 409 ms by bot id=7862612604
+2025-05-31 06:09:22,985 - aiogram.event - INFO - Update id=870287280 is handled. Duration 609 ms by bot id=7862612604
+2025-05-31 06:24:32,742 - aiogram.event - INFO - Update id=870287281 is handled. Duration 1126 ms by bot id=7862612604
+2025-05-31 06:24:41,242 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,242 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,324 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,325 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,326 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,326 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,326 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,327 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,455 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,456 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,457 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:41,457 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 06:24:43,905 - aiogram.event - INFO - Update id=870287282 is handled. Duration 4198 ms by bot id=7862612604
+2025-05-31 06:25:46,774 - aiogram.event - INFO - Update id=870287283 is handled. Duration 204 ms by bot id=7862612604
+2025-05-31 06:26:03,772 - aiogram.event - INFO - Update id=870287284 is handled. Duration 283 ms by bot id=7862612604
+2025-05-31 07:12:01,765 - aiogram.event - INFO - Update id=870287285 is handled. Duration 1125 ms by bot id=7862612604
+2025-05-31 07:12:09,713 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-31 07:12:09,713 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 07:12:09,713 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-31 07:12:13,916 - utils.database - INFO - Database initialized successfully
+2025-05-31 07:12:13,917 - aiogram.dispatcher - INFO - Start polling
+2025-05-31 07:12:14,795 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 07:12:15,898 - aiogram.event - INFO - Update id=870287286 is handled. Duration 716 ms by bot id=7862612604
+2025-05-31 07:12:56,446 - aiogram.event - INFO - Update id=870287287 is handled. Duration 512 ms by bot id=7862612604
+2025-05-31 07:12:58,601 - aiogram.event - INFO - Update id=870287288 is handled. Duration 488 ms by bot id=7862612604
+2025-05-31 07:24:00,301 - aiogram.event - INFO - Update id=870287289 is handled. Duration 308 ms by bot id=7862612604
+2025-05-31 07:24:10,793 - aiogram.event - INFO - Update id=870287290 is handled. Duration 160 ms by bot id=7862612604
+2025-05-31 07:24:13,304 - aiogram.event - INFO - Update id=870287291 is handled. Duration 204 ms by bot id=7862612604
+2025-05-31 07:24:15,249 - aiogram.event - INFO - Update id=870287292 is handled. Duration 203 ms by bot id=7862612604
+2025-05-31 07:24:21,702 - aiogram.event - INFO - Update id=870287293 is handled. Duration 206 ms by bot id=7862612604
+2025-05-31 07:24:39,525 - aiogram.event - INFO - Update id=870287294 is handled. Duration 348 ms by bot id=7862612604
+2025-05-31 07:24:40,648 - aiogram.event - INFO - Update id=870287295 is handled. Duration 392 ms by bot id=7862612604
+2025-05-31 07:25:04,606 - aiogram.event - INFO - Update id=870287296 is handled. Duration 403 ms by bot id=7862612604
+2025-05-31 07:25:09,201 - aiogram.event - INFO - Update id=870287297 is handled. Duration 215 ms by bot id=7862612604
+2025-05-31 07:25:16,382 - aiogram.event - INFO - Update id=870287298 is handled. Duration 198 ms by bot id=7862612604
+2025-05-31 07:25:25,435 - aiogram.event - INFO - Update id=870287299 is handled. Duration 169 ms by bot id=7862612604
+2025-05-31 07:25:28,394 - aiogram.event - INFO - Update id=870287300 is handled. Duration 538 ms by bot id=7862612604
+2025-05-31 07:25:30,923 - aiogram.event - INFO - Update id=870287301 is handled. Duration 300 ms by bot id=7862612604
+2025-05-31 07:25:37,376 - aiogram.event - INFO - Update id=870287302 is handled. Duration 206 ms by bot id=7862612604
+2025-05-31 07:25:39,716 - aiogram.event - INFO - Update id=870287303 is handled. Duration 357 ms by bot id=7862612604
+2025-05-31 07:25:40,912 - aiogram.event - INFO - Update id=870287304 is handled. Duration 198 ms by bot id=7862612604
+2025-05-31 07:25:45,566 - aiogram.event - INFO - Update id=870287305 is handled. Duration 198 ms by bot id=7862612604
+2025-05-31 07:26:08,606 - aiogram.event - INFO - Update id=870287306 is handled. Duration 302 ms by bot id=7862612604
+2025-05-31 07:26:11,393 - aiogram.event - INFO - Update id=870287307 is handled. Duration 168 ms by bot id=7862612604
+2025-05-31 07:26:12,838 - aiogram.event - INFO - Update id=870287308 is handled. Duration 210 ms by bot id=7862612604
+2025-05-31 07:26:15,138 - aiogram.event - INFO - Update id=870287309 is handled. Duration 418 ms by bot id=7862612604
+2025-05-31 07:26:17,617 - aiogram.event - INFO - Update id=870287310 is handled. Duration 204 ms by bot id=7862612604
+2025-05-31 07:26:26,201 - aiogram.event - INFO - Update id=870287311 is handled. Duration 391 ms by bot id=7862612604
+2025-05-31 07:26:44,446 - aiogram.event - INFO - Update id=870287312 is handled. Duration 306 ms by bot id=7862612604
+2025-05-31 07:26:52,131 - aiogram.event - INFO - Update id=870287313 is handled. Duration 311 ms by bot id=7862612604
+2025-05-31 07:27:14,142 - aiogram.event - INFO - Update id=870287314 is handled. Duration 203 ms by bot id=7862612604
+2025-05-31 07:27:15,679 - aiogram.event - INFO - Update id=870287315 is handled. Duration 204 ms by bot id=7862612604
+2025-05-31 07:27:21,504 - aiogram.event - INFO - Update id=870287316 is handled. Duration 290 ms by bot id=7862612604
+2025-05-31 07:27:23,461 - aiogram.event - INFO - Update id=870287317 is handled. Duration 410 ms by bot id=7862612604
+2025-05-31 07:27:25,430 - aiogram.event - INFO - Update id=870287318 is handled. Duration 1080 ms by bot id=7862612604
+2025-05-31 07:27:28,992 - aiogram.event - INFO - Update id=870287319 is handled. Duration 203 ms by bot id=7862612604
+2025-05-31 07:27:31,245 - aiogram.event - INFO - Update id=870287320 is handled. Duration 710 ms by bot id=7862612604
+2025-05-31 07:27:33,500 - aiogram.event - INFO - Update id=870287321 is handled. Duration 208 ms by bot id=7862612604
+2025-05-31 07:27:39,535 - aiogram.event - INFO - Update id=870287322 is handled. Duration 186 ms by bot id=7862612604
+2025-05-31 07:27:54,191 - aiogram.event - INFO - Update id=870287323 is handled. Duration 181 ms by bot id=7862612604
+2025-05-31 07:27:56,541 - aiogram.event - INFO - Update id=870287324 is handled. Duration 312 ms by bot id=7862612604
+2025-05-31 07:27:57,265 - aiogram.event - INFO - Update id=870287325 is handled. Duration 177 ms by bot id=7862612604
+2025-05-31 07:27:58,995 - aiogram.event - INFO - Update id=870287326 is handled. Duration 400 ms by bot id=7862612604
+2025-05-31 07:28:03,602 - aiogram.event - INFO - Update id=870287327 is handled. Duration 204 ms by bot id=7862612604
+2025-05-31 07:28:12,615 - aiogram.event - INFO - Update id=870287328 is handled. Duration 309 ms by bot id=7862612604
+2025-05-31 07:28:13,439 - aiogram.event - INFO - Update id=870287329 is handled. Duration 208 ms by bot id=7862612604
+2025-05-31 07:28:16,869 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-31 07:28:16,869 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 07:28:16,870 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-31 07:28:19,973 - utils.database - INFO - Database initialized successfully
+2025-05-31 07:28:19,974 - aiogram.dispatcher - INFO - Start polling
+2025-05-31 07:28:21,011 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 07:28:32,173 - aiogram.event - INFO - Update id=870287330 is handled. Duration 1016 ms by bot id=7862612604
+2025-05-31 07:28:34,322 - aiogram.event - INFO - Update id=870287331 is handled. Duration 405 ms by bot id=7862612604
+2025-05-31 07:28:39,004 - aiogram.event - INFO - Update id=870287332 is handled. Duration 201 ms by bot id=7862612604
+2025-05-31 07:28:41,590 - aiogram.event - INFO - Update id=870287333 is handled. Duration 312 ms by bot id=7862612604
+2025-05-31 07:28:43,237 - utils.database - ERROR - Fetchone error: parameters are of unsupported type | Query: SELECT balance FROM users WHERE user_id = ?
+2025-05-31 07:28:43,237 - aiogram.event - INFO - Update id=870287334 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-31 07:28:43,237 - aiogram.event - ERROR - Cause exception while process update id=870287334 by bot id=7862612604
+ProgrammingError: parameters are of unsupported type
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 426, in buy_with_default_amount
+    await complete_wish_purchase(callback, data['amount'], state)
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 454, in complete_wish_purchase
+    balance = fetchone("SELECT balance FROM users WHERE user_id = ?", (user_id))[0]
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/utils/database.py", line 72, in fetchone
+    c.execute(query, args)
+sqlite3.ProgrammingError: parameters are of unsupported type
+2025-05-31 07:30:33,108 - aiogram.event - INFO - Update id=870287335 is handled. Duration 303 ms by bot id=7862612604
+2025-05-31 07:30:36,778 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-31 07:30:36,778 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 07:30:36,779 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-31 07:30:40,127 - utils.database - INFO - Database initialized successfully
+2025-05-31 07:30:40,128 - aiogram.dispatcher - INFO - Start polling
+2025-05-31 07:30:40,945 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 07:30:42,570 - aiogram.event - INFO - Update id=870287336 is not handled. Duration 1 ms by bot id=7862612604
+2025-05-31 07:30:42,570 - aiogram.event - ERROR - Cause exception while process update id=870287336 by bot id=7862612604
+KeyError: 'amount'
+Traceback (most recent call last):
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 56, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/fsm/middleware.py", line 42, in __call__
+    return await handler(event, data)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 174, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 146, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 141, in _wrapped
+    return await self._propagate_event(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/router.py", line 166, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/venv/lib/python3.12/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+           ^^^^^^^^^^^^^^^
+  File "/home/lyalkid/code/finance-bot/handlers/wishlist.py", line 426, in buy_with_default_amount
+    await complete_wish_purchase(callback, data['amount'], state)
+                                           ~~~~^^^^^^^^^^
+KeyError: 'amount'
+2025-05-31 07:30:54,887 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-05-31 07:30:54,888 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 07:30:54,888 - aiogram.dispatcher - INFO - Polling stopped
+2025-05-31 07:32:41,891 - utils.database - INFO - Database initialized successfully
+2025-05-31 07:32:41,891 - aiogram.dispatcher - INFO - Start polling
+2025-05-31 07:32:43,360 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 07:32:46,231 - aiogram.event - INFO - Update id=870287337 is handled. Duration 842 ms by bot id=7862612604
+2025-05-31 07:32:49,196 - aiogram.event - INFO - Update id=870287338 is handled. Duration 201 ms by bot id=7862612604
+2025-05-31 07:32:51,347 - aiogram.event - INFO - Update id=870287339 is handled. Duration 614 ms by bot id=7862612604
+2025-05-31 07:32:52,475 - aiogram.event - INFO - Update id=870287340 is handled. Duration 306 ms by bot id=7862612604
+2025-05-31 07:32:56,366 - aiogram.event - INFO - Update id=870287341 is handled. Duration 303 ms by bot id=7862612604
+2025-05-31 07:32:59,655 - aiogram.event - INFO - Update id=870287342 is handled. Duration 187 ms by bot id=7862612604
+2025-05-31 07:33:01,718 - aiogram.event - INFO - Update id=870287343 is handled. Duration 539 ms by bot id=7862612604
+2025-05-31 07:33:03,128 - aiogram.event - INFO - Update id=870287344 is handled. Duration 414 ms by bot id=7862612604
+2025-05-31 07:33:05,203 - aiogram.event - INFO - Update id=870287345 is handled. Duration 131 ms by bot id=7862612604
+2025-05-31 07:34:51,947 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:51,948 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,046 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,046 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,047 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,047 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,048 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,048 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,193 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,193 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,194 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:52,195 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 07:34:53,805 - aiogram.event - INFO - Update id=870287346 is handled. Duration 3456 ms by bot id=7862612604
+2025-05-31 07:40:22,820 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-05-31 07:40:22,820 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-31 07:40:34,402 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-05-31 07:42:55,778 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-31 07:42:55,778 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-31 07:43:19,847 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-05-31 07:43:19,847 - aiogram.dispatcher - WARNING - Sleep for 1.454189 seconds and try again... (tryings = 1, bot id = 7862612604)
+2025-05-31 07:44:31,785 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-05-31 07:44:31,785 - aiogram.dispatcher - WARNING - Sleep for 1.964124 seconds and try again... (tryings = 2, bot id = 7862612604)
+2025-05-31 07:44:44,435 - aiogram.dispatcher - INFO - Connection established (tryings = 3, bot id = 7862612604)

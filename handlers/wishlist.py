@@ -451,6 +451,14 @@ async def handle_custom_amount(message: types.Message, state: FSMContext):
 async def complete_wish_purchase(message_or_callback, amount: float, state: FSMContext):
     data = await state.get_data()
     user_id = message_or_callback.from_user.id
+    balance = fetchone("SELECT balance FROM users WHERE user_id = ?", (message_or_callback.from_user.id,))[0]
+
+    
+    # Обновляем баланс
+    execute(
+        "UPDATE users SET balance = balance - ? WHERE user_id = ?",
+        (amount, user_id)
+    )
 
     # Удалить желание
     execute("DELETE FROM wishes WHERE id = ?", (data['wish_id'],))

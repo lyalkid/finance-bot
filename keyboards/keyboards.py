@@ -25,6 +25,7 @@ def main_menu() -> types.ReplyKeyboardMarkup:
             # 📊 Отчёты
             [KeyboardButton(text="/report"), KeyboardButton(text="/monthly"), KeyboardButton(text="/compare")],
 
+            [KeyboardButton(text="/history")],
             # 🧹 Удаление
             [KeyboardButton(text="/delete_transactions")],
 

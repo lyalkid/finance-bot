@@ -45,7 +45,8 @@ async def menu_callback(callback: types.CallbackQuery):
         "reports": [
             "/report – За период",
             "/monthly – За текущий месяц",
-            "/compare – Сравнение месяцев"
+            "/compare – Сравнение месяцев",
+            "/history - показывает историю транзакций"
         ],
         "delete": [
             "/delete_transactions – Удалить транзакции"

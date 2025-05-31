@@ -8,9 +8,11 @@ from handlers import (
     categories_router,
     transactions_router,
     wishlist_router, 
-    reports_router 
+    reports_router, 
+    menu_router, 
+    history_router 
 )
-from handlers.menu import router as menu_router
+
 
  
 # Загрузка переменных окружения
@@ -28,7 +30,7 @@ dp.include_router(transactions_router)
 dp.include_router(wishlist_router)
 dp.include_router(reports_router)
 dp.include_router(menu_router)
-
+dp.include_router(history_router)
 if __name__ == "__main__":
     # Инициализация БД
     init_db()
