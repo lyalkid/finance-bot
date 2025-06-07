@@ -3,7 +3,9 @@ from aiogram import types
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 from typing import Optional
 
-def main_menu() -> types.ReplyKeyboardMarkup:
+from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
+
+def main_menu() -> ReplyKeyboardMarkup:
     """Главное меню с основными командами"""
     return ReplyKeyboardMarkup(
         keyboard=[
@@ -16,6 +18,7 @@ def main_menu() -> types.ReplyKeyboardMarkup:
 
             # ➕ Доходы и расходы
             [KeyboardButton(text="/add_income"), KeyboardButton(text="/add_expense")],
+            [KeyboardButton(text="/add_income_list"), KeyboardButton(text="/add_expense_list")],  # добавлено массовое добавление
 
             # 🎯 Желания
             [KeyboardButton(text="/add_wish"), KeyboardButton(text="/wishlist")],
@@ -25,11 +28,13 @@ def main_menu() -> types.ReplyKeyboardMarkup:
             # 📊 Отчёты
             [KeyboardButton(text="/report"), KeyboardButton(text="/monthly"), KeyboardButton(text="/compare")],
 
+            # 📜 История
             [KeyboardButton(text="/history")],
+
             # 🧹 Удаление
             [KeyboardButton(text="/delete_transactions")],
 
-            # ℹ️ Справка
+            # ℹ️ Справка и меню
             [KeyboardButton(text="/help"), KeyboardButton(text="/menu")]
         ],
         resize_keyboard=True

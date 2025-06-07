@@ -3345,3 +3345,642 @@ KeyError: 'amount'
 2025-05-31 07:44:31,785 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
 2025-05-31 07:44:31,785 - aiogram.dispatcher - WARNING - Sleep for 1.964124 seconds and try again... (tryings = 2, bot id = 7862612604)
 2025-05-31 07:44:44,435 - aiogram.dispatcher - INFO - Connection established (tryings = 3, bot id = 7862612604)
+2025-05-31 20:33:00,026 - utils.database - INFO - Database initialized successfully
+2025-05-31 20:33:00,027 - aiogram.dispatcher - INFO - Start polling
+2025-05-31 20:33:01,362 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-05-31 20:33:02,186 - aiogram.event - INFO - Update id=870287347 is handled. Duration 616 ms by bot id=7862612604
+2025-05-31 20:33:15,082 - aiogram.event - INFO - Update id=870287348 is handled. Duration 203 ms by bot id=7862612604
+2025-05-31 20:33:27,368 - aiogram.event - INFO - Update id=870287349 is handled. Duration 303 ms by bot id=7862612604
+2025-05-31 20:33:31,466 - aiogram.event - INFO - Update id=870287350 is handled. Duration 302 ms by bot id=7862612604
+2025-05-31 20:33:33,614 - aiogram.event - INFO - Update id=870287351 is handled. Duration 201 ms by bot id=7862612604
+2025-05-31 20:33:41,197 - aiogram.event - INFO - Update id=870287352 is handled. Duration 308 ms by bot id=7862612604
+2025-05-31 20:33:44,062 - aiogram.event - INFO - Update id=870287353 is handled. Duration 304 ms by bot id=7862612604
+2025-05-31 20:33:47,964 - aiogram.event - INFO - Update id=870287354 is handled. Duration 419 ms by bot id=7862612604
+2025-05-31 20:33:49,181 - aiogram.event - INFO - Update id=870287355 is handled. Duration 204 ms by bot id=7862612604
+2025-05-31 20:33:57,784 - aiogram.event - INFO - Update id=870287356 is handled. Duration 203 ms by bot id=7862612604
+2025-05-31 20:34:12,427 - aiogram.event - INFO - Update id=870287357 is handled. Duration 207 ms by bot id=7862612604
+2025-05-31 20:34:14,987 - aiogram.event - INFO - Update id=870287358 is handled. Duration 203 ms by bot id=7862612604
+2025-05-31 20:36:05,514 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,515 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,616 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,617 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,617 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,617 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,618 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,619 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,754 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,754 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,755 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:05,756 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-05-31 20:36:06,790 - aiogram.event - INFO - Update id=870287359 is handled. Duration 3156 ms by bot id=7862612604
+2025-05-31 20:37:44,090 - aiogram.event - INFO - Update id=870287360 is handled. Duration 311 ms by bot id=7862612604
+2025-05-31 20:37:52,340 - aiogram.event - INFO - Update id=870287361 is handled. Duration 571 ms by bot id=7862612604
+2025-05-31 20:38:00,164 - aiogram.event - INFO - Update id=870287362 is handled. Duration 349 ms by bot id=7862612604
+2025-05-31 20:38:01,496 - aiogram.event - INFO - Update id=870287363 is handled. Duration 818 ms by bot id=7862612604
+2025-05-31 20:38:05,080 - aiogram.event - INFO - Update id=870287364 is handled. Duration 511 ms by bot id=7862612604
+2025-05-31 20:38:05,899 - aiogram.event - INFO - Update id=870287365 is handled. Duration 408 ms by bot id=7862612604
+2025-05-31 20:38:08,339 - aiogram.event - INFO - Update id=870287366 is handled. Duration 447 ms by bot id=7862612604
+2025-05-31 20:44:36,226 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-05-31 20:44:36,226 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-05-31 20:44:47,691 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-06-01 00:33:40,166 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-01 00:33:40,166 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-06-01 00:34:41,268 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-06-01 00:34:41,268 - aiogram.dispatcher - WARNING - Sleep for 1.230300 seconds and try again... (tryings = 1, bot id = 7862612604)
+2025-06-01 00:35:42,643 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-06-01 00:35:42,643 - aiogram.dispatcher - WARNING - Sleep for 1.500284 seconds and try again... (tryings = 2, bot id = 7862612604)
+2025-06-01 00:36:44,302 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-06-01 00:36:44,302 - aiogram.dispatcher - WARNING - Sleep for 1.969195 seconds and try again... (tryings = 3, bot id = 7862612604)
+2025-06-01 00:37:46,382 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-06-01 00:37:46,382 - aiogram.dispatcher - WARNING - Sleep for 2.645288 seconds and try again... (tryings = 4, bot id = 7862612604)
+2025-06-01 00:38:49,199 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-06-01 00:38:49,199 - aiogram.dispatcher - WARNING - Sleep for 3.610796 seconds and try again... (tryings = 5, bot id = 7862612604)
+2025-06-01 00:39:52,989 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [None]
+2025-06-01 00:39:52,990 - aiogram.dispatcher - WARNING - Sleep for 4.585730 seconds and try again... (tryings = 6, bot id = 7862612604)
+2025-06-01 00:40:08,092 - aiogram.dispatcher - INFO - Connection established (tryings = 7, bot id = 7862612604)
+2025-06-01 00:43:11,153 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - Request timeout error
+2025-06-01 00:43:11,153 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-06-01 00:43:22,955 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-06-01 00:58:37,779 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-01 00:58:37,779 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-01 00:58:37,779 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-02 18:41:56,333 - utils.database - INFO - Database initialized successfully
+2025-06-02 18:41:56,334 - aiogram.dispatcher - INFO - Start polling
+2025-06-02 18:41:56,981 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 18:43:15,641 - aiogram.event - INFO - Update id=870287367 is handled. Duration 385 ms by bot id=7862612604
+2025-06-02 18:43:21,170 - aiogram.event - INFO - Update id=870287368 is handled. Duration 264 ms by bot id=7862612604
+2025-06-02 18:45:29,559 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-02 18:45:29,559 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 18:45:29,560 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-02 18:45:32,201 - utils.database - INFO - Database initialized successfully
+2025-06-02 18:45:32,202 - aiogram.dispatcher - INFO - Start polling
+2025-06-02 18:45:33,181 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 18:45:36,970 - aiogram.event - INFO - Update id=870287369 is handled. Duration 923 ms by bot id=7862612604
+2025-06-02 18:46:12,501 - aiogram.event - INFO - Update id=870287370 is handled. Duration 409 ms by bot id=7862612604
+2025-06-02 18:46:17,416 - aiogram.event - INFO - Update id=870287371 is handled. Duration 304 ms by bot id=7862612604
+2025-06-02 18:46:19,363 - aiogram.event - INFO - Update id=870287372 is handled. Duration 308 ms by bot id=7862612604
+2025-06-02 18:46:25,606 - aiogram.event - INFO - Update id=870287373 is handled. Duration 260 ms by bot id=7862612604
+2025-06-02 18:46:27,658 - aiogram.event - INFO - Update id=870287374 is handled. Duration 203 ms by bot id=7862612604
+2025-06-02 18:46:31,036 - aiogram.event - INFO - Update id=870287375 is handled. Duration 409 ms by bot id=7862612604
+2025-06-02 18:46:32,788 - aiogram.event - INFO - Update id=870287376 is handled. Duration 206 ms by bot id=7862612604
+2025-06-02 18:46:48,548 - aiogram.event - INFO - Update id=870287377 is handled. Duration 307 ms by bot id=7862612604
+2025-06-02 18:47:00,421 - aiogram.event - INFO - Update id=870287378 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 18:47:07,691 - aiogram.event - INFO - Update id=870287379 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 18:47:35,131 - aiogram.event - INFO - Update id=870287380 is handled. Duration 409 ms by bot id=7862612604
+2025-06-02 18:47:41,584 - aiogram.event - INFO - Update id=870287381 is handled. Duration 410 ms by bot id=7862612604
+2025-06-02 18:48:39,059 - aiogram.event - INFO - Update id=870287382 is handled. Duration 222 ms by bot id=7862612604
+2025-06-02 18:48:51,127 - aiogram.event - INFO - Update id=870287383 is handled. Duration 431 ms by bot id=7862612604
+2025-06-02 18:48:53,254 - aiogram.event - INFO - Update id=870287384 is handled. Duration 298 ms by bot id=7862612604
+2025-06-02 18:49:31,239 - aiogram.event - INFO - Update id=870287385 is handled. Duration 301 ms by bot id=7862612604
+2025-06-02 18:49:35,337 - aiogram.event - INFO - Update id=870287386 is handled. Duration 306 ms by bot id=7862612604
+2025-06-02 18:49:41,687 - aiogram.event - INFO - Update id=870287387 is handled. Duration 307 ms by bot id=7862612604
+2025-06-02 18:49:45,477 - aiogram.event - INFO - Update id=870287388 is handled. Duration 310 ms by bot id=7862612604
+2025-06-02 18:49:48,946 - aiogram.event - INFO - Update id=870287389 is handled. Duration 584 ms by bot id=7862612604
+2025-06-02 18:49:59,469 - aiogram.event - INFO - Update id=870287390 is handled. Duration 172 ms by bot id=7862612604
+2025-06-02 18:50:05,440 - aiogram.event - INFO - Update id=870287391 is handled. Duration 306 ms by bot id=7862612604
+2025-06-02 18:50:08,205 - aiogram.event - INFO - Update id=870287392 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 18:50:20,084 - aiogram.event - INFO - Update id=870287393 is handled. Duration 205 ms by bot id=7862612604
+2025-06-02 18:50:23,564 - aiogram.event - INFO - Update id=870287394 is handled. Duration 305 ms by bot id=7862612604
+2025-06-02 18:50:42,811 - aiogram.event - INFO - Update id=870287395 is handled. Duration 198 ms by bot id=7862612604
+2025-06-02 18:50:46,398 - aiogram.event - INFO - Update id=870287396 is handled. Duration 409 ms by bot id=7862612604
+2025-06-02 18:50:57,595 - aiogram.event - INFO - Update id=870287397 is handled. Duration 276 ms by bot id=7862612604
+2025-06-02 18:51:03,606 - aiogram.event - INFO - Update id=870287398 is handled. Duration 312 ms by bot id=7862612604
+2025-06-02 18:51:08,104 - aiogram.event - INFO - Update id=870287399 is handled. Duration 198 ms by bot id=7862612604
+2025-06-02 18:51:19,983 - aiogram.event - INFO - Update id=870287400 is handled. Duration 199 ms by bot id=7862612604
+2025-06-02 18:51:25,824 - aiogram.event - INFO - Update id=870287401 is handled. Duration 305 ms by bot id=7862612604
+2025-06-02 18:51:29,914 - aiogram.event - INFO - Update id=870287402 is handled. Duration 203 ms by bot id=7862612604
+2025-06-02 18:51:32,682 - aiogram.event - INFO - Update id=870287403 is handled. Duration 275 ms by bot id=7862612604
+2025-06-02 18:51:40,136 - aiogram.event - INFO - Update id=870287404 is handled. Duration 282 ms by bot id=7862612604
+2025-06-02 18:51:49,878 - aiogram.event - INFO - Update id=870287405 is handled. Duration 301 ms by bot id=7862612604
+2025-06-02 18:51:52,272 - aiogram.event - INFO - Update id=870287406 is handled. Duration 240 ms by bot id=7862612604
+2025-06-02 18:51:54,148 - aiogram.event - INFO - Update id=870287407 is handled. Duration 373 ms by bot id=7862612604
+2025-06-02 18:52:01,861 - aiogram.event - INFO - Update id=870287408 is handled. Duration 511 ms by bot id=7862612604
+2025-06-02 18:52:04,526 - aiogram.event - INFO - Update id=870287409 is handled. Duration 309 ms by bot id=7862612604
+2025-06-02 18:52:06,982 - aiogram.event - INFO - Update id=870287410 is handled. Duration 410 ms by bot id=7862612604
+2025-06-02 18:52:08,621 - aiogram.event - INFO - Update id=870287411 is handled. Duration 411 ms by bot id=7862612604
+2025-06-02 18:52:12,033 - aiogram.event - INFO - Update id=870287412 is handled. Duration 337 ms by bot id=7862612604
+2025-06-02 18:52:17,551 - aiogram.event - INFO - Update id=870287413 is handled. Duration 227 ms by bot id=7862612604
+2025-06-02 18:52:19,066 - aiogram.event - INFO - Update id=870287414 is handled. Duration 295 ms by bot id=7862612604
+2025-06-02 18:52:26,845 - aiogram.event - INFO - Update id=870287415 is handled. Duration 512 ms by bot id=7862612604
+2025-06-02 18:52:30,124 - aiogram.event - INFO - Update id=870287416 is handled. Duration 207 ms by bot id=7862612604
+2025-06-02 18:52:33,603 - aiogram.event - INFO - Update id=870287417 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 18:52:36,060 - aiogram.event - INFO - Update id=870287418 is handled. Duration 393 ms by bot id=7862612604
+2025-06-02 18:52:45,479 - aiogram.event - INFO - Update id=870287419 is handled. Duration 304 ms by bot id=7862612604
+2025-06-02 18:52:55,105 - aiogram.event - INFO - Update id=870287420 is handled. Duration 203 ms by bot id=7862612604
+2025-06-02 18:52:58,154 - aiogram.event - INFO - Update id=870287421 is handled. Duration 181 ms by bot id=7862612604
+2025-06-02 18:53:24,185 - aiogram.event - INFO - Update id=870287422 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 18:53:51,625 - aiogram.event - INFO - Update id=870287423 is handled. Duration 304 ms by bot id=7862612604
+2025-06-02 18:53:56,951 - aiogram.event - INFO - Update id=870287424 is handled. Duration 206 ms by bot id=7862612604
+2025-06-02 18:54:02,482 - aiogram.event - INFO - Update id=870287425 is handled. Duration 205 ms by bot id=7862612604
+2025-06-02 18:54:05,530 - aiogram.event - INFO - Update id=870287426 is handled. Duration 181 ms by bot id=7862612604
+2025-06-02 18:54:15,387 - aiogram.event - INFO - Update id=870287427 is handled. Duration 515 ms by bot id=7862612604
+2025-06-02 18:54:39,474 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,475 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,562 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,563 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,563 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,563 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,564 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,564 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,669 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,669 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,670 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:39,671 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:54:40,503 - aiogram.event - INFO - Update id=870287428 is handled. Duration 1979 ms by bot id=7862612604
+2025-06-02 18:54:49,543 - aiogram.event - INFO - Update id=870287429 is handled. Duration 288 ms by bot id=7862612604
+2025-06-02 18:55:03,818 - aiogram.event - INFO - Update id=870287430 is handled. Duration 228 ms by bot id=7862612604
+2025-06-02 18:55:18,481 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,482 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,570 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,571 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,572 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,572 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,573 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,573 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,704 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,704 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,706 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:18,706 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 18:55:19,791 - aiogram.event - INFO - Update id=870287431 is handled. Duration 3584 ms by bot id=7862612604
+2025-06-02 18:56:38,104 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-06-02 18:56:38,104 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-06-02 18:56:39,405 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientConnectorError: Cannot connect to host api.telegram.org:443 ssl:default [Connection reset by peer]
+2025-06-02 18:56:39,406 - aiogram.dispatcher - WARNING - Sleep for 1.180111 seconds and try again... (tryings = 1, bot id = 7862612604)
+2025-06-02 18:56:51,042 - aiogram.dispatcher - INFO - Connection established (tryings = 2, bot id = 7862612604)
+2025-06-02 18:56:53,919 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-02 18:56:53,919 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 18:56:53,919 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-02 19:13:13,530 - utils.database - INFO - Database initialized successfully
+2025-06-02 19:13:13,531 - aiogram.dispatcher - INFO - Start polling
+2025-06-02 19:13:14,286 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 19:13:20,192 - aiogram.event - INFO - Update id=870287432 is not handled. Duration 2 ms by bot id=7862612604
+2025-06-02 19:13:24,493 - aiogram.event - INFO - Update id=870287433 is handled. Duration 928 ms by bot id=7862612604
+2025-06-02 19:13:37,207 - aiogram.event - INFO - Update id=870287434 is handled. Duration 228 ms by bot id=7862612604
+2025-06-02 19:13:44,967 - aiogram.event - INFO - Update id=870287435 is handled. Duration 406 ms by bot id=7862612604
+2025-06-02 19:13:45,179 - aiogram.event - INFO - Update id=870287436 is handled. Duration 211 ms by bot id=7862612604
+2025-06-02 19:13:45,989 - aiogram.event - INFO - Update id=870287437 is handled. Duration 200 ms by bot id=7862612604
+2025-06-02 19:13:51,527 - aiogram.event - INFO - Update id=870287438 is handled. Duration 621 ms by bot id=7862612604
+2025-06-02 19:13:53,482 - aiogram.event - INFO - Update id=870287439 is handled. Duration 217 ms by bot id=7862612604
+2025-06-02 19:13:56,127 - aiogram.event - INFO - Update id=870287440 is handled. Duration 201 ms by bot id=7862612604
+2025-06-02 19:13:56,946 - aiogram.event - INFO - Update id=870287441 is handled. Duration 182 ms by bot id=7862612604
+2025-06-02 19:13:59,506 - aiogram.event - INFO - Update id=870287442 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 19:14:01,351 - aiogram.event - INFO - Update id=870287443 is handled. Duration 405 ms by bot id=7862612604
+2025-06-02 19:14:02,475 - aiogram.event - INFO - Update id=870287444 is handled. Duration 408 ms by bot id=7862612604
+2025-06-02 19:14:03,909 - aiogram.event - INFO - Update id=870287445 is handled. Duration 505 ms by bot id=7862612604
+2025-06-02 19:14:05,548 - aiogram.event - INFO - Update id=870287446 is handled. Duration 402 ms by bot id=7862612604
+2025-06-02 19:14:07,669 - aiogram.event - INFO - Update id=870287447 is handled. Duration 312 ms by bot id=7862612604
+2025-06-02 19:14:12,818 - aiogram.event - INFO - Update id=870287448 is handled. Duration 198 ms by bot id=7862612604
+2025-06-02 19:14:20,702 - aiogram.event - INFO - Update id=870287449 is handled. Duration 197 ms by bot id=7862612604
+2025-06-02 19:16:17,226 - aiogram.event - INFO - Update id=870287450 is handled. Duration 198 ms by bot id=7862612604
+2025-06-02 19:17:38,541 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-02 19:17:38,542 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 19:17:38,542 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-02 19:17:42,457 - utils.database - INFO - Database initialized successfully
+2025-06-02 19:17:42,458 - aiogram.dispatcher - INFO - Start polling
+2025-06-02 19:17:44,172 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 19:17:52,978 - aiogram.event - INFO - Update id=870287451 is handled. Duration 918 ms by bot id=7862612604
+2025-06-02 19:17:56,767 - aiogram.event - INFO - Update id=870287452 is handled. Duration 714 ms by bot id=7862612604
+2025-06-02 19:21:09,033 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-02 19:21:09,034 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 19:21:09,034 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-02 19:21:12,599 - utils.database - INFO - Database initialized successfully
+2025-06-02 19:21:12,600 - aiogram.dispatcher - INFO - Start polling
+2025-06-02 19:21:14,088 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-02 19:21:18,183 - aiogram.event - INFO - Update id=870287453 is handled. Duration 1016 ms by bot id=7862612604
+2025-06-02 19:21:19,903 - aiogram.event - INFO - Update id=870287454 is handled. Duration 716 ms by bot id=7862612604
+2025-06-02 19:21:46,140 - aiogram.event - INFO - Update id=870287455 is handled. Duration 307 ms by bot id=7862612604
+2025-06-02 19:21:49,740 - aiogram.event - INFO - Update id=870287456 is handled. Duration 322 ms by bot id=7862612604
+2025-06-02 19:23:10,207 - aiogram.event - INFO - Update id=870287457 is handled. Duration 291 ms by bot id=7862612604
+2025-06-02 19:23:18,297 - aiogram.event - INFO - Update id=870287458 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 19:23:26,592 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,593 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,687 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,688 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,688 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,689 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,689 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,690 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,836 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,837 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,839 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:26,839 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:23:28,514 - aiogram.event - INFO - Update id=870287459 is handled. Duration 3555 ms by bot id=7862612604
+2025-06-02 19:26:33,077 - aiogram.event - INFO - Update id=870287460 is handled. Duration 221 ms by bot id=7862612604
+2025-06-02 19:26:38,387 - aiogram.event - INFO - Update id=870287461 is handled. Duration 267 ms by bot id=7862612604
+2025-06-02 19:26:41,354 - aiogram.event - INFO - Update id=870287462 is handled. Duration 201 ms by bot id=7862612604
+2025-06-02 19:26:50,879 - aiogram.event - INFO - Update id=870287463 is handled. Duration 309 ms by bot id=7862612604
+2025-06-02 19:26:58,415 - aiogram.event - INFO - Update id=870287464 is handled. Duration 370 ms by bot id=7862612604
+2025-06-02 19:27:21,296 - aiogram.event - INFO - Update id=870287465 is handled. Duration 415 ms by bot id=7862612604
+2025-06-02 19:27:27,844 - aiogram.event - INFO - Update id=870287466 is handled. Duration 200 ms by bot id=7862612604
+2025-06-02 19:27:31,734 - aiogram.event - INFO - Update id=870287467 is handled. Duration 401 ms by bot id=7862612604
+2025-06-02 19:27:33,168 - aiogram.event - INFO - Update id=870287468 is handled. Duration 198 ms by bot id=7862612604
+2025-06-02 19:27:35,537 - aiogram.event - INFO - Update id=870287469 is handled. Duration 218 ms by bot id=7862612604
+2025-06-02 19:27:42,308 - aiogram.event - INFO - Update id=870287470 is handled. Duration 219 ms by bot id=7862612604
+2025-06-02 19:27:45,150 - aiogram.event - INFO - Update id=870287471 is handled. Duration 302 ms by bot id=7862612604
+2025-06-02 19:27:46,789 - aiogram.event - INFO - Update id=870287472 is handled. Duration 308 ms by bot id=7862612604
+2025-06-02 19:27:49,412 - aiogram.event - INFO - Update id=870287473 is handled. Duration 266 ms by bot id=7862612604
+2025-06-02 19:27:52,521 - aiogram.event - INFO - Update id=870287474 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 19:28:01,327 - aiogram.event - INFO - Update id=870287475 is handled. Duration 710 ms by bot id=7862612604
+2025-06-02 19:28:08,819 - aiogram.event - INFO - Update id=870287476 is handled. Duration 221 ms by bot id=7862612604
+2025-06-02 19:28:10,038 - aiogram.event - INFO - Update id=870287477 is handled. Duration 210 ms by bot id=7862612604
+2025-06-02 19:28:15,356 - aiogram.event - INFO - Update id=870287478 is handled. Duration 306 ms by bot id=7862612604
+2025-06-02 19:28:18,151 - aiogram.event - INFO - Update id=870287479 is handled. Duration 332 ms by bot id=7862612604
+2025-06-02 19:28:19,462 - aiogram.event - INFO - Update id=870287480 is handled. Duration 212 ms by bot id=7862612604
+2025-06-02 19:28:22,527 - aiogram.event - INFO - Update id=870287481 is handled. Duration 294 ms by bot id=7862612604
+2025-06-02 19:28:25,084 - aiogram.event - INFO - Update id=870287482 is handled. Duration 202 ms by bot id=7862612604
+2025-06-02 19:28:28,668 - aiogram.event - INFO - Update id=870287483 is handled. Duration 198 ms by bot id=7862612604
+2025-06-02 19:28:31,333 - aiogram.event - INFO - Update id=870287484 is handled. Duration 308 ms by bot id=7862612604
+2025-06-02 19:28:36,758 - aiogram.event - INFO - Update id=870287485 is handled. Duration 307 ms by bot id=7862612604
+2025-06-02 19:28:40,035 - aiogram.event - INFO - Update id=870287486 is handled. Duration 198 ms by bot id=7862612604
+2025-06-02 19:28:41,775 - aiogram.event - INFO - Update id=870287487 is handled. Duration 301 ms by bot id=7862612604
+2025-06-02 19:28:50,151 - aiogram.event - INFO - Update id=870287488 is handled. Duration 279 ms by bot id=7862612604
+2025-06-02 19:28:54,268 - aiogram.event - INFO - Update id=870287489 is handled. Duration 303 ms by bot id=7862612604
+2025-06-02 19:28:56,522 - aiogram.event - INFO - Update id=870287490 is handled. Duration 308 ms by bot id=7862612604
+2025-06-02 19:28:58,496 - aiogram.event - INFO - Update id=870287491 is handled. Duration 198 ms by bot id=7862612604
+2025-06-02 19:29:16,284 - aiogram.event - INFO - Update id=870287492 is handled. Duration 301 ms by bot id=7862612604
+2025-06-02 19:29:27,243 - aiogram.event - INFO - Update id=870287493 is handled. Duration 309 ms by bot id=7862612604
+2025-06-02 19:29:30,620 - aiogram.event - INFO - Update id=870287494 is handled. Duration 306 ms by bot id=7862612604
+2025-06-02 19:29:33,589 - aiogram.event - INFO - Update id=870287495 is handled. Duration 301 ms by bot id=7862612604
+2025-06-02 19:29:45,365 - aiogram.event - INFO - Update id=870287496 is handled. Duration 303 ms by bot id=7862612604
+2025-06-02 19:29:51,205 - aiogram.event - INFO - Update id=870287497 is handled. Duration 309 ms by bot id=7862612604
+2025-06-02 19:29:59,394 - aiogram.event - INFO - Update id=870287498 is handled. Duration 201 ms by bot id=7862612604
+2025-06-02 19:30:05,231 - aiogram.event - INFO - Update id=870287499 is handled. Duration 407 ms by bot id=7862612604
+2025-06-02 19:30:08,922 - aiogram.event - INFO - Update id=870287500 is handled. Duration 311 ms by bot id=7862612604
+2025-06-02 19:30:11,380 - aiogram.event - INFO - Update id=870287501 is handled. Duration 312 ms by bot id=7862612604
+2025-06-02 19:30:28,071 - aiogram.event - INFO - Update id=870287502 is handled. Duration 312 ms by bot id=7862612604
+2025-06-02 19:30:37,998 - aiogram.event - INFO - Update id=870287503 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 19:30:54,290 - aiogram.event - INFO - Update id=870287504 is handled. Duration 170 ms by bot id=7862612604
+2025-06-02 19:30:57,969 - aiogram.event - INFO - Update id=870287505 is handled. Duration 306 ms by bot id=7862612604
+2025-06-02 19:31:01,658 - aiogram.event - INFO - Update id=870287506 is handled. Duration 301 ms by bot id=7862612604
+2025-06-02 19:31:12,359 - aiogram.event - INFO - Update id=870287507 is handled. Duration 191 ms by bot id=7862612604
+2025-06-02 19:31:15,169 - aiogram.event - INFO - Update id=870287508 is handled. Duration 201 ms by bot id=7862612604
+2025-06-02 19:31:19,472 - aiogram.event - INFO - Update id=870287509 is handled. Duration 309 ms by bot id=7862612604
+2025-06-02 19:31:20,702 - aiogram.event - INFO - Update id=870287510 is handled. Duration 207 ms by bot id=7862612604
+2025-06-02 19:31:22,132 - aiogram.event - INFO - Update id=870287511 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 19:31:24,002 - aiogram.event - INFO - Update id=870287512 is handled. Duration 539 ms by bot id=7862612604
+2025-06-02 19:31:26,535 - aiogram.event - INFO - Update id=870287513 is handled. Duration 306 ms by bot id=7862612604
+2025-06-02 19:31:33,302 - aiogram.event - INFO - Update id=870287514 is handled. Duration 212 ms by bot id=7862612604
+2025-06-02 19:31:36,574 - aiogram.event - INFO - Update id=870287515 is handled. Duration 467 ms by bot id=7862612604
+2025-06-02 19:31:38,827 - aiogram.event - INFO - Update id=870287516 is handled. Duration 195 ms by bot id=7862612604
+2025-06-02 19:31:46,925 - aiogram.event - INFO - Update id=870287517 is handled. Duration 199 ms by bot id=7862612604
+2025-06-02 19:31:57,681 - aiogram.event - INFO - Update id=870287518 is handled. Duration 219 ms by bot id=7862612604
+2025-06-02 19:32:01,368 - aiogram.event - INFO - Update id=870287519 is handled. Duration 203 ms by bot id=7862612604
+2025-06-02 19:32:16,916 - aiogram.event - INFO - Update id=870287520 is handled. Duration 512 ms by bot id=7862612604
+2025-06-02 19:32:19,581 - aiogram.event - INFO - Update id=870287521 is handled. Duration 202 ms by bot id=7862612604
+2025-06-02 19:32:38,332 - aiogram.event - INFO - Update id=870287522 is handled. Duration 1140 ms by bot id=7862612604
+2025-06-02 19:32:45,280 - aiogram.event - INFO - Update id=870287523 is handled. Duration 303 ms by bot id=7862612604
+2025-06-02 19:32:48,457 - aiogram.event - INFO - Update id=870287524 is handled. Duration 309 ms by bot id=7862612604
+2025-06-02 19:32:50,427 - aiogram.event - INFO - Update id=870287525 is handled. Duration 193 ms by bot id=7862612604
+2025-06-02 19:32:52,552 - aiogram.event - INFO - Update id=870287526 is handled. Duration 408 ms by bot id=7862612604
+2025-06-02 19:33:11,395 - aiogram.event - INFO - Update id=870287527 is handled. Duration 405 ms by bot id=7862612604
+2025-06-02 19:33:25,625 - aiogram.event - INFO - Update id=870287528 is handled. Duration 306 ms by bot id=7862612604
+2025-06-02 19:33:29,210 - aiogram.event - INFO - Update id=870287529 is handled. Duration 408 ms by bot id=7862612604
+2025-06-02 19:33:31,347 - aiogram.event - INFO - Update id=870287530 is handled. Duration 178 ms by bot id=7862612604
+2025-06-02 19:33:42,010 - aiogram.event - INFO - Update id=870287531 is handled. Duration 409 ms by bot id=7862612604
+2025-06-02 19:33:47,948 - aiogram.event - INFO - Update id=870287532 is handled. Duration 306 ms by bot id=7862612604
+2025-06-02 19:33:52,505 - aiogram.event - INFO - Update id=870287533 is handled. Duration 254 ms by bot id=7862612604
+2025-06-02 19:34:01,363 - aiogram.event - INFO - Update id=870287534 is handled. Duration 1020 ms by bot id=7862612604
+2025-06-02 19:34:23,686 - aiogram.event - INFO - Update id=870287535 is handled. Duration 360 ms by bot id=7862612604
+2025-06-02 19:34:52,460 - aiogram.event - INFO - Update id=870287536 is handled. Duration 204 ms by bot id=7862612604
+2025-06-02 19:34:59,202 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,203 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,305 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,306 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,306 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,307 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,308 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,309 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,477 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,477 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,479 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:34:59,480 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-02 19:35:01,682 - aiogram.event - INFO - Update id=870287537 is handled. Duration 5022 ms by bot id=7862612604
+2025-06-02 19:37:22,582 - aiogram.event - INFO - Update id=870287538 is not handled. Duration 3 ms by bot id=7862612604
+2025-06-02 19:58:20,934 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-06-02 19:58:20,934 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-06-02 19:58:32,299 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-06-02 20:00:54,070 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-06-02 20:00:54,070 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-06-02 20:01:05,663 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-06-02 20:01:07,638 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ServerDisconnectedError: Server disconnected
+2025-06-02 20:01:07,638 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-06-02 20:01:18,980 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-06-04 00:19:19,773 - utils.database - INFO - Database initialized successfully
+2025-06-04 00:19:19,774 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 00:19:20,534 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-04 00:20:30,476 - aiogram.event - INFO - Update id=870287539 is handled. Duration 806 ms by bot id=7862612604
+2025-06-04 00:20:42,956 - aiogram.event - INFO - Update id=870287540 is handled. Duration 176 ms by bot id=7862612604
+2025-06-04 00:20:47,696 - aiogram.event - INFO - Update id=870287541 is handled. Duration 402 ms by bot id=7862612604
+2025-06-04 00:21:06,851 - aiogram.event - INFO - Update id=870287542 is handled. Duration 203 ms by bot id=7862612604
+2025-06-04 00:21:14,336 - aiogram.event - INFO - Update id=870287543 is handled. Duration 390 ms by bot id=7862612604
+2025-06-04 00:21:48,128 - aiogram.event - INFO - Update id=870287544 is handled. Duration 203 ms by bot id=7862612604
+2025-06-04 00:21:55,808 - aiogram.event - INFO - Update id=870287545 is handled. Duration 405 ms by bot id=7862612604
+2025-06-04 00:22:04,109 - aiogram.event - INFO - Update id=870287546 is handled. Duration 205 ms by bot id=7862612604
+2025-06-04 00:22:16,154 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 00:22:16,155 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-04 00:22:16,155 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-04 00:22:20,468 - utils.database - INFO - Database initialized successfully
+2025-06-04 00:22:20,469 - aiogram.dispatcher - INFO - Start polling
+2025-06-04 00:22:21,317 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-04 00:22:28,282 - aiogram.event - INFO - Update id=870287547 is handled. Duration 915 ms by bot id=7862612604
+2025-06-04 00:22:51,940 - aiogram.event - INFO - Update id=870287548 is handled. Duration 198 ms by bot id=7862612604
+2025-06-04 00:22:54,603 - aiogram.event - INFO - Update id=870287549 is handled. Duration 511 ms by bot id=7862612604
+2025-06-04 00:23:13,865 - aiogram.event - INFO - Update id=870287550 is handled. Duration 179 ms by bot id=7862612604
+2025-06-04 00:23:16,214 - aiogram.event - INFO - Update id=870287551 is handled. Duration 504 ms by bot id=7862612604
+2025-06-04 00:23:18,160 - aiogram.event - INFO - Update id=870287552 is handled. Duration 205 ms by bot id=7862612604
+2025-06-04 00:23:21,949 - aiogram.event - INFO - Update id=870287553 is handled. Duration 204 ms by bot id=7862612604
+2025-06-04 00:23:26,061 - aiogram.event - INFO - Update id=870287554 is handled. Duration 214 ms by bot id=7862612604
+2025-06-04 00:23:29,117 - aiogram.event - INFO - Update id=870287555 is handled. Duration 301 ms by bot id=7862612604
+2025-06-04 00:23:30,861 - aiogram.event - INFO - Update id=870287556 is handled. Duration 412 ms by bot id=7862612604
+2025-06-04 00:23:33,220 - aiogram.event - INFO - Update id=870287557 is handled. Duration 208 ms by bot id=7862612604
+2025-06-04 00:23:37,827 - aiogram.event - INFO - Update id=870287558 is handled. Duration 306 ms by bot id=7862612604
+2025-06-04 00:23:42,738 - aiogram.event - INFO - Update id=870287559 is handled. Duration 406 ms by bot id=7862612604
+2025-06-04 00:23:46,326 - aiogram.event - INFO - Update id=870287560 is handled. Duration 412 ms by bot id=7862612604
+2025-06-04 00:23:55,957 - aiogram.event - INFO - Update id=870287561 is handled. Duration 309 ms by bot id=7862612604
+2025-06-04 00:23:58,617 - aiogram.event - INFO - Update id=870287562 is handled. Duration 202 ms by bot id=7862612604
+2025-06-04 00:24:10,497 - aiogram.event - INFO - Update id=870287563 is handled. Duration 689 ms by bot id=7862612604
+2025-06-04 00:24:17,155 - aiogram.event - INFO - Update id=870287564 is handled. Duration 207 ms by bot id=7862612604
+2025-06-04 00:24:52,385 - aiogram.event - INFO - Update id=870287565 is handled. Duration 200 ms by bot id=7862612604
+2025-06-04 00:24:57,306 - aiogram.event - INFO - Update id=870287566 is handled. Duration 308 ms by bot id=7862612604
+2025-06-04 00:25:05,498 - aiogram.event - INFO - Update id=870287567 is handled. Duration 307 ms by bot id=7862612604
+2025-06-04 00:25:06,932 - aiogram.event - INFO - Update id=870287568 is handled. Duration 307 ms by bot id=7862612604
+2025-06-04 00:25:08,779 - aiogram.event - INFO - Update id=870287569 is handled. Duration 204 ms by bot id=7862612604
+2025-06-04 00:25:12,362 - aiogram.event - INFO - Update id=870287570 is handled. Duration 303 ms by bot id=7862612604
+2025-06-04 00:25:29,977 - aiogram.event - INFO - Update id=870287571 is handled. Duration 203 ms by bot id=7862612604
+2025-06-04 00:25:32,251 - aiogram.event - INFO - Update id=870287572 is handled. Duration 179 ms by bot id=7862612604
+2025-06-04 00:25:38,274 - aiogram.event - INFO - Update id=870287573 is handled. Duration 300 ms by bot id=7862612604
+2025-06-04 00:25:39,708 - aiogram.event - INFO - Update id=870287574 is handled. Duration 307 ms by bot id=7862612604
+2025-06-04 00:25:44,010 - aiogram.event - INFO - Update id=870287575 is handled. Duration 201 ms by bot id=7862612604
+2025-06-04 00:25:50,257 - aiogram.event - INFO - Update id=870287576 is handled. Duration 307 ms by bot id=7862612604
+2025-06-04 00:26:10,025 - aiogram.event - INFO - Update id=870287577 is handled. Duration 304 ms by bot id=7862612604
+2025-06-04 00:26:31,533 - aiogram.event - INFO - Update id=870287578 is handled. Duration 408 ms by bot id=7862612604
+2025-06-04 00:26:33,889 - aiogram.event - INFO - Update id=870287579 is handled. Duration 204 ms by bot id=7862612604
+2025-06-04 00:26:36,756 - aiogram.event - INFO - Update id=870287580 is handled. Duration 307 ms by bot id=7862612604
+2025-06-04 00:26:42,801 - aiogram.event - INFO - Update id=870287581 is handled. Duration 410 ms by bot id=7862612604
+2025-06-04 00:26:48,846 - aiogram.event - INFO - Update id=870287582 is handled. Duration 208 ms by bot id=7862612604
+2025-06-04 00:26:54,992 - aiogram.event - INFO - Update id=870287583 is handled. Duration 207 ms by bot id=7862612604
+2025-06-04 00:27:07,279 - aiogram.event - INFO - Update id=870287584 is handled. Duration 205 ms by bot id=7862612604
+2025-06-04 00:27:13,220 - aiogram.event - INFO - Update id=870287585 is handled. Duration 308 ms by bot id=7862612604
+2025-06-04 00:27:23,968 - aiogram.event - INFO - Update id=870287586 is handled. Duration 200 ms by bot id=7862612604
+2025-06-04 00:50:53,448 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,449 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,527 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,528 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,529 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,529 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,529 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,530 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,658 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,658 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,660 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:53,660 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:50:55,345 - aiogram.event - INFO - Update id=870287587 is handled. Duration 3583 ms by bot id=7862612604
+2025-06-04 00:51:47,330 - aiogram.event - INFO - Update id=870287588 is handled. Duration 129 ms by bot id=7862612604
+2025-06-04 00:51:51,198 - aiogram.event - INFO - Update id=870287589 is handled. Duration 160 ms by bot id=7862612604
+2025-06-04 00:52:05,283 - aiogram.event - INFO - Update id=870287590 is handled. Duration 346 ms by bot id=7862612604
+2025-06-04 00:52:14,623 - aiogram.event - INFO - Update id=870287591 is handled. Duration 168 ms by bot id=7862612604
+2025-06-04 00:52:26,142 - aiogram.event - INFO - Update id=870287592 is handled. Duration 166 ms by bot id=7862612604
+2025-06-04 00:52:35,646 - aiogram.event - INFO - Update id=870287593 is handled. Duration 198 ms by bot id=7862612604
+2025-06-04 00:52:41,790 - aiogram.event - INFO - Update id=870287594 is handled. Duration 204 ms by bot id=7862612604
+2025-06-04 00:52:46,949 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:46,949 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,035 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,036 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,037 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,037 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,038 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,039 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,186 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,187 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,188 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:47,189 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:52:48,495 - aiogram.event - INFO - Update id=870287595 is handled. Duration 3324 ms by bot id=7862612604
+2025-06-04 00:53:39,525 - aiogram.event - INFO - Update id=870287596 is handled. Duration 394 ms by bot id=7862612604
+2025-06-04 00:53:41,787 - aiogram.event - INFO - Update id=870287597 is handled. Duration 410 ms by bot id=7862612604
+2025-06-04 00:53:58,577 - aiogram.event - INFO - Update id=870287598 is handled. Duration 202 ms by bot id=7862612604
+2025-06-04 00:54:17,929 - aiogram.event - INFO - Update id=870287599 is handled. Duration 409 ms by bot id=7862612604
+2025-06-04 00:54:31,465 - aiogram.event - INFO - Update id=870287600 is handled. Duration 218 ms by bot id=7862612604
+2025-06-04 00:55:09,170 - aiogram.event - INFO - Update id=870287601 is handled. Duration 513 ms by bot id=7862612604
+2025-06-04 00:55:13,882 - aiogram.event - INFO - Update id=870287602 is handled. Duration 203 ms by bot id=7862612604
+2025-06-04 00:55:21,671 - aiogram.event - INFO - Update id=870287603 is handled. Duration 402 ms by bot id=7862612604
+2025-06-04 00:55:32,838 - aiogram.event - INFO - Update id=870287604 is handled. Duration 306 ms by bot id=7862612604
+2025-06-04 00:55:36,321 - aiogram.event - INFO - Update id=870287605 is handled. Duration 206 ms by bot id=7862612604
+2025-06-04 00:55:43,664 - aiogram.event - INFO - Update id=870287606 is not handled. Duration 3 ms by bot id=7862612604
+2025-06-04 00:55:48,818 - aiogram.event - INFO - Update id=870287607 is handled. Duration 309 ms by bot id=7862612604
+2025-06-04 00:55:51,278 - aiogram.event - INFO - Update id=870287608 is handled. Duration 307 ms by bot id=7862612604
+2025-06-04 00:55:56,168 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,169 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,260 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,261 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,262 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,262 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,263 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,264 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,410 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,411 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,413 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:56,414 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-04 00:55:58,147 - aiogram.event - INFO - Update id=870287609 is handled. Duration 3999 ms by bot id=7862612604
+2025-06-04 00:58:31,975 - aiogram.event - INFO - Update id=870287610 is handled. Duration 199 ms by bot id=7862612604
+2025-06-04 00:58:40,176 - aiogram.event - INFO - Update id=870287611 is handled. Duration 209 ms by bot id=7862612604
+2025-06-04 00:58:51,839 - aiogram.event - INFO - Update id=870287612 is handled. Duration 506 ms by bot id=7862612604
+2025-06-04 00:59:01,156 - aiogram.event - INFO - Update id=870287613 is handled. Duration 200 ms by bot id=7862612604
+2025-06-04 00:59:03,467 - aiogram.event - INFO - Update id=870287614 is handled. Duration 365 ms by bot id=7862612604
+2025-06-04 00:59:07,295 - aiogram.event - INFO - Update id=870287615 is handled. Duration 303 ms by bot id=7862612604
+2025-06-04 00:59:12,622 - aiogram.event - INFO - Update id=870287616 is handled. Duration 204 ms by bot id=7862612604
+2025-06-04 00:59:15,965 - aiogram.event - INFO - Update id=870287617 is handled. Duration 371 ms by bot id=7862612604
+2025-06-04 00:59:32,382 - aiogram.event - INFO - Update id=870287618 is handled. Duration 306 ms by bot id=7862612604
+2025-06-04 00:59:46,409 - aiogram.event - INFO - Update id=870287619 is handled. Duration 921 ms by bot id=7862612604
+2025-06-04 00:59:51,220 - aiogram.event - INFO - Update id=870287620 is handled. Duration 409 ms by bot id=7862612604
+2025-06-04 01:02:41,953 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-04 01:02:41,953 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-04 01:02:41,954 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-07 03:39:38,879 - utils.database - INFO - Database initialized successfully
+2025-06-07 03:39:38,881 - aiogram.dispatcher - INFO - Start polling
+2025-06-07 03:39:39,612 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-07 03:40:11,467 - aiogram.event - INFO - Update id=870287621 is handled. Duration 919 ms by bot id=7862612604
+2025-06-07 03:40:25,935 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:25,936 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,007 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,008 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,009 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,009 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,010 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,010 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,130 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,131 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,132 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:26,133 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:40:27,386 - aiogram.event - INFO - Update id=870287622 is handled. Duration 2841 ms by bot id=7862612604
+2025-06-07 03:42:14,494 - aiogram.event - INFO - Update id=870287623 is handled. Duration 202 ms by bot id=7862612604
+2025-06-07 03:42:18,593 - aiogram.event - INFO - Update id=870287624 is handled. Duration 207 ms by bot id=7862612604
+2025-06-07 03:42:31,420 - aiogram.event - INFO - Update id=870287625 is handled. Duration 180 ms by bot id=7862612604
+2025-06-07 03:42:45,818 - aiogram.event - INFO - Update id=870287626 is handled. Duration 204 ms by bot id=7862612604
+2025-06-07 03:42:58,002 - aiogram.event - INFO - Update id=870287627 is handled. Duration 306 ms by bot id=7862612604
+2025-06-07 03:43:01,790 - aiogram.event - INFO - Update id=870287628 is handled. Duration 207 ms by bot id=7862612604
+2025-06-07 03:43:07,726 - aiogram.event - INFO - Update id=870287629 is handled. Duration 207 ms by bot id=7862612604
+2025-06-07 03:43:11,513 - aiogram.event - INFO - Update id=870287630 is handled. Duration 207 ms by bot id=7862612604
+2025-06-07 03:43:23,384 - aiogram.event - INFO - Update id=870287631 is handled. Duration 303 ms by bot id=7862612604
+2025-06-07 03:43:29,216 - aiogram.event - INFO - Update id=870287632 is handled. Duration 220 ms by bot id=7862612604
+2025-06-07 03:43:39,408 - aiogram.event - INFO - Update id=870287633 is handled. Duration 177 ms by bot id=7862612604
+2025-06-07 03:43:43,756 - aiogram.event - INFO - Update id=870287634 is handled. Duration 309 ms by bot id=7862612604
+2025-06-07 03:43:45,391 - aiogram.event - INFO - Update id=870287635 is handled. Duration 200 ms by bot id=7862612604
+2025-06-07 03:43:53,477 - aiogram.event - INFO - Update id=870287636 is handled. Duration 299 ms by bot id=7862612604
+2025-06-07 03:44:01,681 - aiogram.event - INFO - Update id=870287637 is handled. Duration 220 ms by bot id=7862612604
+2025-06-07 03:44:15,384 - aiogram.event - INFO - Update id=870287638 is handled. Duration 309 ms by bot id=7862612604
+2025-06-07 03:44:20,601 - aiogram.event - INFO - Update id=870287639 is handled. Duration 197 ms by bot id=7862612604
+2025-06-07 03:44:26,947 - aiogram.event - INFO - Update id=870287640 is handled. Duration 176 ms by bot id=7862612604
+2025-06-07 03:44:32,170 - aiogram.event - INFO - Update id=870287641 is handled. Duration 309 ms by bot id=7862612604
+2025-06-07 03:44:38,104 - aiogram.event - INFO - Update id=870287642 is handled. Duration 204 ms by bot id=7862612604
+2025-06-07 03:46:59,402 - aiogram.event - INFO - Update id=870287643 is handled. Duration 839 ms by bot id=7862612604
+2025-06-07 03:47:03,169 - aiogram.event - INFO - Update id=870287644 is handled. Duration 204 ms by bot id=7862612604
+2025-06-07 03:47:05,939 - aiogram.event - INFO - Update id=870287645 is handled. Duration 200 ms by bot id=7862612604
+2025-06-07 03:47:10,750 - aiogram.event - INFO - Update id=870287646 is handled. Duration 306 ms by bot id=7862612604
+2025-06-07 03:47:39,948 - aiogram.event - INFO - Update id=870287647 is handled. Duration 208 ms by bot id=7862612604
+2025-06-07 03:48:05,651 - aiogram.event - INFO - Update id=870287648 is handled. Duration 203 ms by bot id=7862612604
+2025-06-07 03:48:10,871 - aiogram.event - INFO - Update id=870287649 is handled. Duration 306 ms by bot id=7862612604
+2025-06-07 03:48:14,459 - aiogram.event - INFO - Update id=870287650 is handled. Duration 311 ms by bot id=7862612604
+2025-06-07 03:48:21,525 - aiogram.event - INFO - Update id=870287651 is handled. Duration 309 ms by bot id=7862612604
+2025-06-07 03:48:32,484 - aiogram.event - INFO - Update id=870287652 is handled. Duration 207 ms by bot id=7862612604
+2025-06-07 03:48:58,499 - aiogram.event - INFO - Update id=870287653 is handled. Duration 203 ms by bot id=7862612604
+2025-06-07 03:49:01,845 - aiogram.event - INFO - Update id=870287654 is handled. Duration 201 ms by bot id=7862612604
+2025-06-07 03:49:04,546 - aiogram.event - INFO - Update id=870287655 is handled. Duration 203 ms by bot id=7862612604
+2025-06-07 03:49:12,741 - aiogram.event - INFO - Update id=870287656 is handled. Duration 207 ms by bot id=7862612604
+2025-06-07 03:49:39,783 - aiogram.event - INFO - Update id=870287657 is handled. Duration 204 ms by bot id=7862612604
+2025-06-07 03:49:55,357 - aiogram.event - INFO - Update id=870287658 is handled. Duration 203 ms by bot id=7862612604
+2025-06-07 03:49:59,042 - aiogram.event - INFO - Update id=870287659 is handled. Duration 205 ms by bot id=7862612604
+2025-06-07 03:50:02,637 - aiogram.event - INFO - Update id=870287660 is handled. Duration 215 ms by bot id=7862612604
+2025-06-07 03:50:09,901 - aiogram.event - INFO - Update id=870287661 is handled. Duration 211 ms by bot id=7862612604
+2025-06-07 03:50:13,993 - aiogram.event - INFO - Update id=870287662 is handled. Duration 309 ms by bot id=7862612604
+2025-06-07 03:50:29,039 - aiogram.event - INFO - Update id=870287663 is handled. Duration 203 ms by bot id=7862612604
+2025-06-07 03:50:32,523 - aiogram.event - INFO - Update id=870287664 is handled. Duration 305 ms by bot id=7862612604
+2025-06-07 03:50:39,589 - aiogram.event - INFO - Update id=870287665 is handled. Duration 411 ms by bot id=7862612604
+2025-06-07 03:50:44,296 - aiogram.event - INFO - Update id=870287666 is handled. Duration 204 ms by bot id=7862612604
+2025-06-07 03:50:50,440 - aiogram.event - INFO - Update id=870287667 is handled. Duration 203 ms by bot id=7862612604
+2025-06-07 03:51:17,066 - aiogram.event - INFO - Update id=870287668 is handled. Duration 201 ms by bot id=7862612604
+2025-06-07 03:51:27,410 - aiogram.event - INFO - Update id=870287669 is handled. Duration 200 ms by bot id=7862612604
+2025-06-07 03:51:29,051 - aiogram.event - INFO - Update id=870287670 is handled. Duration 309 ms by bot id=7862612604
+2025-06-07 03:51:33,251 - aiogram.event - INFO - Update id=870287671 is handled. Duration 201 ms by bot id=7862612604
+2025-06-07 03:51:42,073 - aiogram.event - INFO - Update id=870287672 is handled. Duration 180 ms by bot id=7862612604
+2025-06-07 03:51:57,226 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,227 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,300 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,301 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,301 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,302 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,302 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,303 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,419 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,419 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,420 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:57,421 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:51:58,657 - aiogram.event - INFO - Update id=870287673 is handled. Duration 2668 ms by bot id=7862612604
+2025-06-07 03:52:13,295 - aiogram.event - INFO - Update id=870287674 is handled. Duration 302 ms by bot id=7862612604
+2025-06-07 03:52:34,295 - aiogram.event - INFO - Update id=870287675 is handled. Duration 207 ms by bot id=7862612604
+2025-06-07 03:52:48,485 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,486 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,569 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,570 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,571 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,572 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,573 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,574 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,721 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,722 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,723 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:48,724 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 03:52:50,643 - aiogram.event - INFO - Update id=870287676 is handled. Duration 4772 ms by bot id=7862612604
+2025-06-07 03:53:12,093 - aiogram.event - INFO - Update id=870287677 is not handled. Duration 2 ms by bot id=7862612604
+2025-06-07 03:59:19,044 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramNetworkError: HTTP Client says - ClientOSError: [Errno 104] Connection reset by peer
+2025-06-07 03:59:19,044 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 7862612604)
+2025-06-07 03:59:30,718 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 7862612604)
+2025-06-07 04:01:56,691 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-07 04:01:56,691 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-07 04:01:56,692 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-07 04:02:02,128 - utils.database - INFO - Database initialized successfully
+2025-06-07 04:02:02,129 - aiogram.dispatcher - INFO - Start polling
+2025-06-07 04:02:03,449 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-07 04:02:17,622 - aiogram.event - INFO - Update id=870287678 is handled. Duration 669 ms by bot id=7862612604
+2025-06-07 04:02:20,238 - aiogram.event - INFO - Update id=870287679 is handled. Duration 810 ms by bot id=7862612604
+2025-06-07 04:02:25,180 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,181 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,259 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,260 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,260 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,261 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,261 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,262 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,391 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,391 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,393 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:25,394 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:02:26,995 - aiogram.event - INFO - Update id=870287680 is handled. Duration 3066 ms by bot id=7862612604
+2025-06-07 04:02:47,905 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-07 04:02:47,905 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-07 04:02:47,905 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-07 04:04:04,539 - utils.database - INFO - Database initialized successfully
+2025-06-07 04:04:04,540 - aiogram.dispatcher - INFO - Start polling
+2025-06-07 04:04:05,746 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-07 04:04:40,290 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,290 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,373 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,373 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,374 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,374 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,375 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,375 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,504 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,504 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,506 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:40,507 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:04:42,182 - aiogram.event - INFO - Update id=870287681 is handled. Duration 3366 ms by bot id=7862612604
+2025-06-07 04:06:56,376 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-07 04:06:56,377 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-07 04:06:56,377 - aiogram.dispatcher - INFO - Polling stopped
+2025-06-07 04:07:24,371 - utils.database - INFO - Database initialized successfully
+2025-06-07 04:07:24,372 - aiogram.dispatcher - INFO - Start polling
+2025-06-07 04:07:26,150 - aiogram.dispatcher - INFO - Run polling for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-07 04:07:34,093 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,094 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,174 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,175 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,176 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,177 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,178 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,178 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,321 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,322 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,324 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:34,325 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:07:36,312 - aiogram.event - INFO - Update id=870287682 is handled. Duration 4491 ms by bot id=7862612604
+2025-06-07 04:07:57,213 - aiogram.event - INFO - Update id=870287683 is handled. Duration 207 ms by bot id=7862612604
+2025-06-07 04:08:05,406 - aiogram.event - INFO - Update id=870287684 is handled. Duration 201 ms by bot id=7862612604
+2025-06-07 04:08:18,208 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,209 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,348 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,349 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,350 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,351 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,353 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,354 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,515 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,516 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,518 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:18,520 - matplotlib.category - INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+2025-06-07 04:08:20,235 - aiogram.event - INFO - Update id=870287685 is handled. Duration 4687 ms by bot id=7862612604
+2025-06-07 04:08:59,782 - aiogram.event - INFO - Update id=870287686 is not handled. Duration 2 ms by bot id=7862612604
+2025-06-07 04:09:48,537 - aiogram.event - INFO - Update id=870287687 is handled. Duration 196 ms by bot id=7862612604
+2025-06-07 04:09:59,601 - aiogram.event - INFO - Update id=870287688 is handled. Duration 204 ms by bot id=7862612604
+2025-06-07 04:10:06,668 - aiogram.event - INFO - Update id=870287689 is handled. Duration 200 ms by bot id=7862612604
+2025-06-07 04:10:11,079 - aiogram.event - INFO - Update id=870287690 is handled. Duration 312 ms by bot id=7862612604
+2025-06-07 04:10:41,087 - aiogram.event - INFO - Update id=870287691 is handled. Duration 308 ms by bot id=7862612604
+2025-06-07 04:10:49,177 - aiogram.event - INFO - Update id=870287692 is handled. Duration 407 ms by bot id=7862612604
+2025-06-07 04:10:50,402 - aiogram.event - INFO - Update id=870287693 is handled. Duration 508 ms by bot id=7862612604
+2025-06-07 04:11:06,692 - aiogram.event - INFO - Update id=870287694 is handled. Duration 307 ms by bot id=7862612604
+2025-06-07 04:11:13,246 - aiogram.event - INFO - Update id=870287695 is handled. Duration 306 ms by bot id=7862612604
+2025-06-07 04:11:18,382 - aiogram.event - INFO - Update id=870287696 is handled. Duration 233 ms by bot id=7862612604
+2025-06-07 04:11:25,561 - aiogram.event - INFO - Update id=870287697 is handled. Duration 228 ms by bot id=7862612604
+2025-06-07 04:11:28,311 - aiogram.event - INFO - Update id=870287698 is handled. Duration 241 ms by bot id=7862612604
+2025-06-07 04:11:40,120 - aiogram.dispatcher - WARNING - Received SIGINT signal
+2025-06-07 04:11:40,121 - aiogram.dispatcher - INFO - Polling stopped for bot @azamatus_finance_bot id=7862612604 - 'finance records'
+2025-06-07 04:11:40,121 - aiogram.dispatcher - INFO - Polling stopped

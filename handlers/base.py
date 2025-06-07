@@ -16,15 +16,22 @@ async def start(message: types.Message):
         "/deletecategory - удалить категорию\n"
         "/balance - текущий баланс\n"
         "/add_income - добавить доход\n"
+        "/add_income_list - массовое добавление доходов\n"
         "/add_expense - добавить расход\n"
+        "/add_expense_list - массовое добавление расходов\n"
+        "/delete_transactions - удаление транзакций\n"
         "/report - отчёт за период\n"
-        "/categories - мои категории\n"
-        "/add_wish - добавить желание\n"
-        "/wishlist - список желаний\n"
-        "/delete_wish - удалить желание\n"
         "/monthly - автоотчёт за месяц\n"
         "/compare - сравнение месяцев\n"
-        "/report - отправка отчетов\n",
-
+        "/categories - мои категории\n"
+        "/add_wish - добавить желание\n"
+        "/add_wishes - массовое добавление желаний\n"
+        "/wishlist - список желаний\n"
+        "/delete_wish - удалить желание\n"
+        "/buy_wish - купить желание из вишлиста\n"
+        "/edit_wish - редактировать желание\n"
+        "/history - история транзакций\n"
+        "/help - справка\n"
+        "/menu - показать меню\n",
         reply_markup=main_menu()
     )
