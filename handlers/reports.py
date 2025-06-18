@@ -139,6 +139,16 @@ from utils.database import fetchall
 from utils.formating import format_amount
 from utils.pdf_generator import create_pdf_report
 
+import matplotlib.pyplot as plt
+import os
+import asyncio
+from tempfile import NamedTemporaryFile
+from aiogram.types import FSInputFile
+from collections import defaultdict
+from utils.database import fetchall
+from utils.formating import format_amount
+from utils.pdf_generator import create_pdf_report
+
 async def generate_report(message, user_id: int, start_date: str, end_date: str):
     transactions = fetchall('''
         SELECT 
@@ -161,24 +171,22 @@ async def generate_report(message, user_id: int, start_date: str, end_date: str)
 
     total_income = 0
     total_expense = 0
-    from collections import defaultdict
-
     report = [f"Отчет с {start_date} по {end_date}:\n"]
 
     # Группируем транзакции по дате
     grouped = defaultdict(list)
-    total_income = 0.0
-    total_expense = 0.0
 
     for amount, category, type_, description, date_str in transactions:
         grouped[date_str].append((float(amount), category, type_, description))
 
-    # Строим отчёт по дням
+    # Строим отчет по дням
     for date_str in sorted(grouped.keys(), key=lambda d: datetime.strptime(d, "%d.%m.%Y")):
         report.append(f"\n {date_str}")
         for amount, category, type_, description in grouped[date_str]:
             type_label = "Доход" if type_ == "income" else "Расход"
             report.append(f"  {type_label:<6} | {category:<30} | {format_amount(amount)} ₽")
+            if description:
+                report.append(f"     Описание: {description}")
 
             if type_ == 'income':
                 total_income += amount
@@ -190,8 +198,6 @@ async def generate_report(message, user_id: int, start_date: str, end_date: str)
     report.append(f"{'Общий доход':<20}: {format_amount(total_income)} ₽")
     report.append(f"{'Общий расход':<20}: {format_amount(total_expense)} ₽")
     report.append(f"{'Баланс':<20}: {format_amount(total_income - total_expense)} ₽")
-
-
 
     # Отправка текстового отчёта по частям
     for i in range(0, len(report), 10):
@@ -205,7 +211,7 @@ async def generate_report(message, user_id: int, start_date: str, end_date: str)
             writer.writerow([
                 date_str,
                 "Доход" if type_ == "income" else "Расход",
-                f"{category}",
+                category,
                 f"{amount:.2f}",
                 description or ""
             ])
@@ -215,6 +221,7 @@ async def generate_report(message, user_id: int, start_date: str, end_date: str)
     asyncio.create_task(delayed_file_removal(csv_path))
 
     image_paths = []
+
 
     # 1. Сводная диаграмма
     labels = ['Доходы', 'Расходы', 'Баланс']
@@ -232,7 +239,20 @@ async def generate_report(message, user_id: int, start_date: str, end_date: str)
     plt.close(fig)
     image_paths.append((path, "Доходы, расходы и баланс"))
 
-    # 2. По месяцам
+    # 2. Круговая диаграмма: Доходы и Расходы
+    labels_pie = ['Доходы', 'Расходы']
+    values_pie = [total_income, total_expense]
+    fig, ax = plt.subplots(figsize=(8, 6))
+    ax.pie(values_pie, labels=labels_pie, autopct='%1.1f%%', colors=['green', 'red'], startangle=90)
+    ax.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+    ax.set_title('Доходы и Расходы (круговая диаграмма)')
+    pie_chart_path = f"pie_chart_{user_id}.png"
+    plt.tight_layout()
+    plt.savefig(pie_chart_path)
+    plt.close(fig)
+    image_paths.append((pie_chart_path, "Доходы и Расходы"))
+
+    # 3. По месяцам
     monthly_income = defaultdict(float)
     monthly_expense = defaultdict(float)
     for amount, _, type_, _, date_str in transactions:
@@ -261,7 +281,7 @@ async def generate_report(message, user_id: int, start_date: str, end_date: str)
     plt.close(fig)
     image_paths.append((path, "По месяцам"))
 
-    # 3. Накопительный баланс по месяцам
+    # 4. Накопительный баланс по месяцам
     running_total = 0
     cumulative = []
     for m in all_months:
@@ -279,7 +299,7 @@ async def generate_report(message, user_id: int, start_date: str, end_date: str)
     plt.close(fig)
     image_paths.append((path, "Баланс по месяцам"))
 
-    # 4. По дням
+    # 5. По дням
     daily_data = defaultdict(lambda: {'income': 0, 'expense': 0})
     for amount, _, type_, _, date_str in transactions:
         if type_ == 'income':
@@ -305,7 +325,7 @@ async def generate_report(message, user_id: int, start_date: str, end_date: str)
     plt.close(fig)
     image_paths.append((path, "Динамика по дням"))
 
-    # 5. Накопительный по дням
+    # 6. Накопительный по дням
     cumulative_daily = []
     running_total = 0
     net_by_day = {d: daily_data[d]['income'] - daily_data[d]['expense'] for d in sorted_days}

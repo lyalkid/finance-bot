@@ -35,15 +35,6 @@ dp.include_router(history_router)
 
 from utils.database import execute
 
-def update_transaction_date(old_date: str, new_date: str):
-    """Обновляет все транзакции с заданной старой датой на новую"""
-    execute(
-        "UPDATE transactions SET created_at = ? WHERE created_at = ?",
-        (new_date, old_date)
-    )
-update_transaction_date('2025-05-06', '2025-06-06')
-update_transaction_date('2025-05-04', '2025-06-04')
-update_transaction_date('2025-05-05', '2025-06-05')
 
 
 
